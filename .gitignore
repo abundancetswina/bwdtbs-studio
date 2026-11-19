@@ -1,0 +1,6 @@
+node_modules/
+remotion/public/q/
+work/
+out/
+__pycache__/
+*.part.mp4

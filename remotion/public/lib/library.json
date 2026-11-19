@@ -1,0 +1,78 @@
+{
+ "stage_skeptic": {
+  "frames": 190,
+  "desc": "Skeptic alone on stage, arms crossed, pointing/challenging (hook)"
+ },
+ "stage_skeptic2": {
+  "frames": 140,
+  "desc": "Skeptic alone on stage, asking the question (hook)"
+ },
+ "stage_both": {
+  "frames": 303,
+  "desc": "Skeptic and Friend on stage, Friend answering (\"Fair question\")"
+ },
+ "stage_both2": {
+  "frames": 140,
+  "desc": "Skeptic and Friend on stage, Friend answering"
+ },
+ "outro": {
+  "frames": 181,
+  "desc": "Skeptic says hm, then both on stage (ending + follow card)"
+ },
+ "jesus_crowd": {
+  "frames": 381,
+  "desc": "Jesus teaching people in a sunny meadow"
+ },
+ "jesus_sunset": {
+  "frames": 496,
+  "desc": "Jesus with a crowd at sunset, joyful, arms raised"
+ },
+ "garden_night": {
+  "frames": 462,
+  "desc": "Jesus praying alone at night in a garden (Gethsemane)"
+ },
+ "temple_night": {
+  "frames": 318,
+  "desc": "Temple courtyard with lamps, elders and Jesus"
+ },
+ "temple_day": {
+  "frames": 274,
+  "desc": "Jerusalem temple courtyard by day, leaders facing Jesus"
+ },
+ "manger": {
+  "frames": 334,
+  "desc": "Newborn Jesus in a manger with Mary and Joseph, warm light"
+ },
+ "house_child": {
+  "frames": 388,
+  "desc": "Young child Jesus with Mary in a house, visitors bowing"
+ },
+ "caravan_star": {
+  "frames": 398,
+  "desc": "Travellers with a camel crossing a desert at night under a star"
+ },
+ "town_star": {
+  "frames": 236,
+  "desc": "Small town at night with a bright star above a house"
+ },
+ "tomb_risen": {
+  "frames": 158,
+  "desc": "Empty tomb at sunrise, risen Jesus standing outside"
+ },
+ "meadow": {
+  "frames": 217,
+  "desc": "Empty green land with trees at dawn (creation, the world)"
+ },
+ "angry_crowd": {
+  "frames": 197,
+  "desc": "Angry leaders picking up stones in a courtyard"
+ },
+ "night_room": {
+  "frames": 313,
+  "desc": "Disciples in a lamp-lit courtyard at night with Jesus"
+ },
+ "storm_sea": {
+  "frames": 142,
+  "desc": "A ship in a stormy dark sea"
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "id": "q06",
+ "slug": "Why_Pray_If_God_Already_Knows",
+ "name": "Why Pray If God Already Knows?",
+ "format": "A",
+ "key": "G",
+ "title": {"theme": "night", "top": 330, "lines": [
+   {"text": "WHY PRAY IF", "size": 124},
+   {"text": "GOD ALREADY", "size": 124},
+   {"text": "KNOWS?", "color": "gold", "size": 150}]},
+ "keywords": ["pray", "prayer", "father", "knows", "jesus", "fair", "follow", "heaven"],
+ "beats": [
+  {"who": "skep", "say": "If God already knows what I need... why pray?", "clip": "stage_skeptic",
+   "show": [{"big": "HE ALREADY KNOWS.", "size": 92}, {"big": "WHY PRAY?", "color": "gold", "on": "pray"}]},
+  {"who": "friend", "say": "Fair question.", "clip": "stage_both", "show": [{"big": "FAIR QUESTION.", "color": "gold"}]},
+  {"who": "friend", "say": "Jesus agreed that God knows.", "clip": "jesus_crowd", "show": [{"pill": "JESUS AGREED", "bg": "#2e8a56"}]},
+  {"who": "friend", "say": "\"Your Father knows the things you have need of before you ask Him.\"", "clip": "jesus_crowd",
+   "scroll": {"text": "\"…your Father knows the things you have need of before you ask Him.\"", "ref": "MATTHEW 6:8 NKJV", "hot": "^(Father|knows|ask)$"}},
+  {"who": "friend", "say": "Then, right after, He said:", "clip": "jesus_sunset", "show": [{"pill": "THE VERY NEXT VERSE", "bg": "#c0532e"}]},
+  {"who": "friend", "say": "\"In this manner, therefore, pray: Our Father in heaven.\"", "clip": "jesus_sunset",
+   "scroll": {"text": "\"In this manner, therefore, pray: Our Father in heaven…\"", "ref": "MATTHEW 6:9 NKJV", "hot": "^(pray|Father)$"}},
+  {"who": "friend", "say": "Prayer isn't giving God information. It's time with your Father.", "clip": "meadow",
+   "show": [{"big": "NOT INFORMATION.", "size": 96}, {"big": "TIME WITH", "on": "time"}, {"big": "YOUR FATHER.", "color": "gold", "on": "your"}]},
+  {"who": "friend", "say": "That's why Jesus prayed too.", "clip": "garden_night", "jesus": true, "show": [{"big": "JESUS PRAYED TOO.", "color": "gold", "size": 96}]},
+  {"who": "skep", "say": "Hm.", "clip": "outro", "hm": true},
+  {"who": "friend", "say": "Follow so you don't miss the next one.", "clip": "outro", "end": true}
+ ],
+ "post": {
+  "yt_title": "Why Pray If God Already Knows? 🙏 #shorts",
+  "yt_desc": "\"If God already knows what I need, why pray?\" Fair question. Jesus agreed that God knows: \"your Father knows the things you have need of before you ask Him.\" Then, in the very next verse, He said: \"In this manner, therefore, pray: Our Father in heaven, Hallowed be Your name.\" Prayer isn't giving God information. It's time with your Father. That's why Jesus prayed too.\n\n📖 Read it yourself: Matthew 6:5–13 (NKJV)\n\nWhat question should we answer next? Tell us below 👇\n\n\"In the beginning was the Word, and the Word was with God, and the Word was God.\" John 1:1 (NKJV)\n\n#ButWhatDoesTheBibleSay #Bible #Prayer #Jesus #Christian #Shorts",
+  "tiktok": "\"If God already knows what I need… why pray?\" 🤔 Fair question.\n\n📖 Matthew 6:8–9 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #Bible #Prayer #Jesus #FaithTok #ChristianTikTok",
+  "instagram": "Prayer isn't giving God information. It's time with your Father. 🙏\n\n📖 Matthew 6:8–9 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #Bible #Prayer #Jesus #Christian",
+  "pinned": "Next: \"God helps those who help themselves\" — is that in the Bible? Follow so you don't miss it 🙏",
+  "notes": "- Matthew 6:8 NKJV quoted from \"your Father knows…\" (the verse begins \"Therefore do not be like them. For…\"). Matthew 6:9 NKJV quoted to \"Our Father in heaven\" (the verse continues \", Hallowed be Your name.\").\n- \"Right after\": verse 9 follows verse 8 directly.\n- \"Jesus prayed too\": e.g. Mark 1:35, Luke 6:12, Matthew 26:39. The garden scene shows Gethsemane."
+ }
+}
