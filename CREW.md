@@ -31,8 +31,13 @@ Each role below is a step. The Fact-checker is a SEPARATE agent that has not see
 - Run `python3 make_quick.py <dir>`. Look at out/qa_sheet.jpg and the cover before passing it on.
 
 ## 5. Publisher
-- Put each video where Buffer can fetch it (public link), then create one post per platform with its own caption, scheduled at the day's slots (default 12:00, 17:00, 20:00 SAST).
-- Keep the series order. Never delete anything without asking Abundance.
+- Videos are hosted on the public `videos` branch of this repo: copy `out/<slug>.mp4` to `<id>.mp4` there (use a git worktree), commit, push.
+  Link: `https://raw.githubusercontent.com/abundancetswina/bwdtbs-studio/videos/<id>.mp4` (Buffer accepts it). Keep only the last 14 days of videos: when the branch passes ~600 MB, recreate it as an orphan with just the recent files and force-push that branch only.
+- Buffer organization "My Organization" (6687a54c840657ce002b6240). Channels: TikTok christian_animationss = 6af3495f62b70b94b0e4dbb3, Instagram christiananimationss = 6af34f8e62b70b94b0e55989 (metadata.instagram {type: reel, shouldShareToFeed: true}). No YouTube, no first comments (paid feature).
+- Before scheduling, list Buffer posts with status scheduled: the free plan allows 10 scheduled at once. If today's slots are already taken, schedule the new videos on the next free day instead (still in series order).
+- Schedule with mode customScheduled, dueAt in South Africa time (+02:00): video 1 at 12:00, video 2 at 17:00, video 3 at 20:00. Both platforms, own caption each, same video link.
+- A video the Fact-checker did not PASS goes to Buffer as a draft (saveToDraft) instead.
+- Never delete anything in Buffer, Drive or GitHub history without asking Abundance.
 
 ## 6. Reporter
 - Mark topics `done` in topics.json, save everything back to the repo, and send Abundance a short summary: what was made, what's scheduled when, anything held as a draft and why, credits left.
