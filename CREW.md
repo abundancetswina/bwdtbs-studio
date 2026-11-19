@@ -1,6 +1,6 @@
 # BWDTBS daily crew — "But What Does the Bible Say?"
 
-One scheduled run a day makes the day's videos (default 3) and schedules each one on TikTok, Instagram and YouTube Shorts (9 posts a day).
+One scheduled run a day makes the day's videos (default 3) and schedules each one on TikTok, Instagram and YouTube Shorts (TikTok 3, Instagram 3, YouTube 2 a day: Buffer allows only 2 YouTube posts per day).
 Each role below is a step. The Fact-checker is a SEPARATE agent that has not seen the writing, so the work is not grading itself.
 
 ## Series rules (every video, never break)
@@ -38,7 +38,8 @@ Each role below is a step. The Fact-checker is a SEPARATE agent that has not see
 - Videos are hosted on the public `videos` branch of this repo: copy `out/<slug>.mp4` to `<id>.mp4` there (use a git worktree), commit, push.
   Link: `https://raw.githubusercontent.com/abundancetswina/bwdtbs-studio/videos/<id>.mp4` (Buffer accepts it). Keep only the last 14 days of videos: when the branch passes ~600 MB, recreate it as an orphan with just the recent files and force-push that branch only.
 - Buffer organization "My Organization" (6687a54c840657ce002b6240). Channels: TikTok christian_animationss = 6af3495f62b70b94b0e4dbb3; Instagram christiananimationss = 6af34f8e62b70b94b0e55989 (metadata.instagram {type: reel, shouldShareToFeed: true}); YouTube Christian Animation = 6af3392e62b70b94b0e3de75 (metadata.youtube {title: yt_title (≤100 chars, ends with #shorts), categoryId: "27", privacy: public, madeForKids: false, notifySubscribers: true}; text = yt_desc). No first comments (paid feature).
-- FIRST THING each run (before any credits are spent): list Buffer posts with status scheduled. The free plan allows 10 scheduled at once and a full day is 9. If today's slots already have posts, make nothing today and just report that.
+- FIRST THING each run (before any credits are spent): list Buffer posts with status scheduled. The free plan allows 10 scheduled at once; a full day is 8 (TikTok 3, Instagram 3, YouTube 2). If today's slots already have posts, make nothing today and just report that.
+- YouTube: Buffer allows at most 2 YouTube posts per day. Count YouTube posts already scheduled for today and fill only what is left, in series order (videos 1 and 2 first). A video that gets no YouTube slot is listed in the report so Abundance can upload it himself if he wants.
 - Times: pipeline/schedule.json, for today's weekday, South Africa time (+02:00). Video 1 → each platform's first slot, video 2 → second, video 3 → third. Mode customScheduled. Each platform gets its own caption, same video link.
 - A video the Fact-checker did not PASS goes to Buffer as a draft (saveToDraft) instead.
 - Never delete anything in Buffer, Drive or GitHub history without asking Abundance.
