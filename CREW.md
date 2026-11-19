@@ -1,6 +1,6 @@
 # BWDTBS daily crew — "But What Does the Bible Say?"
 
-One scheduled run a day makes the day's videos (default 3) and puts them in Buffer.
+One scheduled run a day makes the day's videos (default 3) and schedules each one on TikTok, Instagram and YouTube Shorts (9 posts a day).
 Each role below is a step. The Fact-checker is a SEPARATE agent that has not seen the writing, so the work is not grading itself.
 
 ## Series rules (every video, never break)
@@ -30,12 +30,16 @@ Each role below is a step. The Fact-checker is a SEPARATE agent that has not see
 - Move each file: Zapier Google Drive "Upload File" (connection abundancetswina@gmail.com) with the ElevenLabs full_res_url → Google Drive download_file_content → save as skep.mp3 / friend.mp3 (narr.mp3 for format B).
 - Run `python3 make_quick.py <dir>`. Look at out/qa_sheet.jpg and the cover before passing it on.
 
+## 4b. Trends agent (hashtags + timing)
+- Daily: for each video, research 3–5 hashtags people are actually using right now for that topic on each platform (search the web; mix 1–2 broad ones like #Bible #Jesus, 2 topic ones, and always #ButWhatDoesTheBibleSay). Keep TikTok ≤5 hashtags, Instagram ≤5, YouTube 3 in the description plus #shorts. No banned, spammy or unrelated trending tags.
+- Every Monday: read the last 7 days of results (Buffer get_aggregated_post_metrics / list_posts includeMetrics) per platform and time slot, re-check current best-time studies, and update pipeline/schedule.json (keep slots 2+ hours apart, earliest 09:00). Say what changed in the report.
+
 ## 5. Publisher
 - Videos are hosted on the public `videos` branch of this repo: copy `out/<slug>.mp4` to `<id>.mp4` there (use a git worktree), commit, push.
   Link: `https://raw.githubusercontent.com/abundancetswina/bwdtbs-studio/videos/<id>.mp4` (Buffer accepts it). Keep only the last 14 days of videos: when the branch passes ~600 MB, recreate it as an orphan with just the recent files and force-push that branch only.
-- Buffer organization "My Organization" (6687a54c840657ce002b6240). Channels: TikTok christian_animationss = 6af3495f62b70b94b0e4dbb3, Instagram christiananimationss = 6af34f8e62b70b94b0e55989 (metadata.instagram {type: reel, shouldShareToFeed: true}). No YouTube, no first comments (paid feature).
-- FIRST THING each run (before any credits are spent): list Buffer posts with status scheduled. The free plan allows 10 scheduled at once. If today's 12:00/17:00/20:00 slots already have posts, make nothing today and just report that.
-- Schedule with mode customScheduled, dueAt in South Africa time (+02:00): video 1 at 12:00, video 2 at 17:00, video 3 at 20:00. Both platforms, own caption each, same video link.
+- Buffer organization "My Organization" (6687a54c840657ce002b6240). Channels: TikTok christian_animationss = 6af3495f62b70b94b0e4dbb3; Instagram christiananimationss = 6af34f8e62b70b94b0e55989 (metadata.instagram {type: reel, shouldShareToFeed: true}); YouTube Christian Animation = 6af3392e62b70b94b0e3de75 (metadata.youtube {title: yt_title (≤100 chars, ends with #shorts), categoryId: "27", privacy: public, madeForKids: false, notifySubscribers: true}; text = yt_desc). No first comments (paid feature).
+- FIRST THING each run (before any credits are spent): list Buffer posts with status scheduled. The free plan allows 10 scheduled at once and a full day is 9. If today's slots already have posts, make nothing today and just report that.
+- Times: pipeline/schedule.json, for today's weekday, South Africa time (+02:00). Video 1 → each platform's first slot, video 2 → second, video 3 → third. Mode customScheduled. Each platform gets its own caption, same video link.
 - A video the Fact-checker did not PASS goes to Buffer as a draft (saveToDraft) instead.
 - Never delete anything in Buffer, Drive or GitHub history without asking Abundance.
 
