@@ -1,0 +1,127 @@
+{
+ "id": "q07",
+ "slug": "God_Helps_Those_Who_Help_Themselves",
+ "name": "\"God Helps Those Who Help Themselves\" Is Not in the Bible",
+ "format": "B",
+ "key": "D",
+ "titleFrames": 90,
+ "title": {
+  "theme": "dawn",
+  "top": 300,
+  "kicker": "THE BIBLE NEVER SAYS",
+  "lines": [
+   {
+    "text": "\"GOD HELPS THOSE",
+    "size": 104
+   },
+   {
+    "text": "WHO HELP",
+    "size": 104
+   },
+   {
+    "text": "THEMSELVES\"",
+    "color": "gold",
+    "size": 116
+   }
+  ],
+  "crossed": "DIY"
+ },
+ "keywords": [
+  "helps",
+  "help",
+  "helpless",
+  "christ",
+  "jesus",
+  "strength",
+  "franklin",
+  "saves",
+  "follow"
+ ],
+ "beats": [
+  {
+   "who": "narr",
+   "say": "The Bible never says God helps those who help themselves.",
+   "clip": "meadow"
+  },
+  {
+   "who": "narr",
+   "say": "Stay to the end.",
+   "clip": "meadow",
+   "myth": "\"GOD HELPS THOSE WHO HELP THEMSELVES\""
+  },
+  {
+   "who": "narr",
+   "say": "It says God helps the helpless.",
+   "clip": "jesus_crowd",
+   "show": [
+    {
+     "big": "GOD HELPS",
+     "size": 110
+    },
+    {
+     "big": "THE HELPLESS.",
+     "color": "gold",
+     "on": "helpless"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "\"For when we were still without strength, in due time Christ died for the ungodly.\"",
+   "clip": "garden_night",
+   "scroll": {
+    "text": "\"For when we were still without strength, in due time Christ died for the ungodly.\"",
+    "ref": "ROMANS 5:6 NKJV",
+    "hot": "^(strength|Christ|died|ungodly)$"
+   }
+  },
+  {
+   "who": "narr",
+   "say": "It comes from ancient Greece. Ben Franklin made it famous.",
+   "clip": "temple_day",
+   "show": [
+    {
+     "pill": "ANCIENT GREECE",
+     "bg": "#3f6aa0"
+    },
+    {
+     "pill": "BEN FRANKLIN, 1736",
+     "bg": "#7a6a9c",
+     "on": "franklin"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "Jesus doesn't help those who help themselves. He saves those who can't.",
+   "clip": "tomb_risen",
+   "jesus": true,
+   "show": [
+    {
+     "big": "JESUS SAVES",
+     "color": "gold",
+     "size": 110,
+     "on": "saves"
+    },
+    {
+     "big": "THOSE WHO CAN'T.",
+     "on": "can't"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "Follow so you don't miss the next one.",
+   "clip": "outro",
+   "end": true
+  }
+ ],
+ "post": {
+  "yt_title": "\"God Helps Those Who Help Themselves\" Isn't in the Bible 😮 #shorts",
+  "yt_desc": "The Bible never says \"God helps those who help themselves.\" It says the opposite: God helps the helpless. \"For when we were still without strength, in due time Christ died for the ungodly.\" (Romans 5:6 NKJV)\n\nThe saying goes back to ancient Greece and was made famous by Benjamin Franklin's Poor Richard's Almanack in 1736. Jesus doesn't help those who help themselves. He saves those who can't.\n\n📖 Read it yourself: Romans 5:6–8 (NKJV)\n\nWhat saying should we check next? Tell us below 👇\n\n#ButWhatDoesTheBibleSay #Bible #Grace #shorts",
+  "tiktok": "\"God helps those who help themselves\"… is NOT in the Bible 😮\n\n📖 Romans 5:6 (NKJV)\nWhat saying should we check next? 👇\n\n#ButWhatDoesTheBibleSay #BibleTok #Jesus #Grace #ChristianTikTok",
+  "instagram": "The Bible never says \"God helps those who help themselves.\" It says God helps the helpless. 🙏\n\n📖 Romans 5:6 (NKJV)\nWhat saying should we check next? 👇\n\n#ButWhatDoesTheBibleSay #Bible #Jesus #Grace #Gospel",
+  "pinned": "Next: \"I'm a good person — isn't that enough?\" Follow so you don't miss it 🙏",
+  "notes": "- Romans 5:6 NKJV quoted in full.\n- Origin: the idea appears in ancient Greek literature (e.g. Sophocles; Aesop's fable 'Hercules and the Waggoner'); the English form was used by Algernon Sidney (1698) and popularised by Benjamin Franklin's Poor Richard's Almanack (1736: 'God helps them that help themselves').\n- 'Helps the helpless' is a summary line, not in quotes. The Bible does commend hard work (e.g. Proverbs 6:6–8); the point here is salvation (Romans 5:6–8, Ephesians 2:8–9)."
+ }
+}

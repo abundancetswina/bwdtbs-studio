@@ -1,0 +1,151 @@
+{
+ "id": "q08",
+ "slug": "Im_A_Good_Person_Isnt_That_Enough",
+ "name": "I'm a Good Person, Isn't That Enough?",
+ "format": "A",
+ "key": "A",
+ "title": {
+  "theme": "sunset",
+  "top": 330,
+  "lines": [
+   {
+    "text": "I'M A GOOD",
+    "size": 124
+   },
+   {
+    "text": "PERSON.",
+    "size": 124
+   },
+   {
+    "text": "ISN'T THAT ENOUGH?",
+    "color": "gold",
+    "size": 100
+   }
+  ]
+ },
+ "keywords": [
+  "good",
+  "enough",
+  "god",
+  "jesus",
+  "gift",
+  "fair",
+  "follow",
+  "short"
+ ],
+ "beats": [
+  {
+   "who": "skep",
+   "say": "I'm a good person. Isn't that enough?",
+   "clip": "stage_skeptic",
+   "show": [
+    {
+     "big": "I'M A GOOD PERSON.",
+     "size": 80,
+     "on": "isn't"
+    },
+    {
+     "big": "ISN'T THAT ENOUGH?",
+     "color": "gold",
+     "size": 80,
+     "on": "enough"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Fair question.",
+   "clip": "stage_both",
+   "show": [
+    {
+     "big": "FAIR QUESTION.",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Someone once called Jesus good. He said:",
+   "clip": "jesus_crowd",
+   "show": [
+    {
+     "pill": "SOMEONE CALLED JESUS GOOD",
+     "bg": "#3f6aa0"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "\"Why do you call Me good? No one is good but One, that is, God.\"",
+   "clip": "jesus_crowd",
+   "scroll": {
+    "text": "\"Why do you call Me good? No one is good but One, that is, God.\"",
+    "ref": "MARK 10:18 NKJV",
+    "hot": "^(good|One|God)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "Good compared to who? Next to God, all of us fall short.",
+   "clip": "temple_day",
+   "show": [
+    {
+     "big": "GOOD COMPARED",
+     "size": 100
+    },
+    {
+     "big": "TO WHO?",
+     "color": "gold",
+     "on": "who"
+    },
+    {
+     "big": "WE ALL FALL SHORT.",
+     "size": 88,
+     "on": "fall"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Jesus is the only one good enough. And He offers that as a gift.",
+   "clip": "jesus_sunset",
+   "jesus": true,
+   "show": [
+    {
+     "big": "ONLY JESUS IS",
+     "size": 100
+    },
+    {
+     "big": "GOOD ENOUGH.",
+     "color": "gold",
+     "on": "good"
+    },
+    {
+     "pill": "AND IT'S A GIFT",
+     "bg": "#2e8a56",
+     "on": "gift"
+    }
+   ]
+  },
+  {
+   "who": "skep",
+   "say": "Hm.",
+   "clip": "outro",
+   "hm": true
+  },
+  {
+   "who": "friend",
+   "say": "Follow so you don't miss the next one.",
+   "clip": "outro",
+   "end": true
+  }
+ ],
+ "post": {
+  "yt_title": "I'm a Good Person, Isn't That Enough? 🤔 #shorts",
+  "yt_desc": "\"I'm a good person. Isn't that enough?\" Fair question. When someone called Jesus good, He said: \"Why do you call Me good? No one is good but One, that is, God.\" (Mark 10:18 NKJV)\n\nGood compared to who? Next to God, all of us fall short (Romans 3:23). Jesus is the only one good enough, and He offers that as a gift (Romans 6:23, Ephesians 2:8–9).\n\n📖 Read it yourself: Mark 10:17–27 (NKJV)\n\nWhat question should we answer next? Tell us below 👇\n\n#ButWhatDoesTheBibleSay #Jesus #Gospel #shorts",
+  "tiktok": "\"I'm a good person… isn't that enough?\" 🤔 Fair question.\n\n📖 Mark 10:18 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #FaithTok #Jesus #Gospel #ChristianTikTok",
+  "instagram": "Good compared to who? Jesus is the only one good enough, and He offers that as a gift. 🙏\n\n📖 Mark 10:18 · Romans 3:23 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #Bible #Jesus #Gospel #Grace",
+  "pinned": "Next: Noah's flood — why would a loving God do that? Follow so you don't miss it 🙏",
+  "notes": "- Mark 10:18 NKJV: Jesus' words quoted in full (verse opens \"So Jesus said to him,\"); the man had called Him \"Good Teacher\" (Mark 10:17).\n- Jesus' reply points to God's standard of goodness; the video does not claim Jesus denied being good.\n- 'All of us fall short' paraphrases Romans 3:23 (not in quote marks). 'Offers that as a gift': Romans 6:23; Ephesians 2:8–9; 2 Corinthians 5:21."
+ }
+}

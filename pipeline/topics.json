@@ -1,35 +1,189 @@
 {
  "note": "Series order for 'But What Does the Bible Say?'. status: done | queued. The crew takes the first queued topics each day.",
  "topics": [
-  {"n": 1, "title": "The Bible never says it was a whale", "format": "B", "status": "done"},
-  {"n": 2, "title": "Christians worship three gods?", "format": "A", "status": "done"},
-  {"n": 3, "title": "If Jesus is God, who was He praying to?", "format": "A", "status": "done"},
-  {"n": 4, "title": "The Bible never says three wise men", "format": "B", "status": "done"},
-  {"n": 5, "title": "Jesus never claimed to be God?", "format": "A", "status": "done"},
-  {"n": 6, "title": "Why pray if God already knows?", "format": "A", "status": "done", "id": "q06"},
-  {"n": 7, "title": "\"God helps those who help themselves\" is not in the Bible", "format": "B", "status": "queued"},
-  {"n": 8, "title": "I'm a good person, isn't that enough?", "format": "A", "status": "queued"},
-  {"n": 9, "title": "Noah's flood: why would a loving God do that?", "format": "A", "status": "queued"},
-  {"n": 10, "title": "The Bible never says money is the root of all evil", "format": "B", "status": "queued"},
-  {"n": 11, "title": "How can a loving God send people to hell?", "format": "A", "status": "queued"},
-  {"n": 12, "title": "Why did Jesus have to die?", "format": "A", "status": "queued"},
-  {"n": 13, "title": "The Bible never says Mary Magdalene was a prostitute", "format": "B", "status": "queued"},
-  {"n": 14, "title": "Hasn't the Bible been changed over time?", "format": "A", "status": "queued"},
-  {"n": 15, "title": "Jonah ran from God (why?)", "format": "A", "status": "queued"},
-  {"n": 16, "title": "The Bible never says cleanliness is next to godliness", "format": "B", "status": "queued"},
-  {"n": 17, "title": "Did Jesus even exist?", "format": "A", "status": "queued"},
-  {"n": 18, "title": "Why did God let Job suffer?", "format": "A", "status": "queued"},
-  {"n": 19, "title": "The Bible never says Satan has horns and a pitchfork", "format": "B", "status": "queued"},
-  {"n": 20, "title": "Jesus was just a good teacher?", "format": "A", "status": "queued"},
-  {"n": 21, "title": "Why does Israel matter so much in the Bible?", "format": "A", "status": "queued"},
-  {"n": 22, "title": "The Bible never says Jesus was born on 25 December", "format": "B", "status": "queued"},
-  {"n": 23, "title": "Don't all religions lead to God?", "format": "A", "status": "queued"},
-  {"n": 24, "title": "If I'm forgiven, can I just keep sinning?", "format": "A", "status": "queued"},
-  {"n": 25, "title": "The Bible never says \"spare the rod, spoil the child\"", "format": "B", "status": "queued"},
-  {"n": 26, "title": "Why does God allow suffering?", "format": "A", "status": "queued"},
-  {"n": 27, "title": "Why did God ask Abraham to sacrifice Isaac?", "format": "A", "status": "queued"},
-  {"n": 28, "title": "The Bible never says angels are cute babies with wings", "format": "B", "status": "queued"},
-  {"n": 29, "title": "Isn't faith believing without evidence?", "format": "A", "status": "queued"},
-  {"n": 30, "title": "If God made everything, who made God?", "format": "A", "status": "queued"}
+  {
+   "n": 1,
+   "title": "The Bible never says it was a whale",
+   "format": "B",
+   "status": "done"
+  },
+  {
+   "n": 2,
+   "title": "Christians worship three gods?",
+   "format": "A",
+   "status": "done"
+  },
+  {
+   "n": 3,
+   "title": "If Jesus is God, who was He praying to?",
+   "format": "A",
+   "status": "done"
+  },
+  {
+   "n": 4,
+   "title": "The Bible never says three wise men",
+   "format": "B",
+   "status": "done"
+  },
+  {
+   "n": 5,
+   "title": "Jesus never claimed to be God?",
+   "format": "A",
+   "status": "done"
+  },
+  {
+   "n": 6,
+   "title": "Why pray if God already knows?",
+   "format": "A",
+   "status": "done",
+   "id": "q06"
+  },
+  {
+   "n": 7,
+   "title": "\"God helps those who help themselves\" is not in the Bible",
+   "format": "B",
+   "status": "done",
+   "id": "q07"
+  },
+  {
+   "n": 8,
+   "title": "I'm a good person, isn't that enough?",
+   "format": "A",
+   "status": "done",
+   "id": "q08"
+  },
+  {
+   "n": 9,
+   "title": "Noah's flood: why would a loving God do that?",
+   "format": "A",
+   "status": "done",
+   "id": "q09"
+  },
+  {
+   "n": 10,
+   "title": "The Bible never says money is the root of all evil",
+   "format": "B",
+   "status": "queued"
+  },
+  {
+   "n": 11,
+   "title": "How can a loving God send people to hell?",
+   "format": "A",
+   "status": "queued"
+  },
+  {
+   "n": 12,
+   "title": "Why did Jesus have to die?",
+   "format": "A",
+   "status": "queued"
+  },
+  {
+   "n": 13,
+   "title": "The Bible never says Mary Magdalene was a prostitute",
+   "format": "B",
+   "status": "queued"
+  },
+  {
+   "n": 14,
+   "title": "Hasn't the Bible been changed over time?",
+   "format": "A",
+   "status": "queued"
+  },
+  {
+   "n": 15,
+   "title": "Jonah ran from God (why?)",
+   "format": "A",
+   "status": "queued"
+  },
+  {
+   "n": 16,
+   "title": "The Bible never says cleanliness is next to godliness",
+   "format": "B",
+   "status": "queued"
+  },
+  {
+   "n": 17,
+   "title": "Did Jesus even exist?",
+   "format": "A",
+   "status": "queued"
+  },
+  {
+   "n": 18,
+   "title": "Why did God let Job suffer?",
+   "format": "A",
+   "status": "queued"
+  },
+  {
+   "n": 19,
+   "title": "The Bible never says Satan has horns and a pitchfork",
+   "format": "B",
+   "status": "queued"
+  },
+  {
+   "n": 20,
+   "title": "Jesus was just a good teacher?",
+   "format": "A",
+   "status": "queued"
+  },
+  {
+   "n": 21,
+   "title": "Why does Israel matter so much in the Bible?",
+   "format": "A",
+   "status": "queued"
+  },
+  {
+   "n": 22,
+   "title": "The Bible never says Jesus was born on 25 December",
+   "format": "B",
+   "status": "queued"
+  },
+  {
+   "n": 23,
+   "title": "Don't all religions lead to God?",
+   "format": "A",
+   "status": "queued"
+  },
+  {
+   "n": 24,
+   "title": "If I'm forgiven, can I just keep sinning?",
+   "format": "A",
+   "status": "queued"
+  },
+  {
+   "n": 25,
+   "title": "The Bible never says \"spare the rod, spoil the child\"",
+   "format": "B",
+   "status": "queued"
+  },
+  {
+   "n": 26,
+   "title": "Why does God allow suffering?",
+   "format": "A",
+   "status": "queued"
+  },
+  {
+   "n": 27,
+   "title": "Why did God ask Abraham to sacrifice Isaac?",
+   "format": "A",
+   "status": "queued"
+  },
+  {
+   "n": 28,
+   "title": "The Bible never says angels are cute babies with wings",
+   "format": "B",
+   "status": "queued"
+  },
+  {
+   "n": 29,
+   "title": "Isn't faith believing without evidence?",
+   "format": "A",
+   "status": "queued"
+  },
+  {
+   "n": 30,
+   "title": "If God made everything, who made God?",
+   "format": "A",
+   "status": "queued"
+  }
  ]
 }

@@ -1,0 +1,148 @@
+{
+ "id": "q09",
+ "slug": "Noahs_Flood_Why_Would_A_Loving_God",
+ "name": "Noah's Flood: Why Would a Loving God Do That?",
+ "format": "A",
+ "key": "E",
+ "title": {
+  "theme": "night",
+  "top": 330,
+  "lines": [
+   {
+    "text": "NOAH'S FLOOD:",
+    "size": 116
+   },
+   {
+    "text": "HOW IS THAT",
+    "size": 124
+   },
+   {
+    "text": "LOVE?",
+    "color": "gold",
+    "size": 160
+   }
+  ]
+ },
+ "keywords": [
+  "love",
+  "loving",
+  "violence",
+  "evil",
+  "waited",
+  "ark",
+  "door",
+  "jesus",
+  "saved",
+  "fair",
+  "follow"
+ ],
+ "beats": [
+  {
+   "who": "skep",
+   "say": "A loving God flooded the whole world? How is that love?",
+   "clip": "stage_skeptic2",
+   "show": [
+    {
+     "big": "A LOVING GOD",
+     "size": 100,
+     "on": "whole"
+    },
+    {
+     "big": "FLOODED THE WORLD?",
+     "size": 88,
+     "on": "world"
+    },
+    {
+     "big": "HOW IS THAT LOVE?",
+     "color": "gold",
+     "size": 92,
+     "on": "how"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Fair question.",
+   "clip": "stage_both",
+   "show": [
+    {
+     "big": "FAIR QUESTION.",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "The world was full of violence.",
+   "clip": "angry_crowd",
+   "show": [
+    {
+     "pill": "FILLED WITH VIOLENCE",
+     "bg": "#7a3a3a"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "\"Every intent of the thoughts of his heart was only evil continually.\"",
+   "clip": "angry_crowd",
+   "scroll": {
+    "text": "\"…every intent of the thoughts of his heart was only evil continually.\"",
+    "ref": "GENESIS 6:5 NKJV",
+    "hot": "^(heart|evil|continually\\.?)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "\"The Divine longsuffering waited in the days of Noah, while the ark was being prepared.\"",
+   "clip": "storm_sea",
+   "scroll": {
+    "text": "\"…the Divine longsuffering waited in the days of Noah, while the ark was being prepared…\"",
+    "ref": "1 PETER 3:20 NKJV",
+    "hot": "^(longsuffering|waited|ark)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "And God still gives one way in. Jesus said:",
+   "clip": "jesus_sunset",
+   "jesus": true,
+   "show": [
+    {
+     "pill": "ONE WAY IN",
+     "bg": "#2e8a56"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "\"I am the door. If anyone enters by Me, he will be saved.\"",
+   "clip": "jesus_sunset",
+   "scroll": {
+    "text": "\"I am the door. If anyone enters by Me, he will be saved…\"",
+    "ref": "JOHN 10:9 NKJV",
+    "hot": "^(door\\.?|anyone|saved)$"
+   }
+  },
+  {
+   "who": "skep",
+   "say": "Hm.",
+   "clip": "outro",
+   "hm": true
+  },
+  {
+   "who": "friend",
+   "say": "Follow so you don't miss the next one.",
+   "clip": "outro",
+   "end": true
+  }
+ ],
+ "post": {
+  "yt_title": "Noah's Flood: Why Would a Loving God Do That? 🌊 #shorts",
+  "yt_desc": "\"A loving God flooded the whole world? How is that love?\" Fair question. The earth \"was filled with violence\" (Genesis 6:11), and \"every intent of the thoughts of his heart was only evil continually\" (Genesis 6:5). Yet \"the Divine longsuffering waited in the days of Noah, while the ark was being prepared\" (1 Peter 3:20).\n\nAnd God still gives one way in. Jesus said: \"I am the door. If anyone enters by Me, he will be saved…\" (John 10:9)\n\n📖 Read it yourself: Genesis 6–9, 1 Peter 3:20, 2 Peter 3:9 (NKJV)\n\nWhat question should we answer next? Tell us below 👇\n\n#ButWhatDoesTheBibleSay #Bible #NoahsArk #shorts",
+  "tiktok": "\"A loving God flooded the whole world?\" 🤔 Fair question.\n\n📖 Genesis 6:5 · 1 Peter 3:20 · John 10:9 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #BibleTok #NoahsArk #Jesus #Apologetics",
+  "instagram": "Judgment was real. But God waited, and He still gives one way in: Jesus. 🙏\n\n📖 Genesis 6:5 · 1 Peter 3:20 · John 10:9 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #Bible #NoahsArk #Jesus #Christian",
+  "pinned": "Next: \"The Bible never says money is the root of all evil\" — what does it say? Follow so you don't miss it 🙏",
+  "notes": "- 'Full of violence': Genesis 6:11 \"the earth was filled with violence.\"\n- Genesis 6:5 NKJV quoted from \"every intent…\" (verse begins \"Then the LORD saw that the wickedness of man was great in the earth, and that…\").\n- 1 Peter 3:20 NKJV quoted from \"the Divine longsuffering…\" (verse begins \"who formerly were disobedient, when once\" and continues \", in which a few, that is, eight souls, were saved through water.\").\n- John 10:9 NKJV quoted to \"saved\" (continues \", and will go in and out and find pasture.\").\n- 'God still gives one way in': John 10:9, John 14:6; the ark as a picture of salvation: 1 Peter 3:20–21. Storm scene = ship in storm (no people drowning shown)."
+ }
+}
