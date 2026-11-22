@@ -1,0 +1,161 @@
+{
+ "id": "q12",
+ "slug": "Why_Did_Jesus_Have_To_Die",
+ "name": "Why Did Jesus Have to Die?",
+ "format": "A",
+ "key": "G",
+ "title": {
+  "theme": "dawn",
+  "top": 330,
+  "lines": [
+   {
+    "text": "WHY DID",
+    "size": 124
+   },
+   {
+    "text": "JESUS HAVE",
+    "size": 124
+   },
+   {
+    "text": "TO DIE?",
+    "color": "gold",
+    "size": 160
+   }
+  ]
+ },
+ "keywords": [
+  "die",
+  "sin",
+  "death",
+  "gift",
+  "paid",
+  "ransom",
+  "jesus",
+  "rose",
+  "fair",
+  "follow",
+  "forgive"
+ ],
+ "beats": [
+  {
+   "who": "skep",
+   "say": "Why did Jesus have to die? Couldn't God just forgive?",
+   "clip": "stage_skeptic2",
+   "show": [
+    {
+     "big": "WHY DID JESUS",
+     "size": 100,
+     "on": "die"
+    },
+    {
+     "big": "HAVE TO DIE?",
+     "color": "gold",
+     "size": 110,
+     "on": "die"
+    },
+    {
+     "big": "JUST FORGIVE?",
+     "size": 100,
+     "on": "forgive"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Fair question.",
+   "clip": "stage_both",
+   "show": [
+    {
+     "big": "FAIR QUESTION.",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Sin has a real cost.",
+   "clip": "temple_day",
+   "show": [
+    {
+     "pill": "SIN HAS A COST",
+     "bg": "#7a3a3a"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "\"For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord.\"",
+   "clip": "temple_night",
+   "scroll": {
+    "text": "\"For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord.\"",
+    "ref": "ROMANS 6:23 NKJV",
+    "hot": "^(wages|death|gift|life)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "Forgiving a debt means someone pays it. Jesus paid.",
+   "clip": "garden_night",
+   "show": [
+    {
+     "big": "SOMEONE PAYS.",
+     "size": 110
+    },
+    {
+     "big": "JESUS PAID.",
+     "color": "gold",
+     "size": 120,
+     "on": "paid"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "He came \"to give His life a ransom for many.\"",
+   "clip": "jesus_sunset",
+   "jesus": true,
+   "scroll": {
+    "text": "\"…to give His life a ransom for many.\"",
+    "ref": "MARK 10:45 NKJV",
+    "hot": "^(life|ransom|many)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "Then He rose. The gift is yours.",
+   "clip": "tomb_risen",
+   "show": [
+    {
+     "big": "HE ROSE.",
+     "color": "gold",
+     "size": 130
+    },
+    {
+     "big": "THE GIFT IS YOURS.",
+     "size": 92,
+     "on": "gift"
+    }
+   ]
+  },
+  {
+   "who": "skep",
+   "say": "Hm.",
+   "clip": "outro",
+   "hm": true
+  },
+  {
+   "who": "friend",
+   "say": "Follow so you don't miss the next one.",
+   "clip": "outro",
+   "end": true
+  }
+ ],
+ "post": {
+  "yt_title": "Why Did Jesus Have to Die? Couldn't God Just Forgive? ✝️ #shorts",
+  "yt_desc": "\"Why did Jesus have to die? Couldn't God just forgive?\" Fair question. Sin has a real cost: \"For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord\" (Romans 6:23 NKJV).\n\nForgiving a debt means someone pays it. Jesus paid. He came \"to give His life a ransom for many\" (Mark 10:45 NKJV). Then He rose. The gift is yours.\n\n📖 Read it yourself: Romans 6:23 · Mark 10:45 · 1 Corinthians 15:3–4 (NKJV)\n\nWhat question should we answer next? Tell us below 👇\n\n#ButWhatDoesTheBibleSay #Jesus #Gospel #shorts",
+  "tiktok": "\"Why did Jesus have to die? Couldn't God just forgive?\" 🤔 Fair question.\n\n📖 Romans 6:23 · Mark 10:45 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #ChristianTikTok #Jesus #JesusSaves #Gospel",
+  "instagram": "Forgiving a debt means someone pays it. Jesus paid. Then He rose. The gift is yours. ✝️\n\n📖 Romans 6:23 · Mark 10:45 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #Jesus #JesusSaves #Gospel #Cross",
+  "pinned": "Next: The Bible never says Mary Magdalene was a prostitute. Follow so you don't miss it 🙏",
+  "notes": "- Romans 6:23 NKJV quoted in full.\n- Mark 10:45 NKJV quoted from \"to give…\" (verse opens \"For even the Son of Man did not come to be served, but to serve, and\"); scroll shows … .\n- 'Forgiving a debt means someone pays it': illustration, not in quotes (cf. Colossians 2:13–14, 1 Peter 3:18). 'Then He rose': 1 Corinthians 15:3–4. No crucifixion shown (garden = Gethsemane; tomb at sunrise)."
+ }
+}

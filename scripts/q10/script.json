@@ -1,0 +1,138 @@
+{
+ "id": "q10",
+ "slug": "Money_Is_Not_The_Root_Of_All_Evil",
+ "name": "The Bible Never Says Money Is the Root of All Evil",
+ "format": "B",
+ "key": "A",
+ "titleFrames": 90,
+ "title": {
+  "theme": "earth",
+  "top": 300,
+  "kicker": "THE BIBLE NEVER SAYS",
+  "lines": [
+   {
+    "text": "\"MONEY IS",
+    "size": 120
+   },
+   {
+    "text": "THE ROOT OF",
+    "size": 120
+   },
+   {
+    "text": "ALL EVIL\"",
+    "color": "gold",
+    "size": 130
+   }
+  ],
+  "crossed": "$"
+ },
+ "keywords": [
+  "money",
+  "love",
+  "root",
+  "evil",
+  "heart",
+  "jesus",
+  "mammon",
+  "serve",
+  "follow",
+  "words"
+ ],
+ "beats": [
+  {
+   "who": "narr",
+   "say": "The Bible never says money is the root of all evil.",
+   "clip": "meadow"
+  },
+  {
+   "who": "narr",
+   "say": "Stay to the end.",
+   "clip": "meadow",
+   "myth": "\"MONEY IS THE ROOT OF ALL EVIL\""
+  },
+  {
+   "who": "narr",
+   "say": "It says:",
+   "clip": "temple_day",
+   "show": [
+    {
+     "pill": "WHAT IT ACTUALLY SAYS",
+     "bg": "#3f6aa0"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "\"For the love of money is a root of all kinds of evil.\"",
+   "clip": "temple_day",
+   "scroll": {
+    "text": "\"For the love of money is a root of all kinds of evil…\"",
+    "ref": "1 TIMOTHY 6:10 NKJV",
+    "hot": "^(love|money|root|evil)$"
+   }
+  },
+  {
+   "who": "narr",
+   "say": "Money isn't the problem. Loving it is. People dropped three words.",
+   "clip": "temple_night",
+   "show": [
+    {
+     "big": "NOT MONEY.",
+     "size": 110
+    },
+    {
+     "big": "THE LOVE OF IT.",
+     "color": "gold",
+     "on": "loving"
+    },
+    {
+     "pill": "3 WORDS DROPPED",
+     "bg": "#c0532e",
+     "on": "dropped"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "Jesus said, \"You cannot serve God and mammon.\"",
+   "clip": "jesus_crowd",
+   "scroll": {
+    "text": "\"…You cannot serve God and mammon.\"",
+    "ref": "MATTHEW 6:24 NKJV",
+    "hot": "^(serve|God|mammon)$"
+   }
+  },
+  {
+   "who": "narr",
+   "say": "He wants your heart, not your wallet.",
+   "clip": "jesus_sunset",
+   "jesus": true,
+   "show": [
+    {
+     "big": "HE WANTS",
+     "size": 110
+    },
+    {
+     "big": "YOUR HEART.",
+     "color": "gold",
+     "size": 120,
+     "on": "heart"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "Follow so you don't miss the next one.",
+   "clip": "outro",
+   "end": true
+  }
+ ],
+ "post": {
+  "yt_title": "The Bible Never Says Money Is the Root of All Evil 💰 #shorts",
+  "yt_desc": "The Bible never says \"money is the root of all evil.\" It says: \"For the love of money is a root of all kinds of evil\" (1 Timothy 6:10 NKJV). Money isn't the problem. Loving it is. The popular saying takes the old King James wording, \"For the love of money is the root of all evil,\" and drops \"the love of.\"\n\nJesus said, \"You cannot serve God and mammon\" (Matthew 6:24 NKJV). He wants your heart, not your wallet.\n\n📖 Read it yourself: 1 Timothy 6:6–10 · Matthew 6:19–24 (NKJV)\n\nWhat saying should we check next? Tell us below 👇\n\n#ButWhatDoesTheBibleSay #Bible #BibleVerse #shorts",
+  "tiktok": "\"Money is the root of all evil\"… the Bible never says that 😮\n\n📖 1 Timothy 6:10 · Matthew 6:24 (NKJV)\nWhat saying should we check next? 👇\n\n#ButWhatDoesTheBibleSay #ChristianTikTok #Bible #BibleVerse #Jesus",
+  "instagram": "Not money. The love of money. Jesus wants your heart, not your wallet. 💛\n\n📖 1 Timothy 6:10 · Matthew 6:24 (NKJV)\nWhat saying should we check next? 👇\n\n#ButWhatDoesTheBibleSay #Bible #BibleVerse #Jesus #Faith",
+  "pinned": "Next: How can a loving God send people to hell? Follow so you don't miss it 🙏",
+  "notes": "- 1 Timothy 6:10 NKJV quoted from the start to \"evil\" (continues \", for which some have strayed from the faith in their greediness, and pierced themselves through with many sorrows.\"); scroll shows … .\n- Matthew 6:24 NKJV: final sentence quoted (verse opens \"No one can serve two masters…\").\n- 'Three words dropped': the KJV reads \"For the love of money is the root of all evil\"; the saying drops \"the love of\".\n- 'Jesus wants your heart': summary, not in quotes (cf. Matthew 6:21)."
+ }
+}

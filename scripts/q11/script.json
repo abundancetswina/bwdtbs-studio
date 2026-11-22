@@ -1,0 +1,141 @@
+{
+ "id": "q11",
+ "slug": "How_Can_A_Loving_God_Send_People_To_Hell",
+ "name": "How Can a Loving God Send People to Hell?",
+ "format": "A",
+ "key": "E",
+ "title": {
+  "theme": "night",
+  "top": 330,
+  "lines": [
+   {
+    "text": "A LOVING GOD",
+    "size": 116
+   },
+   {
+    "text": "SENDS PEOPLE",
+    "size": 116
+   },
+   {
+    "text": "TO HELL?",
+    "color": "gold",
+    "size": 160
+   }
+  ]
+ },
+ "keywords": [
+  "loving",
+  "hell",
+  "perish",
+  "repentance",
+  "condemn",
+  "saved",
+  "jesus",
+  "cross",
+  "fair",
+  "follow"
+ ],
+ "beats": [
+  {
+   "who": "skep",
+   "say": "How can a loving God send people to hell?",
+   "clip": "stage_skeptic",
+   "show": [
+    {
+     "big": "A LOVING GOD",
+     "size": 100,
+     "on": "people"
+    },
+    {
+     "big": "SENDS PEOPLE TO HELL?",
+     "color": "gold",
+     "size": 84,
+     "on": "hell"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Fair question.",
+   "clip": "stage_both",
+   "show": [
+    {
+     "big": "FAIR QUESTION.",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "God doesn't want anyone lost.",
+   "clip": "jesus_crowd",
+   "show": [
+    {
+     "pill": "HE DOESN'T WANT ANYONE LOST",
+     "bg": "#2e8a56"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "\"Not willing that any should perish but that all should come to repentance.\"",
+   "clip": "meadow",
+   "scroll": {
+    "text": "\"…not willing that any should perish but that all should come to repentance.\"",
+    "ref": "2 PETER 3:9 NKJV",
+    "hot": "^(any|perish|all|repentance)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "Hell is real. But God made a way out, at the cross.",
+   "clip": "garden_night",
+   "show": [
+    {
+     "big": "HELL IS REAL.",
+     "size": 110
+    },
+    {
+     "big": "BUT GOD MADE",
+     "on": "god"
+    },
+    {
+     "big": "A WAY OUT.",
+     "color": "gold",
+     "on": "way"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "\"For God did not send His Son into the world to condemn the world, but that the world through Him might be saved.\"",
+   "clip": "jesus_sunset",
+   "jesus": true,
+   "scroll": {
+    "text": "\"For God did not send His Son into the world to condemn the world, but that the world through Him might be saved.\"",
+    "ref": "JOHN 3:17 NKJV",
+    "hot": "^(Son|condemn|saved)$"
+   }
+  },
+  {
+   "who": "skep",
+   "say": "Hm.",
+   "clip": "outro",
+   "hm": true
+  },
+  {
+   "who": "friend",
+   "say": "Follow so you don't miss the next one.",
+   "clip": "outro",
+   "end": true
+  }
+ ],
+ "post": {
+  "yt_title": "How Can a Loving God Send People to Hell? 🤔 #shorts",
+  "yt_desc": "\"How can a loving God send people to hell?\" Fair question. God doesn't want anyone lost: He is \"not willing that any should perish but that all should come to repentance\" (2 Peter 3:9 NKJV).\n\nHell is real. But God made a way out, at the cross. \"For God did not send His Son into the world to condemn the world, but that the world through Him might be saved\" (John 3:17 NKJV).\n\n📖 Read it yourself: 2 Peter 3:9 · John 3:16–21 (NKJV)\n\nWhat question should we answer next? Tell us below 👇\n\n#ButWhatDoesTheBibleSay #Jesus #Apologetics #shorts",
+  "tiktok": "\"How can a loving God send people to hell?\" 🤔 Fair question.\n\n📖 2 Peter 3:9 · John 3:17 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #ChristianTikTok #Jesus #JesusLovesYou #Apologetics",
+  "instagram": "God doesn't want anyone lost. He sent His Son to save, not to condemn. ✝️\n\n📖 2 Peter 3:9 · John 3:17 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #Jesus #JesusLovesYou #Bible #Christian",
+  "pinned": "Next: Why did Jesus have to die? Follow so you don't miss it 🙏",
+  "notes": "- 2 Peter 3:9 NKJV quoted from \"not willing…\" to the end (verse opens \"The Lord is not slack concerning His promise, as some count slackness, but is longsuffering toward us,\"); scroll shows … .\n- John 3:17 NKJV quoted in full.\n- 'Hell is real': e.g. Matthew 25:46, Mark 9:43. Christians differ on the nature of hell; the video avoids details. 'A way out, at the cross': John 3:16, 1 Peter 3:18. Garden scene = Gethsemane, the night before the cross (no crucifixion shown)."
+ }
+}
