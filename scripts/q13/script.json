@@ -1,0 +1,138 @@
+{
+ "id": "q13",
+ "slug": "Mary_Magdalene_Was_Not_A_Prostitute",
+ "name": "The Bible Never Says Mary Magdalene Was a Prostitute",
+ "format": "B",
+ "key": "D",
+ "titleFrames": 90,
+ "title": {
+  "theme": "dawn",
+  "top": 300,
+  "kicker": "THE BIBLE NEVER SAYS",
+  "lines": [
+   {
+    "text": "MARY",
+    "size": 130
+   },
+   {
+    "text": "MAGDALENE WAS",
+    "size": 110
+   },
+   {
+    "text": "A PROSTITUTE",
+    "color": "gold",
+    "size": 120
+   }
+  ]
+ },
+ "keywords": [
+  "mary",
+  "magdalene",
+  "demons",
+  "sermon",
+  "591",
+  "jesus",
+  "first",
+  "lord",
+  "follow",
+  "risen"
+ ],
+ "beats": [
+  {
+   "who": "narr",
+   "say": "The Bible never says Mary Magdalene was a prostitute.",
+   "clip": "meadow"
+  },
+  {
+   "who": "narr",
+   "say": "Stay to the end.",
+   "clip": "meadow",
+   "myth": "\"MARY MAGDALENE WAS A PROSTITUTE\""
+  },
+  {
+   "who": "narr",
+   "say": "It says:",
+   "clip": "jesus_crowd",
+   "show": [
+    {
+     "pill": "WHAT IT ACTUALLY SAYS",
+     "bg": "#3f6aa0"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "\"Mary called Magdalene, out of whom had come seven demons.\"",
+   "clip": "jesus_crowd",
+   "scroll": {
+    "text": "\"…Mary called Magdalene, out of whom had come seven demons…\"",
+    "ref": "LUKE 8:2 NKJV",
+    "hot": "^(Mary|Magdalene|seven|demons)$"
+   }
+  },
+  {
+   "who": "narr",
+   "say": "That idea came from a sermon in 591 that mixed her up with others.",
+   "clip": "town_star",
+   "show": [
+    {
+     "big": "A SERMON",
+     "size": 110
+    },
+    {
+     "big": "IN 591.",
+     "color": "gold",
+     "size": 130,
+     "on": "591"
+    },
+    {
+     "pill": "MIXED UP WITH OTHERS",
+     "bg": "#c0532e",
+     "on": "mixed"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "Then the risen Jesus appeared to her first.",
+   "clip": "tomb_risen",
+   "jesus": true,
+   "show": [
+    {
+     "big": "JESUS APPEARED",
+     "size": 100
+    },
+    {
+     "big": "TO HER FIRST.",
+     "color": "gold",
+     "size": 110,
+     "on": "first"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "She told the disciples \"that she had seen the Lord.\"",
+   "clip": "night_room",
+   "scroll": {
+    "text": "\"…told the disciples that she had seen the Lord…\"",
+    "ref": "JOHN 20:18 NKJV",
+    "hot": "^(seen|Lord)$"
+   }
+  },
+  {
+   "who": "narr",
+   "say": "Follow so you don't miss the next one.",
+   "clip": "outro",
+   "end": true
+  }
+ ],
+ "post": {
+  "yt_title": "The Bible Never Says Mary Magdalene Was a Prostitute #shorts",
+  "yt_desc": "The Bible never says Mary Magdalene was a prostitute. It says Jesus freed her: \"Mary called Magdalene, out of whom had come seven demons\" (Luke 8:2 NKJV).\n\nThe prostitute idea came from a sermon by Pope Gregory the Great in 591 AD that mixed her up with other women in the Gospels. Then the risen Jesus appeared to her first (Mark 16:9; John 20:14–17), and she told the disciples \"that she had seen the Lord\" (John 20:18 NKJV).\n\n📖 Read it yourself: Luke 8:1–3 · John 20:11–18 (NKJV)\n\nWhat myth should we check next? Tell us below 👇\n\n#ButWhatDoesTheBibleSay #Bible #Jesus #shorts",
+  "tiktok": "\"Mary Magdalene was a prostitute\"… the Bible never says that 😮\n\n📖 Luke 8:2 · John 20:18 (NKJV)\nWhat myth should we check next? 👇\n\n#ButWhatDoesTheBibleSay #ChristianTikTok #MaryMagdalene #BibleMyths #Jesus",
+  "instagram": "Not a prostitute. Freed by Jesus, and the first to see Him risen. 💛\n\n📖 Luke 8:2 · John 20:18 (NKJV)\nWhat myth should we check next? 👇\n\n#ButWhatDoesTheBibleSay #Bible #MaryMagdalene #Jesus #Resurrection",
+  "pinned": "Next: \"Hasn't the Bible been changed over time?\" Follow so you don't miss it 🙏",
+  "notes": "- Luke 8:2 NKJV quoted from \"Mary called Magdalene\" to the end of the verse (\"…and certain women who had been healed of evil spirits and infirmities—\" precedes; the sentence continues in v3), so the scroll shows … at both ends.\n- John 20:18 NKJV: indirect speech; quoted \"that she had seen the Lord\" (verse continues \", and that He had spoken these things to her.\").\n- 591: Pope Gregory I, Homily 33 (preached 591), identified Mary Magdalene with the sinful woman of Luke 7 and Mary of Bethany. The Roman Catholic calendar revision of 1969 separated them.\n- 'Appeared to her first': Mark 16:9 states it; John 20:11–18 narrates it. (Mark 16:9–20 is absent from the two oldest manuscripts; John's account alone supports the order.)"
+ }
+}

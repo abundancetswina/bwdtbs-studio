@@ -1,0 +1,176 @@
+{
+ "id": "q15",
+ "slug": "Why_Did_Jonah_Run_From_God",
+ "name": "Why Did Jonah Run From God?",
+ "format": "A",
+ "key": "A",
+ "title": {
+  "theme": "night",
+  "top": 330,
+  "lines": [
+   {
+    "text": "WHY DID",
+    "size": 124
+   },
+   {
+    "text": "JONAH RUN",
+    "size": 124
+   },
+   {
+    "text": "FROM GOD?",
+    "color": "gold",
+    "size": 140
+   }
+  ]
+ },
+ "keywords": [
+  "jonah",
+  "run",
+  "ran",
+  "nineveh",
+  "enemy",
+  "gracious",
+  "merciful",
+  "forgive",
+  "jesus",
+  "greater",
+  "mercy",
+  "fair",
+  "follow"
+ ],
+ "beats": [
+  {
+   "who": "skep",
+   "say": "Why would a prophet run away from God?",
+   "clip": "stage_skeptic",
+   "show": [
+    {
+     "big": "A PROPHET",
+     "size": 110,
+     "on": "prophet"
+    },
+    {
+     "big": "RAN AWAY?",
+     "color": "gold",
+     "size": 120,
+     "on": "run"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Fair question.",
+   "clip": "stage_both",
+   "show": [
+    {
+     "big": "FAIR QUESTION.",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "God sent Jonah to Nineveh, in Assyria, Israel's cruel enemy.",
+   "clip": "caravan_star",
+   "show": [
+    {
+     "pill": "NINEVEH, ASSYRIA",
+     "bg": "#7a3a3a",
+     "on": "nineveh"
+    },
+    {
+     "big": "ISRAEL'S ENEMY.",
+     "color": "gold",
+     "size": 100,
+     "on": "enemy"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Jonah told God why he ran:",
+   "clip": "storm_sea",
+   "show": [
+    {
+     "pill": "HIS OWN WORDS",
+     "bg": "#c0532e"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "\"I know that You are a gracious and merciful God, slow to anger.\"",
+   "clip": "storm_sea",
+   "scroll": {
+    "text": "\"…I know that You are a gracious and merciful God, slow to anger…\"",
+    "ref": "JONAH 4:2 NKJV",
+    "hot": "^(gracious|merciful|anger)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "He ran because God might forgive his enemies.",
+   "clip": "town_star",
+   "show": [
+    {
+     "big": "GOD MIGHT",
+     "size": 110
+    },
+    {
+     "big": "FORGIVE THEM.",
+     "color": "gold",
+     "size": 110,
+     "on": "forgive"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Jesus said, \"A greater than Jonah is here.\"",
+   "clip": "jesus_crowd",
+   "jesus": true,
+   "scroll": {
+    "text": "\"…a greater than Jonah is here.\"",
+    "ref": "MATTHEW 12:41 NKJV",
+    "hot": "^(greater|Jonah)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "And His mercy reaches enemies too.",
+   "clip": "jesus_sunset",
+   "show": [
+    {
+     "big": "MERCY FOR",
+     "size": 110
+    },
+    {
+     "big": "ENEMIES TOO.",
+     "color": "gold",
+     "size": 110,
+     "on": "enemies"
+    }
+   ]
+  },
+  {
+   "who": "skep",
+   "say": "Hm.",
+   "clip": "outro",
+   "hm": true
+  },
+  {
+   "who": "friend",
+   "say": "Follow so you don't miss the next one.",
+   "clip": "outro",
+   "end": true
+  }
+ ],
+ "post": {
+  "yt_title": "Why Did Jonah Run From God? 🌊 #shorts",
+  "yt_desc": "\"Why would a prophet run away from God?\" Fair question. God sent Jonah to Nineveh, a great city of Assyria, Israel's cruel enemy. Jonah later told God why he ran: \"for I know that You are a gracious and merciful God, slow to anger and abundant in lovingkindness\" (Jonah 4:2 NKJV). He ran because God might forgive his enemies.\n\nJesus said, \"a greater than Jonah is here\" (Matthew 12:41 NKJV). And His mercy reaches enemies too.\n\n📖 Read it yourself: Jonah 1:1–3 · Jonah 4:1–11 · Matthew 12:38–41 (NKJV)\n\nWhat question should we answer next? Tell us below 👇\n\n#ButWhatDoesTheBibleSay #Bible #Jonah #shorts",
+  "tiktok": "\"Why would a prophet run away from God?\" 🤔 Fair question.\n\n📖 Jonah 4:2 · Matthew 12:41 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #ChristianTikTok #Jonah #BibleStory #Jesus",
+  "instagram": "Jonah didn't run because God was harsh. He ran because God is merciful. 🌊\n\n📖 Jonah 4:2 · Matthew 12:41 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #Bible #Jonah #BibleStory #Jesus",
+  "pinned": "Next: The Bible never says \"cleanliness is next to godliness.\" Follow so you don't miss it 🙏",
+  "notes": "- Jonah 4:2 NKJV: quoted \"I know that You are a gracious and merciful God, slow to anger\" (the clause begins \"for I know…\" and continues \"and abundant in lovingkindness, One who relents from doing harm.\"); scroll shows … at both ends. Jonah says, \"Therefore I fled previously to Tarshish; for I know…\"\n- Nineveh: a major Assyrian city (Jonah 1:2 \"that great city\"), later the Assyrian capital. Assyria was Israel's enemy and conquered the northern kingdom in 722 BC (2 Kings 17).\n- Matthew 12:41 NKJV ends \"and indeed a greater than Jonah is here.\" Spoken/scroll: \"a greater than Jonah is here.\"\n- 'His mercy reaches enemies too': summary, not in quotes (cf. Matthew 5:44, Romans 5:10)."
+ }
+}

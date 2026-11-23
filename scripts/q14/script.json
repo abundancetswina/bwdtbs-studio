@@ -1,0 +1,156 @@
+{
+ "id": "q14",
+ "slug": "Has_The_Bible_Been_Changed",
+ "name": "Hasn't the Bible Been Changed Over Time?",
+ "format": "A",
+ "key": "E",
+ "title": {
+  "theme": "royal",
+  "top": 330,
+  "lines": [
+   {
+    "text": "HASN'T THE",
+    "size": 124
+   },
+   {
+    "text": "BIBLE BEEN",
+    "size": 124
+   },
+   {
+    "text": "CHANGED?",
+    "color": "gold",
+    "size": 150
+   }
+  ]
+ },
+ "keywords": [
+  "changed",
+  "trust",
+  "scrolls",
+  "isaiah",
+  "copies",
+  "word",
+  "forever",
+  "jesus",
+  "words",
+  "fair",
+  "follow"
+ ],
+ "beats": [
+  {
+   "who": "skep",
+   "say": "Hasn't the Bible been changed so many times we can't trust it?",
+   "clip": "stage_skeptic2",
+   "show": [
+    {
+     "big": "CHANGED SO",
+     "size": 110,
+     "on": "many"
+    },
+    {
+     "big": "MANY TIMES?",
+     "size": 110,
+     "on": "many"
+    },
+    {
+     "big": "CAN WE TRUST IT?",
+     "color": "gold",
+     "size": 96,
+     "on": "trust"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Fair question.",
+   "clip": "stage_both",
+   "show": [
+    {
+     "big": "FAIR QUESTION.",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "The Dead Sea Scrolls Isaiah is a thousand years older, and reads almost the same.",
+   "clip": "temple_night",
+   "show": [
+    {
+     "pill": "DEAD SEA SCROLLS",
+     "bg": "#3f6aa0"
+    },
+    {
+     "big": "1,000 YEARS OLDER.",
+     "color": "gold",
+     "size": 100,
+     "on": "thousand"
+    },
+    {
+     "big": "ALMOST THE SAME.",
+     "size": 100,
+     "on": "almost"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "\"The grass withers, the flower fades, but the word of our God stands forever.\"",
+   "clip": "meadow",
+   "scroll": {
+    "text": "\"The grass withers, the flower fades, But the word of our God stands forever.\"",
+    "ref": "ISAIAH 40:8 NKJV",
+    "hot": "^(word|God|forever)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "The New Testament? Over five thousand Greek copies.",
+   "clip": "temple_day",
+   "show": [
+    {
+     "big": "5,000+",
+     "color": "gold",
+     "size": 150,
+     "on": "five"
+    },
+    {
+     "big": "GREEK COPIES",
+     "size": 100,
+     "on": "greek"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Jesus said, \"Heaven and earth will pass away, but My words will by no means pass away.\"",
+   "clip": "jesus_crowd",
+   "jesus": true,
+   "scroll": {
+    "text": "\"Heaven and earth will pass away, but My words will by no means pass away.\"",
+    "ref": "MATTHEW 24:35 NKJV",
+    "hot": "^(words|means|away)$"
+   }
+  },
+  {
+   "who": "skep",
+   "say": "Hm.",
+   "clip": "outro",
+   "hm": true
+  },
+  {
+   "who": "friend",
+   "say": "Follow so you don't miss the next one.",
+   "clip": "outro",
+   "end": true
+  }
+ ],
+ "post": {
+  "yt_title": "Hasn't the Bible Been Changed Over Time? 📜 #shorts",
+  "yt_desc": "\"Hasn't the Bible been changed so many times we can't trust it?\" Fair question. The Great Isaiah Scroll from the Dead Sea Scrolls is about a thousand years older than the oldest Hebrew copies of Isaiah we had before 1947, and it reads almost the same.\n\n\"The grass withers, the flower fades, But the word of our God stands forever\" (Isaiah 40:8 NKJV).\n\nThe New Testament? Over five thousand Greek manuscripts to compare. Jesus said, \"Heaven and earth will pass away, but My words will by no means pass away\" (Matthew 24:35 NKJV).\n\n📖 Read it yourself: Isaiah 40:6–8 · Matthew 24:35 (NKJV)\n\nWhat question should we answer next? Tell us below 👇\n\n#ButWhatDoesTheBibleSay #Bible #DeadSeaScrolls #shorts",
+  "tiktok": "\"Hasn't the Bible been changed so many times we can't trust it?\" 🤔 Fair question.\n\n📖 Isaiah 40:8 · Matthew 24:35 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #ChristianTikTok #DeadSeaScrolls #Apologetics #Bible",
+  "instagram": "A thousand years older, and almost the same. \"…the word of our God stands forever.\" 📜\n\n📖 Isaiah 40:8 · Matthew 24:35 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #Bible #DeadSeaScrolls #Apologetics #Jesus",
+  "pinned": "Next: Jonah ran from God. Why? Follow so you don't miss it 🙏",
+  "notes": "- Great Isaiah Scroll (1QIsa-a), found 1947 at Qumran, dated c. 150–100 BC (some say c. 125 BC). Before it, the oldest complete Hebrew Isaiah texts were medieval Masoretic manuscripts (Aleppo Codex c. AD 930; Leningrad Codex AD 1008): about 1,000 years apart.\n- 'Almost the same': differences are mostly spelling and small variants; the standard scholarly summary is substantial agreement with the Masoretic Text.\n- Over 5,000 Greek New Testament manuscripts (catalogued count is about 5,800).\n- Isaiah 40:8 NKJV quoted in full (NKJV capitalizes \"But\" as a poetic line; scroll keeps it).\n- Matthew 24:35 NKJV quoted in full."
+ }
+}
