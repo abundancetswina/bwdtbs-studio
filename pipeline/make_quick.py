@@ -237,7 +237,7 @@ def finish(d, S, mp4, work, outd):
     q = run(["ffprobe", "-v", "error", "-show_entries", "format=duration:stream=width,height,r_frame_rate", "-of", "compact", mp4]).stdout
     lu = re.findall(r"I:\s+(-?[\d.]+) LUFS", subprocess.run(["ffmpeg", "-nostats", "-i", mp4, "-af", "ebur128", "-f", "null", "-"], capture_output=True, text=True).stderr)
     fr = re.findall(r"freeze_start: ([\d.]+)", subprocess.run(["ffmpeg", "-nostats", "-i", mp4, "-vf", "freezedetect=n=0.001:d=1.5", "-an", "-f", "null", "-"], capture_output=True, text=True).stderr)
-    run(["ffmpeg", "-v", "error", "-y", "-i", mp4, "-vf", "fps=0.5,scale=216:384,tile=8x2", "-frames:v", "1", os.path.join(outd, "qa_sheet.jpg")])
+    run(["ffmpeg", "-v", "error", "-y", "-i", mp4, "-vf", "fps=0.5,scale=216:384,tile=8x4", "-frames:v", "1", os.path.join(outd, "qa_sheet.jpg")])
     print("QA:", q.strip().replace("\n", " | "), "| loudness", lu[-1] if lu else "?", "LUFS | frozen spans at", fr or "none")
 
 

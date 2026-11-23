@@ -10,11 +10,18 @@ Each role below is a step. The Fact-checker is a SEPARATE agent that has not see
 - No season/episode numbers. No "Illustrative scene" labels. No ElevenLabs or Thomas Nelson lines in captions.
 - Format A (question): Skeptic hook → Friend "Fair question." → scroll(s) → twist → Jesus → Skeptic "Hm." → Friend "Follow so you don't miss the next one."
 - Format B (myth): Friend/narrator: "The Bible never says…" (myth card with red X) → "Stay to the end" → scroll → where the myth came from → Jesus → "Follow so you don't miss the next one."
-- Length: 25–30 seconds (friend/narrator 55–65 words). Hooks punchy, spoken in the first second.
+- Length: about 50 seconds (45–55 s; friend/narrator 110–125 words, skeptic up to ~20). Hooks punchy, spoken in the first second. (Abundance asked for this on 23 Nov 2026.)
+- Hook styles (rotate; pick the one that fits the topic):
+  - Story hook: open inside the Bible story, present tense, like a storyteller ("A prophet gets a direct order from God. And he buys a ticket the other way.").
+  - Science/history fact hook: open with a surprising, well-established fact that leads into the topic ("This scroll sat in a cave for 2,000 years."). Only mainstream, verifiable science or archaeology; never claim "the Bible predicted science" or stretch a verse to fit a discovery. The Fact-checker checks these like any historical claim.
+  - Question hook (Format A skeptic) and myth hook (Format B) stay as before.
+- Holy storytelling: tell the passage as a short, reverent story (who, where, what happened, why it mattered), not just a list of points. Keep the beats in the format order above; the extra time goes to the story and the context.
+- Explain for newcomers: assume the viewer has never read the Bible. In one short line each, say who people are and where/when it happened ("Nineveh, the capital-to-be of Assyria, Israel's enemy"; "Paul, who wrote much of the New Testament"). Name the book in plain words before the reference. No church jargon without a 3–5 word explanation.
+- Credits: a 50 s video costs about 900 ElevenLabs credits, so expect about 1 video a day on the Starter plan (never upgrade). Make as many as credits allow, keeping 300 spare.
 - Voices: Skeptic = Chad (wiy1Gg8ir59Wz8fJAOFD), Friend/narrator = Jerry B. (zDBYcuJrpuZ6YQ7AgRUw), model eleven_v4, generations_count 1.
 
 ## 1. Researcher
-- Take the next `queued` topics from topics.json (as many as the day needs; check ElevenLabs credits first: ~450 credits per video, keep 300 spare; make fewer videos if credits are short and say so).
+- Take the next `queued` topics from topics.json (as many as the day needs; check ElevenLabs credits first: ~900 credits per 50-second video, keep 300 spare; make fewer videos if credits are short and say so).
 - For each: read the passage in its chapter, find the 1–2 key verses, fetch the exact NKJV wording from a Bible site (bible.com NKJV = version 114). Note what history supports and where Christians disagree.
 
 ## 2. Writer (hooks)
