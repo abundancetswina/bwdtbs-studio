@@ -17,6 +17,7 @@ Each role below is a step. The Fact-checker is a SEPARATE agent that has not see
   - Question hook (Format A skeptic) and myth hook (Format B) stay as before.
 - Holy storytelling: where it fits, tell the passage as a short, reverent story (who, where, what happened), not just a list of points. Keep the beats in the format order above.
 - Scripture references must be easy to read: the scroll shows the reference badge (book, chapter and verse) large, from the moment the scroll opens until it closes, and every caption lists the references. (Viewer feedback, 23 Nov 2026: the old badge was too small and flashed too quickly.)
+- Say the reference out loud too: the spoken line names the book, chapter and verse right before each quote, in natural words ("Isaiah 40, verse 8 says:" / "In John 20, verse 18…"). Short form is fine ("Romans 6:23:"). This is part of the word count, so keep the rest tight. (Abundance, 23 Nov 2026.)
 - Explain for newcomers: assume the viewer has never read the Bible. In a few words each, say who people are and where/when it happened ("Nineveh, the capital-to-be of Assyria, Israel's enemy"; "Paul, who wrote much of the New Testament"). Name the book in plain words before the reference. No church jargon without a 3–5 word explanation.
 - Voices: Skeptic = Chad (wiy1Gg8ir59Wz8fJAOFD), Friend/narrator = Jerry B. (zDBYcuJrpuZ6YQ7AgRUw), model eleven_v4, generations_count 1.
 
