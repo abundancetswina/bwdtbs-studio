@@ -144,7 +144,7 @@ def main():
             n = len(text); size = 64 if n < 30 else 56 if n < 60 else 48 if n < 100 else 42 if n < 140 else 38
             # one time per displayed word (spread over spoken words)
             dw = text.split(); times = [wf[min(len(wf) - 1, int(k * len(wf) / len(dw)))] for k in range(len(dw))]
-            ref_at = min(z - 20, F(ws[-1]["e"]) + 6)
+            ref_at = a + 10  # reference shows big from the start of the scroll (viewer feedback 23 Nov 2026)
             items.append({"kind": "scroll", "start": max(a, a + 2), "end": z - 2, "top": 170, "text": text, "times": times,
                           "ref": sc["ref"], "refAt": ref_at, "size": size, "hot": sc.get("hot", "^$")})
             scroll_starts.append(a)

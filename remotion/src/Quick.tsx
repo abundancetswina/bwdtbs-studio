@@ -80,7 +80,7 @@ const Scroll: React.FC<{it: Item}> = ({it}) => {
   const open = interpolate(f, [start, start + 16], [0, 1], {...clamp, easing: Easing.out(Easing.back(1.3))});
   const out = interpolate(f, [end, end + 10], [1, 0], {...clamp, easing: Easing.in(Easing.cubic)});
   const W = 120 + 820 * open;
-  const H = Math.max(400, 150 + Math.ceil((text.length * size * 0.5) / 760) * size * 1.3);
+  const H = Math.max(430, 190 + Math.ceil((text.length * size * 0.5) / 760) * size * 1.3);
   return (
     <div style={{position: 'absolute', top, width: '100%', display: 'flex', justifyContent: 'center', transform: `scale(${out}) translateY(${(1 - out) * -80}px)`, opacity: out}}>
       <div style={{position: 'relative', width: W, height: H}}>
@@ -93,7 +93,7 @@ const Scroll: React.FC<{it: Item}> = ({it}) => {
               return <span key={i} style={{display: 'inline-block', marginRight: 12, opacity: 0.12 + 0.88 * on, transform: `translateY(${(1 - on) * 10}px) scale(${lit ? 1.08 : 1})`, color: lit || hot ? '#a8461e' : INK}}>{w}</span>;
             })}
           </div>
-          <div style={{marginTop: 12, transform: `scale(${pop(f, refAt)})`, background: '#f4c44c', border: `4px solid ${INK}`, borderRadius: 40, padding: '5px 22px', fontFamily: 'Poppins', fontSize: 26, color: INK}}>{ref}</div>
+          <div style={{marginTop: 12, transform: `scale(${pop(f, refAt)})`, background: '#f4c44c', border: `4px solid ${INK}`, borderRadius: 40, padding: '8px 30px', fontFamily: 'Poppins', fontWeight: 700, fontSize: 42, color: INK}}>{ref}</div>
         </div>
         {[0, W - 44].map((x, i) => <div key={i} style={{position: 'absolute', left: x, top: 0, width: 44, height: H, borderRadius: 22, background: 'linear-gradient(90deg,#6e4424,#b57a44 45%,#6e4424)', border: `5px solid ${INK}`}} />)}
       </div>
