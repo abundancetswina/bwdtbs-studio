@@ -1,0 +1,186 @@
+{
+ "id": "q17",
+ "slug": "Did_Jesus_Even_Exist",
+ "name": "Did Jesus Even Exist?",
+ "format": "A",
+ "key": "E",
+ "title": {
+  "theme": "earth",
+  "top": 330,
+  "lines": [
+   {
+    "text": "DID JESUS",
+    "size": 124
+   },
+   {
+    "text": "EVEN",
+    "size": 124
+   },
+   {
+    "text": "EXIST?",
+    "color": "gold",
+    "size": 150
+   }
+  ]
+ },
+ "keywords": [
+  "jesus",
+  "exist",
+  "legend",
+  "tacitus",
+  "roman",
+  "pilate",
+  "josephus",
+  "james",
+  "historians",
+  "lived",
+  "fables",
+  "eyewitnesses",
+  "who",
+  "follow"
+ ],
+ "beats": [
+  {
+   "who": "skep",
+   "say": "Did Jesus even exist, or is He just a legend?",
+   "clip": "stage_skeptic",
+   "show": [
+    {
+     "big": "OR JUST A",
+     "size": 110,
+     "on": "just"
+    },
+    {
+     "big": "LEGEND?",
+     "color": "gold",
+     "size": 140,
+     "on": "legend"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Fair question.",
+   "clip": "stage_both",
+   "show": [
+    {
+     "big": "FAIR QUESTION.",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Tacitus, a Roman historian who disliked Christians, says Pilate executed Christ.",
+   "clip": "temple_day",
+   "show": [
+    {
+     "pill": "TACITUS · ROMAN HISTORIAN · c. AD 116",
+     "bg": "#7a3a3a",
+     "on": "tacitus"
+    },
+    {
+     "pill": "PILATE = ROMAN GOVERNOR",
+     "bg": "#3f6aa0",
+     "on": "pilate"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Josephus, a Jewish historian, names James, the brother of Jesus.",
+   "clip": "town_star",
+   "show": [
+    {
+     "pill": "JOSEPHUS · JEWISH HISTORIAN · c. AD 93",
+     "bg": "#2e8a56",
+     "on": "josephus"
+    },
+    {
+     "big": "BROTHER OF JESUS.",
+     "color": "gold",
+     "size": 100,
+     "on": "brother"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Most historians, even skeptics, agree He lived.",
+   "clip": "jesus_crowd",
+   "show": [
+    {
+     "big": "HISTORIANS AGREE:",
+     "size": 100,
+     "on": "historians"
+    },
+    {
+     "big": "HE LIVED.",
+     "color": "gold",
+     "size": 140,
+     "on": "lived"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "His disciple Peter wrote, in Second Peter 1, verse 16:",
+   "clip": "jesus_crowd",
+   "show": [
+    {
+     "pill": "PETER, ONE OF THE TWELVE",
+     "bg": "#c0532e",
+     "on": "peter"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "\"We did not follow cunningly devised fables.\"",
+   "clip": "jesus_crowd",
+   "scroll": {
+    "text": "\"…we did not follow cunningly devised fables…\"",
+    "ref": "2 PETER 1:16 NKJV",
+    "hot": "^(not|cunningly|devised|fables)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "The real question isn't if He lived. It's who He is.",
+   "clip": "jesus_sunset",
+   "jesus": true,
+   "show": [
+    {
+     "big": "THE REAL QUESTION:",
+     "size": 100
+    },
+    {
+     "big": "WHO IS HE?",
+     "color": "gold",
+     "size": 140,
+     "on": "who"
+    }
+   ]
+  },
+  {
+   "who": "skep",
+   "say": "Hm.",
+   "clip": "outro",
+   "hm": true
+  },
+  {
+   "who": "friend",
+   "say": "Follow so you don't miss the next one.",
+   "clip": "outro",
+   "end": true
+  }
+ ],
+ "post": {
+  "yt_title": "Did Jesus Even Exist? What Historians Say 📜 #shorts",
+  "yt_desc": "\"Did Jesus even exist, or is He just a legend?\" Fair question. Tacitus, a Roman historian who disliked Christians, wrote (around AD 116) that Christ was executed under Pontius Pilate, the Roman governor of Judea. Josephus, a Jewish historian (around AD 93), names James, the brother of Jesus. Most historians, including skeptical ones, agree Jesus lived.\n\nHis disciple Peter wrote: \"For we did not follow cunningly devised fables when we made known to you the power and coming of our Lord Jesus Christ, but were eyewitnesses of His majesty\" (2 Peter 1:16 NKJV). The real question isn't if He lived. It's who He is.\n\n📖 Read it yourself: 2 Peter 1:16–18 · Luke 1:1–4 (NKJV)\n\nWhat question should we answer next? Tell us below 👇\n\n#ButWhatDoesTheBibleSay #Jesus #History #shorts",
+  "tiktok": "\"Did Jesus even exist?\" 🤔 Here's what historians say, even the skeptical ones.\n\n📖 2 Peter 1:16 (NKJV) · Tacitus, Annals 15.44 · Josephus, Antiquities 20.200\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #ChristianTikTok #Jesus #History #Apologetics",
+  "instagram": "Was Jesus a real person? Roman and Jewish historians both mention Him. 📜\n\n📖 2 Peter 1:16 (NKJV) · Tacitus, Annals 15.44 · Josephus, Antiquities 20.200\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #Jesus #Bible #Apologetics #ChristianReels",
+  "pinned": "Next: \"Why did God let Job suffer?\" Follow so you don't miss it 🙏",
+  "notes": "- Tacitus, Annals 15.44 (written c. AD 116): \"Christus, from whom the name had its origin, suffered the extreme penalty during the reign of Tiberius at the hands of one of our procurators, Pontius Pilatus.\" Tacitus calls Christianity a 'mischievous superstition' (hostile witness). Nearly all scholars accept the passage as authentic.\n- Josephus, Antiquities 20.200 (c. AD 93–94): \"the brother of Jesus, who was called Christ, whose name was James.\" Most scholars accept this passage as authentic (unlike parts of the Testimonium Flavianum, 18.63–64, which is debated and not used here).\n- 'Most historians, even skeptics, agree He lived': mainstream scholarly consensus (e.g. Bart Ehrman, Did Jesus Exist?, 2012). Spoken without quote marks.\n- 2 Peter 1:16 NKJV (verified on bible.com, version 114): \"For we did not follow cunningly devised fables when we made known to you the power and coming of our Lord Jesus Christ, but were eyewitnesses of His majesty.\" Quoted \"we did not follow cunningly devised fables\"; scroll shows … at both ends. Authorship of 2 Peter is debated by some scholars; the letter names Simon Peter (1:1), so 'Peter wrote' follows the text.\n- Pilate: Roman governor (prefect) of Judea AD 26–36."
+ }
+}

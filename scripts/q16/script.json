@@ -1,0 +1,150 @@
+{
+ "id": "q16",
+ "slug": "Cleanliness_Is_Next_To_Godliness",
+ "name": "The Bible Never Says Cleanliness Is Next to Godliness",
+ "format": "B",
+ "key": "G",
+ "titleFrames": 90,
+ "title": {
+  "theme": "dawn",
+  "top": 300,
+  "kicker": "THE BIBLE NEVER SAYS",
+  "lines": [
+   {
+    "text": "CLEANLINESS IS",
+    "size": 110
+   },
+   {
+    "text": "NEXT TO",
+    "size": 120
+   },
+   {
+    "text": "GODLINESS",
+    "color": "gold",
+    "size": 130
+   }
+  ]
+ },
+ "keywords": [
+  "cleanliness",
+  "godliness",
+  "unwashed",
+  "hands",
+  "defile",
+  "wesley",
+  "1700s",
+  "jesus",
+  "heart",
+  "blood",
+  "cleanses",
+  "sin",
+  "follow"
+ ],
+ "beats": [
+  {
+   "who": "narr",
+   "say": "The Bible never says cleanliness is next to godliness.",
+   "clip": "meadow"
+  },
+  {
+   "who": "narr",
+   "say": "Stay to the end.",
+   "clip": "meadow",
+   "myth": "\"CLEANLINESS IS NEXT TO GODLINESS\""
+  },
+  {
+   "who": "narr",
+   "say": "Jesus' disciples got scolded for unwashed hands. Matthew 15, verse 20:",
+   "clip": "temple_day",
+   "show": [
+    {
+     "pill": "DISCIPLES SCOLDED",
+     "bg": "#c0532e"
+    },
+    {
+     "big": "UNWASHED HANDS?",
+     "color": "gold",
+     "size": 105,
+     "on": "unwashed"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "\"To eat with unwashed hands does not defile a man.\"",
+   "clip": "temple_day",
+   "scroll": {
+    "text": "\"…to eat with unwashed hands does not defile a man.\"",
+    "ref": "MATTHEW 15:20 NKJV",
+    "hot": "^(unwashed|hands|defile)$"
+   },
+   "show": [
+    {
+     "pill": "DEFILE = MAKE UNCLEAN",
+     "bg": "#3f6aa0",
+     "on": "defile"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "English preacher John Wesley made it famous in the 1700s.",
+   "clip": "town_star",
+   "show": [
+    {
+     "pill": "JOHN WESLEY, PREACHER",
+     "bg": "#7a6a9c",
+     "on": "wesley"
+    },
+    {
+     "big": "THE 1700s.",
+     "color": "gold",
+     "size": 130,
+     "on": "1700s"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "Only Jesus cleans a heart. First John 1, verse 7:",
+   "clip": "jesus_sunset",
+   "jesus": true,
+   "show": [
+    {
+     "big": "ONLY JESUS",
+     "size": 110
+    },
+    {
+     "big": "CLEANS A HEART.",
+     "color": "gold",
+     "size": 105,
+     "on": "heart"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "\"The blood of Jesus Christ His Son cleanses us from all sin.\"",
+   "clip": "jesus_sunset",
+   "scroll": {
+    "text": "\"…the blood of Jesus Christ His Son cleanses us from all sin.\"",
+    "ref": "1 JOHN 1:7 NKJV",
+    "hot": "^(blood|Jesus|cleanses|sin)$"
+   }
+  },
+  {
+   "who": "narr",
+   "say": "Follow so you don't miss the next one.",
+   "clip": "outro",
+   "end": true
+  }
+ ],
+ "post": {
+  "yt_title": "The Bible Never Says \"Cleanliness Is Next to Godliness\" 🧼 #shorts",
+  "yt_desc": "The Bible never says \"cleanliness is next to godliness.\" When religious leaders scolded Jesus' followers for eating without the ritual hand-washing, Jesus answered: \"These are the things which defile a man, but to eat with unwashed hands does not defile a man\" (Matthew 15:20 NKJV). The saying was made famous by John Wesley, an English preacher, in the 1700s.\n\nWashing is good. But only Jesus can clean a heart: \"the blood of Jesus Christ His Son cleanses us from all sin\" (1 John 1:7 NKJV).\n\n📖 Read it yourself: Matthew 15:1–20 · 1 John 1:7 (NKJV)\n\nWhat saying should we check next? Tell us below 👇\n\n#ButWhatDoesTheBibleSay #Bible #Jesus #shorts",
+  "tiktok": "\"Cleanliness is next to godliness\" isn't in the Bible 🧼 Stay to the end.\n\n📖 Matthew 15:20 · 1 John 1:7 (NKJV)\nWhat saying should we check next? 👇\n\n#ButWhatDoesTheBibleSay #ChristianTikTok #BibleTok #Jesus #Bible",
+  "instagram": "Not in the Bible: \"cleanliness is next to godliness.\" 🧼 Here's what Jesus actually said about clean hands and clean hearts.\n\n📖 Matthew 15:20 · 1 John 1:7 (NKJV)\nWhat saying should we check next? 👇\n\n#ButWhatDoesTheBibleSay #Bible #Jesus #BibleVerse #ChristianReels",
+  "pinned": "Next: \"Did Jesus even exist?\" Follow so you don't miss it 🙏",
+  "notes": "- Matthew 15:20 NKJV (verified on bible.com, version 114): \"These are the things which defile a man, but to eat with unwashed hands does not defile a man.\" Quoted from \"to eat\"; scroll shows … at the start. Context 15:1–2: scribes and Pharisees from Jerusalem ask why His disciples \"do not wash their hands when they eat bread\" (the tradition of the elders, a ritual washing). Jesus does not condemn hygiene; His point is that defilement comes from the heart (15:18–19).\n- 1 John 1:7 NKJV (verified): \"But if we walk in the light as He is in the light, we have fellowship with one another, and the blood of Jesus Christ His Son cleanses us from all sin.\" Quoted from \"the blood\"; scroll shows … at the start.\n- Origin: John Wesley, Sermon 88 'On Dress' (1780s) and the 1779 Methodist Minutes: \"Cleanliness is, indeed, next to godliness.\" He put it in quotation marks, so he was quoting an existing proverb; hence 'made famous', not 'invented'.\n- 'Only Jesus can clean a heart': summary, not in quotes (cf. 1 John 1:7; Psalm 51:10)."
+ }
+}
