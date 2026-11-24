@@ -10,7 +10,7 @@ Each role below is a step. The Fact-checker is a SEPARATE agent that has not see
 - No season/episode numbers. No "Illustrative scene" labels. No ElevenLabs or Thomas Nelson lines in captions.
 - Format A (question): Skeptic hook → Friend "Fair question." → scroll(s) → twist → Jesus → Skeptic "Hm." → Friend "Follow so you don't miss the next one."
 - Format B (myth): Friend/narrator: "The Bible never says…" (myth card with red X) → "Stay to the end" → scroll → where the myth came from → Jesus → "Follow so you don't miss the next one."
-- Length: 25–30 seconds (friend/narrator 55–65 words). Hooks punchy, spoken in the first second. (Abundance tried 50 s on 23 Nov 2026, then said: keep the short ones until he says otherwise.)
+- Length: 50–60 seconds (friend/narrator 125–150 words, skeptic up to ~20). Hooks punchy, spoken in the first second; give the hook, the story and the Jesus beat room to breathe, but cut any line that doesn't earn its place. (Abundance, 24 Nov 2026: back to 50–60 s now that the free voices remove the credit limit.)
 - Hook styles (rotate; pick the one that fits the topic):
   - Story hook: open inside the Bible story, present tense, like a storyteller ("A prophet gets a direct order from God. And he buys a ticket the other way.").
   - Science/history fact hook: open with a surprising, well-established fact that leads into the topic ("This scroll sat in a cave for 2,000 years."). Only mainstream, verifiable science or archaeology; never claim "the Bible predicted science" or stretch a verse to fit a discovery. The Fact-checker checks these like any historical claim.
@@ -19,10 +19,12 @@ Each role below is a step. The Fact-checker is a SEPARATE agent that has not see
 - Scripture references must be easy to read: the scroll shows the reference badge (book, chapter and verse) large, from the moment the scroll opens until it closes, and every caption lists the references. (Viewer feedback, 23 Nov 2026: the old badge was too small and flashed too quickly.)
 - Say the reference out loud too: the spoken line names the book, chapter and verse right before each quote, in natural words ("Isaiah 40, verse 8 says:" / "In John 20, verse 18…"). Short form is fine ("Romans 6:23:"). This is part of the word count, so keep the rest tight. (Abundance, 23 Nov 2026.)
 - Explain for newcomers: assume the viewer has never read the Bible. In a few words each, say who people are and where/when it happened ("Nineveh, the capital-to-be of Assyria, Israel's enemy"; "Paul, who wrote much of the New Testament"). Name the book in plain words before the reference. No church jargon without a 3–5 word explanation.
-- Voices: Skeptic = Chad (wiy1Gg8ir59Wz8fJAOFD), Friend/narrator = Jerry B. (zDBYcuJrpuZ6YQ7AgRUw), model eleven_v4, generations_count 1.
+- Voices, per video:
+  - ElevenLabs when credits allow (cost + 300 spare): Skeptic = Chad (wiy1Gg8ir59Wz8fJAOFD), Friend/narrator = Jerry B. (zDBYcuJrpuZ6YQ7AgRUw), model eleven_v4, generations_count 1. A 50–60 s video costs about 900 credits.
+  - Otherwise the free Kokoro voices (Abundance's pick, 24 Nov 2026): Skeptic = am_puck, Friend/narrator = am_fenrir, made by `python3 pipeline/kokoro_voice.py scripts/qNN` (no credits, no Drive step). Credits never limit the number of videos: the day always gets its full 3.
 
 ## 1. Researcher
-- Take the next `queued` topics from topics.json (as many as the day needs; check ElevenLabs credits first: ~450 credits per video, keep 300 spare; make fewer videos if credits are short and say so).
+- Take the next `queued` topics from topics.json (3 a day). Check ElevenLabs credits first (~900 per 50–60 s video, keep 300 spare) to decide which videos get ElevenLabs voices and which get Kokoro; say which in the report.
 - For each: read the passage in its chapter, find the 1–2 key verses, fetch the exact NKJV wording from a Bible site (bible.com NKJV = version 114). Note what history supports and where Christians disagree.
 
 ## 2. Writer (hooks)
@@ -35,7 +37,8 @@ Each role below is a step. The Fact-checker is a SEPARATE agent that has not see
 
 ## 4. Producer
 - Skeptic file (all skep beats in order, "[long pause] [thoughtful] Hm." last) and Friend file (all friend beats, blank line, then the Follow line). One generation each.
-- Move each file: Zapier Google Drive "Upload File" (connection abundancetswina@gmail.com) with the ElevenLabs full_res_url → Google Drive download_file_content → save as skep.mp3 / friend.mp3 (narr.mp3 for format B).
+- Kokoro instead (when credits are short): `python3 pipeline/kokoro_voice.py scripts/qNN` writes skep.mp3 / friend.mp3 / narr.mp3 directly (first use in a run installs kokoro-onnx and downloads the ~350 MB model from GitHub). Skip the Drive step.
+- ElevenLabs files: move each file: Zapier Google Drive "Upload File" (connection abundancetswina@gmail.com) with the ElevenLabs full_res_url → Google Drive download_file_content → save as skep.mp3 / friend.mp3 (narr.mp3 for format B).
 - Run `python3 make_quick.py <dir>`. Look at out/qa_sheet.jpg and the cover before passing it on.
 
 ## 4b. Trends agent (hashtags + timing)
