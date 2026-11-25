@@ -1,0 +1,209 @@
+{
+ "id": "q19",
+ "slug": "Satan_Horns_And_Pitchfork",
+ "name": "The Bible Never Says Satan Is a Horned Man With a Pitchfork",
+ "format": "B",
+ "key": "A",
+ "titleFrames": 90,
+ "title": {
+  "theme": "royal",
+  "top": 300,
+  "kicker": "THE BIBLE NEVER SAYS",
+  "lines": [
+   {
+    "text": "SATAN IS A",
+    "size": 120
+   },
+   {
+    "text": "HORNED MAN WITH",
+    "size": 104
+   },
+   {
+    "text": "A PITCHFORK",
+    "color": "gold",
+    "size": 124
+   }
+  ],
+  "crossed": "Ψ"
+ },
+ "keywords": [
+  "satan",
+  "horns",
+  "pitchfork",
+  "angel",
+  "light",
+  "paul",
+  "medieval",
+  "art",
+  "lion",
+  "devour",
+  "peter",
+  "jesus",
+  "destroy",
+  "devil",
+  "follow"
+ ],
+ "beats": [
+  {
+   "who": "narr",
+   "say": "The Bible never says Satan is a horned man with a pitchfork.",
+   "clip": "night_room"
+  },
+  {
+   "who": "narr",
+   "say": "Stay to the end.",
+   "clip": "night_room",
+   "myth": "A HORNED MAN WITH A PITCHFORK"
+  },
+  {
+   "who": "narr",
+   "say": "A cartoon devil is easy to laugh off. The Bible is darker.",
+   "clip": "night_room",
+   "show": [
+    {
+     "big": "EASY TO LAUGH OFF.",
+     "size": 96
+    },
+    {
+     "big": "THE BIBLE IS DARKER.",
+     "color": "gold",
+     "size": 96,
+     "on": "darker"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "Paul, who wrote much of the New Testament, says in Second Corinthians 11, verse 14:",
+   "clip": "town_star",
+   "show": [
+    {
+     "pill": "PAUL · WROTE MUCH OF THE NEW TESTAMENT",
+     "bg": "#7a6a9c",
+     "on": "paul"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "\"Satan himself transforms himself into an angel of light.\"",
+   "clip": "town_star",
+   "scroll": {
+    "text": "\"…Satan himself transforms himself into an angel of light.\"",
+    "ref": "2 CORINTHIANS 11:14 NKJV",
+    "hot": "^(Satan|transforms|angel|light)$"
+   }
+  },
+  {
+   "who": "narr",
+   "say": "Not ugly. Attractive. Deception that looks good.",
+   "clip": "town_star",
+   "show": [
+    {
+     "big": "NOT UGLY.",
+     "size": 120
+    },
+    {
+     "big": "ATTRACTIVE.",
+     "color": "gold",
+     "size": 130,
+     "on": "attractive"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "The horned man with a pitchfork comes from medieval European art. The Bible's last book shows a horned dragon, but as a symbol.",
+   "clip": "temple_night",
+   "show": [
+    {
+     "pill": "MEDIEVAL EUROPEAN ART",
+     "bg": "#7a3a3a",
+     "on": "medieval"
+    },
+    {
+     "pill": "REVELATION 12 · A SYMBOL",
+     "bg": "#3f6aa0",
+     "on": "dragon"
+    },
+    {
+     "big": "NOT A PORTRAIT.",
+     "color": "gold",
+     "size": 110,
+     "on": "symbol"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "Peter, one of Jesus' closest friends, warns in First Peter 5, verse 8:",
+   "clip": "storm_sea",
+   "show": [
+    {
+     "pill": "PETER · ONE OF THE TWELVE",
+     "bg": "#c0532e",
+     "on": "peter"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "\"Your adversary the devil walks about like a roaring lion, seeking whom he may devour.\"",
+   "clip": "storm_sea",
+   "scroll": {
+    "text": "\"…your adversary the devil walks about like a roaring lion, seeking whom he may devour.\"",
+    "ref": "1 PETER 5:8 NKJV",
+    "hot": "^(adversary|devil|roaring|lion|devour)$"
+   },
+   "show": [
+    {
+     "pill": "ADVERSARY = ENEMY",
+     "bg": "#3f6aa0",
+     "on": "adversary"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "But he is not the hero of this story. Jesus is. First John 3, verse 8:",
+   "clip": "jesus_sunset",
+   "jesus": true,
+   "show": [
+    {
+     "big": "NOT THE HERO.",
+     "size": 110
+    },
+    {
+     "big": "JESUS IS.",
+     "color": "gold",
+     "size": 140,
+     "on": "jesus"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "\"For this purpose the Son of God was manifested, that He might destroy the works of the devil.\"",
+   "clip": "tomb_risen",
+   "scroll": {
+    "text": "\"…For this purpose the Son of God was manifested, that He might destroy the works of the devil.\"",
+    "ref": "1 JOHN 3:8 NKJV",
+    "hot": "^(Son|God|manifested|destroy)$"
+   }
+  },
+  {
+   "who": "narr",
+   "say": "Follow so you don't miss the next one.",
+   "clip": "outro",
+   "end": true
+  }
+ ],
+ "post": {
+  "yt_title": "The Bible Never Says Satan Is a Horned Man With a Pitchfork 🔱 #shorts",
+  "yt_desc": "The Bible never says Satan is a horned man with a pitchfork. Its warning is darker. Paul writes: \"For Satan himself transforms himself into an angel of light\" (2 Corinthians 11:14 NKJV). Not ugly, attractive: deception that looks good.\n\nThe horned man with a pitchfork comes from medieval European art, centuries after the Bible was written. (Revelation 12 pictures him as a horned dragon, but that's a symbol, not a portrait.) Peter warns: \"your adversary the devil walks about like a roaring lion, seeking whom he may devour\" (1 Peter 5:8 NKJV).\n\nBut he is not the hero of the story. Jesus is: \"For this purpose the Son of God was manifested, that He might destroy the works of the devil\" (1 John 3:8 NKJV).\n\n📖 Read it yourself: 2 Corinthians 11:13–15 · 1 Peter 5:8–9 · 1 John 3:8 (NKJV)\n\nWhat myth should we check next? Tell us below 👇\n\n#ButWhatDoesTheBibleSay #Bible #Jesus #shorts",
+  "tiktok": "A horned man with a pitchfork? Not in the Bible. What it actually says is darker. Stay to the end 🔱\n\n📖 2 Corinthians 11:14 · 1 Peter 5:8 · 1 John 3:8 (NKJV)\nWhat myth should we check next? 👇\n\n#ButWhatDoesTheBibleSay #ChristianTikTok #BibleTok #Jesus #BibleMyths",
+  "instagram": "The Bible never pictures Satan as a horned man with a pitchfork. It warns he looks like \"an angel of light.\" 🔱\n\n📖 2 Corinthians 11:14 · 1 Peter 5:8 · 1 John 3:8 (NKJV)\nWhat myth should we check next? 👇\n\n#ButWhatDoesTheBibleSay #Bible #Jesus #BibleVerse #ChristianReels",
+  "pinned": "Next: \"Jesus was just a good teacher?\" Follow so you don't miss it 🙏",
+  "notes": "- 2 Corinthians 11:14 NKJV (bible.com v114): \"And no wonder! For Satan himself transforms himself into an angel of light.\" Quoted from \"Satan\"; scroll shows … at the start. Paul wrote 13 New Testament letters, so 'much of the New Testament'.\n- 1 Peter 5:8 NKJV: \"Be sober, be vigilant; because your adversary the devil walks about like a roaring lion, seeking whom he may devour.\" Quoted from \"your adversary\"; … at the start. The spoken line capitalizes 'Your' only because it starts the spoken sentence; the scroll keeps lower case.\n- 1 John 3:8 NKJV: \"He who sins is of the devil, for the devil has sinned from the beginning. For this purpose the Son of God was manifested, that He might destroy the works of the devil.\" Quoted the second sentence; … at the start.\n- Origin: the horned, pitchfork-carrying devil is a product of medieval European Christian art (roughly 9th century onward; e.g. Last Judgment scenes and manuscripts). Spoken line says only 'medieval European art' (horned devils appear in art from about the 9th-11th centuries). Revelation 12:3, 9 NKJV describes Satan as 'a great, fiery red dragon having seven heads and ten horns' (symbolic vision); the line mentions this without quoting it. Fact-checker fix, 25 Nov 2026. Some scholars link the horns and goat features to the Greek god Pan; not claimed here.\n- Rules: Satan is never shown in any form; scenes are night town, storm, temple, Jesus and the empty tomb."
+ }
+}

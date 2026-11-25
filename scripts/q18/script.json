@@ -1,0 +1,227 @@
+{
+ "id": "q18",
+ "slug": "Why_Did_God_Let_Job_Suffer",
+ "name": "Why Did God Let Job Suffer?",
+ "format": "A",
+ "key": "D",
+ "title": {
+  "theme": "night",
+  "top": 330,
+  "lines": [
+   {
+    "text": "WHY DID GOD",
+    "size": 124
+   },
+   {
+    "text": "LET JOB",
+    "size": 124
+   },
+   {
+    "text": "SUFFER?",
+    "color": "gold",
+    "size": 150
+   }
+  ]
+ },
+ "keywords": [
+  "job",
+  "suffer",
+  "everything",
+  "blameless",
+  "punishment",
+  "wrong",
+  "whirlwind",
+  "foundations",
+  "sees",
+  "jesus",
+  "suffered",
+  "unjust",
+  "god",
+  "follow"
+ ],
+ "beats": [
+  {
+   "who": "friend",
+   "say": "In one day, a man loses his wealth and all ten of his children.",
+   "clip": "storm_sea",
+   "show": [
+    {
+     "big": "IN ONE DAY",
+     "size": 110,
+     "on": "wealth"
+    },
+    {
+     "big": "HE LOST EVERYTHING.",
+     "color": "gold",
+     "size": 96,
+     "on": "children"
+    }
+   ]
+  },
+  {
+   "who": "skep",
+   "say": "So why did God let Job suffer?",
+   "clip": "stage_skeptic",
+   "show": [
+    {
+     "big": "WHY DID GOD",
+     "size": 104
+    },
+    {
+     "big": "LET JOB SUFFER?",
+     "color": "gold",
+     "size": 104,
+     "on": "job"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Fair question.",
+   "clip": "stage_both",
+   "show": [
+    {
+     "big": "FAIR QUESTION.",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Job lived long ago in Uz. The Book of Job, chapter 1, verse 1, says he was:",
+   "clip": "meadow",
+   "show": [
+    {
+     "pill": "JOB · THE LAND OF UZ",
+     "bg": "#7a6a9c",
+     "on": "uz"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "\"Blameless and upright, and one who feared God and shunned evil.\"",
+   "clip": "meadow",
+   "scroll": {
+    "text": "\"…blameless and upright, and one who feared God and shunned evil.\"",
+    "ref": "JOB 1:1 NKJV",
+    "hot": "^(blameless|upright|feared|shunned)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "It wasn't punishment, like his friends claimed. God says they were wrong.",
+   "clip": "temple_day",
+   "show": [
+    {
+     "big": "NOT PUNISHMENT.",
+     "color": "gold",
+     "size": 110,
+     "on": "punishment"
+    },
+    {
+     "pill": "HIS FRIENDS WERE WRONG",
+     "bg": "#c0532e",
+     "on": "wrong"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Job begs for answers. God answers from a whirlwind. Job 38, verse 4:",
+   "clip": "caravan_star",
+   "show": [
+    {
+     "pill": "GOD ANSWERS FROM A WHIRLWIND",
+     "bg": "#3f6aa0",
+     "on": "whirlwind"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "\"Where were you when I laid the foundations of the earth?\"",
+   "clip": "caravan_star",
+   "scroll": {
+    "text": "\"Where were you when I laid the foundations of the earth?…\"",
+    "ref": "JOB 38:4 NKJV",
+    "hot": "^(Where|foundations|earth)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "God never explains the why. He gives Job Himself. Job 42, verse 5:",
+   "clip": "meadow",
+   "show": [
+    {
+     "big": "NOT AN ANSWER.",
+     "size": 104
+    },
+    {
+     "big": "HIMSELF.",
+     "color": "gold",
+     "size": 140,
+     "on": "himself"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "\"I have heard of You by the hearing of the ear, but now my eye sees You.\"",
+   "clip": "meadow",
+   "scroll": {
+    "text": "\"I have heard of You by the hearing of the ear, But now my eye sees You.\"",
+    "ref": "JOB 42:5 NKJV",
+    "hot": "^(heard|eye|sees)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "Later, a truly innocent man suffered too. Jesus. First Peter 3, verse 18:",
+   "clip": "garden_night",
+   "jesus": true,
+   "show": [
+    {
+     "big": "AN INNOCENT MAN",
+     "size": 104
+    },
+    {
+     "big": "SUFFERED TOO.",
+     "color": "gold",
+     "size": 110,
+     "on": "suffered"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "\"Christ also suffered once for sins, the just for the unjust, that He might bring us to God.\"",
+   "clip": "jesus_sunset",
+   "scroll": {
+    "text": "\"…Christ also suffered once for sins, the just for the unjust, that He might bring us to God…\"",
+    "ref": "1 PETER 3:18 NKJV",
+    "hot": "^(Christ|suffered|just|unjust|God)$"
+   }
+  },
+  {
+   "who": "skep",
+   "say": "Hm.",
+   "clip": "outro",
+   "hm": true
+  },
+  {
+   "who": "friend",
+   "say": "Follow so you don't miss the next one.",
+   "clip": "outro",
+   "end": true
+  }
+ ],
+ "post": {
+  "yt_title": "Why Did God Let Job Suffer? 🌪️ #shorts",
+  "yt_desc": "In one day, Job lost his wealth and all ten of his children. So why did God let Job suffer? Fair question. The Book of Job says he was \"blameless and upright, and one who feared God and shunned evil\" (Job 1:1 NKJV). So it wasn't punishment: his friends said it was, and at the end God says they were wrong (Job 42:7).\n\nWhen Job begs for answers, God answers him out of a whirlwind: \"Where were you when I laid the foundations of the earth?\" (Job 38:4 NKJV). God never explains the why. He gives Job Himself: \"I have heard of You by the hearing of the ear, But now my eye sees You\" (Job 42:5 NKJV).\n\nLater, a truly innocent man suffered too: \"Christ also suffered once for sins, the just for the unjust, that He might bring us to God\" (1 Peter 3:18 NKJV).\n\n📖 Read it yourself: Job 1–2 · Job 38 · Job 42 · 1 Peter 3:18 (NKJV)\n\nWhat question should we answer next? Tell us below 👇\n\n#ButWhatDoesTheBibleSay #Bible #Jesus #shorts",
+  "tiktok": "Job lost everything in one day. Why did God let it happen? 🌪️\n\n📖 Job 1:1 · Job 38:4 · Job 42:5 · 1 Peter 3:18 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #ChristianTikTok #BibleTok #BookOfJob #Suffering",
+  "instagram": "God never told Job why. He gave Job Himself. 🌪️\n\n📖 Job 1:1 · Job 38:4 · Job 42:5 · 1 Peter 3:18 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #Bible #Jesus #BookOfJob #ChristianReels",
+  "pinned": "Next: \"Does the Bible say Satan is a horned man with a pitchfork?\" Follow so you don't miss it 🙏",
+  "notes": "- Job 1:1 NKJV (bible.com v114): \"There was a man in the land of Uz, whose name was Job; and that man was blameless and upright, and one who feared God and shunned evil.\" Quoted from \"blameless\"; scroll shows … at the start.\n- 'Ten children': Job 1:2 seven sons and three daughters; their deaths 1:18-19 (a great wind). Wealth lost 1:13-17, all in one day (1:13). Health is struck later (2:7), so the hook says wealth and children only.\n- 'His friends said it was punishment': e.g. Eliphaz, Job 4:7-8; 22:5. 'God says they were wrong': Job 42:7 (\"you have not spoken of Me what is right, as My servant Job has\"), summarized, not quoted.\n- Job 38:1 the LORD answers Job out of the whirlwind; Job 38:4 NKJV: \"Where were you when I laid the foundations of the earth? Tell Me, if you have understanding.\" Quoted first sentence; scroll ends with ….\n- Job 42:5 NKJV: \"I have heard of You by the hearing of the ear, But now my eye sees You.\" Full verse.\n- 1 Peter 3:18 NKJV: \"For Christ also suffered once for sins, the just for the unjust, that He might bring us to God, being put to death in the flesh but made alive by the Spirit,\" Quoted from \"Christ\" to \"God\"; … at both ends.\n- God the Father is not depicted: the whirlwind is shown as a storm only. Satan (Job 1-2) is not mentioned or shown."
+ }
+}

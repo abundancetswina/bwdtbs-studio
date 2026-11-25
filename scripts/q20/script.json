@@ -1,0 +1,226 @@
+{
+ "id": "q20",
+ "slug": "Jesus_Was_Just_A_Good_Teacher",
+ "name": "Jesus Was Just a Good Teacher?",
+ "format": "A",
+ "key": "G",
+ "title": {
+  "theme": "sunset",
+  "top": 330,
+  "lines": [
+   {
+    "text": "JESUS WAS",
+    "size": 124
+   },
+   {
+    "text": "JUST A GOOD",
+    "size": 124
+   },
+   {
+    "text": "TEACHER?",
+    "color": "gold",
+    "size": 150
+   }
+  ]
+ },
+ "keywords": [
+  "jesus",
+  "teacher",
+  "good",
+  "lewis",
+  "narnia",
+  "himself",
+  "way",
+  "truth",
+  "life",
+  "forgive",
+  "sins",
+  "god",
+  "who",
+  "follow"
+ ],
+ "beats": [
+  {
+   "who": "friend",
+   "say": "The man who wrote Narnia said there's one thing you can't say about Jesus.",
+   "clip": "town_star",
+   "show": [
+    {
+     "pill": "C.S. LEWIS · AUTHOR OF NARNIA",
+     "bg": "#7a6a9c",
+     "on": "narnia"
+    },
+    {
+     "big": "ONE THING YOU CAN'T SAY.",
+     "color": "gold",
+     "size": 90,
+     "on": "jesus"
+    }
+   ]
+  },
+  {
+   "who": "skep",
+   "say": "That He was just a good teacher?",
+   "clip": "stage_skeptic",
+   "show": [
+    {
+     "big": "JUST A",
+     "size": 120
+    },
+    {
+     "big": "GOOD TEACHER?",
+     "color": "gold",
+     "size": 120,
+     "on": "good"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Fair question.",
+   "clip": "stage_both",
+   "show": [
+    {
+     "big": "FAIR QUESTION.",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Good teachers point away from themselves. Jesus points to Himself. John 14, verse 6:",
+   "clip": "jesus_crowd",
+   "show": [
+    {
+     "big": "HE POINTS",
+     "size": 120
+    },
+    {
+     "big": "TO HIMSELF.",
+     "color": "gold",
+     "size": 120,
+     "on": "himself"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "\"I am the way, the truth, and the life. No one comes to the Father except through Me.\"",
+   "clip": "jesus_crowd",
+   "scroll": {
+    "text": "\"I am the way, the truth, and the life. No one comes to the Father except through Me.\"",
+    "ref": "JOHN 14:6 NKJV",
+    "hot": "^(way|truth|life|Me)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "In Mark 2, He tells a paralyzed man his sins are forgiven. Religious teachers are shocked. Mark 2, verse 7:",
+   "clip": "town_star",
+   "show": [
+    {
+     "pill": "A PARALYZED MAN · CAPERNAUM",
+     "bg": "#2e8a56",
+     "on": "paralyzed"
+    },
+    {
+     "big": "SINS FORGIVEN.",
+     "color": "gold",
+     "size": 110,
+     "on": "forgiven"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "\"Who can forgive sins but God alone?\"",
+   "clip": "angry_crowd",
+   "scroll": {
+    "text": "\"…Who can forgive sins but God alone?\"",
+    "ref": "MARK 2:7 NKJV",
+    "hot": "^(forgive|sins|God|alone)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "Then He heals the man to prove it.",
+   "clip": "town_star",
+   "show": [
+    {
+     "big": "HE HEALS HIM.",
+     "color": "gold",
+     "size": 120,
+     "on": "heals"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Lewis said a mere man who talked like that wouldn't be a great teacher. He'd be a madman, or worse. Or He is who He says.",
+   "clip": "jesus_sunset",
+   "show": [
+    {
+     "big": "A MADMAN?",
+     "size": 110,
+     "on": "madman"
+    },
+    {
+     "big": "OR WHO HE SAYS.",
+     "color": "gold",
+     "size": 110,
+     "on": "says"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Jesus asks you what He asked His friends. Matthew 16, verses 15 and 16:",
+   "clip": "jesus_sunset",
+   "jesus": true,
+   "show": [
+    {
+     "pill": "JESUS ASKS HIS DISCIPLES",
+     "bg": "#c0532e",
+     "on": "asks"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "\"But who do you say that I am?\" Peter answered: \"You are the Christ, the Son of the living God.\"",
+   "clip": "jesus_sunset",
+   "scroll": {
+    "text": "\"But who do you say that I am?\" … \"You are the Christ, the Son of the living God.\"",
+    "ref": "MATTHEW 16:15–16 NKJV",
+    "hot": "^(who|Christ|Son|living|God)$"
+   },
+   "show": [
+    {
+     "pill": "PETER · ONE OF THE TWELVE",
+     "bg": "#c0532e",
+     "on": "peter"
+    }
+   ]
+  },
+  {
+   "who": "skep",
+   "say": "Hm.",
+   "clip": "outro",
+   "hm": true
+  },
+  {
+   "who": "friend",
+   "say": "Follow so you don't miss the next one.",
+   "clip": "outro",
+   "end": true
+  }
+ ],
+ "post": {
+  "yt_title": "Jesus Was Just a Good Teacher? C.S. Lewis Said No 📖 #shorts",
+  "yt_desc": "C.S. Lewis, the author of Narnia, said there's one thing you can't say about Jesus: that He was just a good teacher. Good teachers point away from themselves. Jesus points to Himself: \"I am the way, the truth, and the life. No one comes to the Father except through Me\" (John 14:6 NKJV).\n\nWhen He tells a paralyzed man his sins are forgiven, the religious teachers ask: \"Who can forgive sins but God alone?\" (Mark 2:7 NKJV). Lewis argued (Mere Christianity) that a mere man who said such things wouldn't be a great moral teacher; he'd be a madman, or worse, or He is who He says.\n\nSo Jesus asks you what He asked His disciples: \"But who do you say that I am?\" Peter answered: \"You are the Christ, the Son of the living God\" (Matthew 16:15–16 NKJV).\n\n📖 Read it yourself: John 14:6 · Mark 2:1–12 · Matthew 16:13–16 (NKJV)\n\nWhat question should we answer next? Tell us below 👇\n\n#ButWhatDoesTheBibleSay #Jesus #CSLewis #shorts",
+  "tiktok": "\"Jesus was just a good teacher.\" C.S. Lewis said that's the one thing you can't say 📖\n\n📖 John 14:6 · Mark 2:7 · Matthew 16:15–16 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #ChristianTikTok #Jesus #Apologetics #CSLewis",
+  "instagram": "Good teachers point away from themselves. Jesus pointed to Himself. 📖\n\n📖 John 14:6 · Mark 2:7 · Matthew 16:15–16 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #Jesus #Apologetics #CSLewis #ChristianReels",
+  "pinned": "Next: \"Why does Israel matter so much in the Bible?\" Follow so you don't miss it 🙏",
+  "notes": "- C.S. Lewis (author of The Chronicles of Narnia), Mere Christianity (1952), Book 2, ch. 3: he writes to prevent people saying they accept Jesus 'as a great moral teacher' but not His claim to be God; a mere man who said what Jesus said 'would not be a great moral teacher' but either a lunatic or 'the Devil of Hell', or else He is the Son of God. Paraphrased, never in quote marks ('madman, or worse'). The 'liar, lunatic, Lord' wording is a later popularization and is not used.\n- John 14:6 NKJV (bible.com v114): \"Jesus said to him, “I am the way, the truth, and the life. No one comes to the Father except through Me.\" Quoted Jesus' words in full.\n- Mark 2:5 NKJV: \"Son, your sins are forgiven you.\" Spoken line quotes the short phrase \"your sins are forgiven\" (partial, in quotes; it is not on a scroll). Setting: Capernaum (Mark 2:1). The objectors are 'some of the scribes' (2:6), i.e. religious teachers.\n- Mark 2:7 NKJV: \"Why does this Man speak blasphemies like this? Who can forgive sins but God alone?\" Quoted the second question; … at the start.\n- Matthew 16:15 NKJV: \"He said to them, “But who do you say that I am?”\" Quoted Jesus' words in full. Spoken to His disciples (16:13).\n- 'He heals the man to prove it': Mark 2:10-12 (\"Arise, take up your bed, and go to your house.\" Immediately he arose...). Paraphrased, no quote marks.\n- Matthew 16:16 NKJV: \"Simon Peter answered and said, “You are the Christ, the Son of the living God.”\" Quoted Peter's words in full; scroll joins 16:15 and 16:16 with … between."
+ }
+}
