@@ -74,5 +74,69 @@
  "storm_sea": {
   "frames": 142,
   "desc": "A ship in a stormy dark sea"
+ },
+ "tent_stars": {
+  "frames": 300,
+  "desc": "Abraham outside his tent at night under a sky full of stars (Abraham, God's promise, patriarchs, nomad life)"
+ },
+ "well_noon": {
+  "frames": 300,
+  "desc": "Jesus talking with a woman at a stone well in Samaria at midday (John 4, Samaritans, living water, outsiders welcomed)"
+ },
+ "lion_prowl": {
+  "frames": 300,
+  "desc": "A lion prowling across red rocks at dusk (1 Peter 5:8 \"roaring lion\", danger, temptation, Daniel, Samson)"
+ },
+ "rome_forum": {
+  "frames": 300,
+  "desc": "Roman city forum with columns, red banners and officials in togas, golden afternoon (Rome, emperors, Pilate, Roman historians, the year 336)"
+ },
+ "scribe_room": {
+  "frames": 300,
+  "desc": "A writer (Paul or a Gospel writer) writing a scroll by oil-lamp light, shelves of scrolls behind (who wrote the Bible, letters, Gospels, old manuscripts)"
+ },
+ "galilee_boat": {
+  "frames": 300,
+  "desc": "Fishermen in a wooden boat on a calm lake at dawn, hills behind (Sea of Galilee, Peter, disciples, calling, fishing)"
+ },
+ "sinai_mountain": {
+  "frames": 300,
+  "desc": "Moses with his staff before a great mountain wrapped in cloud and light (Sinai, the law, Ten Commandments, Deuteronomy; God shown only as light)"
+ },
+ "three_crosses": {
+  "frames": 300,
+  "desc": "Three empty wooden crosses on a hill outside Jerusalem at sunset (the cross, Jesus died for sins, Good Friday; no people, no violence)"
+ },
+ "shepherds_night": {
+  "frames": 300,
+  "desc": "Shepherds with their sheep in a field at night as an angel appears in bright light (Luke 2, Christmas, the good news, Bethlehem fields)"
+ },
+ "jerusalem_gate": {
+  "frames": 300,
+  "desc": "Jerusalem city wall and gate in the morning with travellers and elders (Jerusalem, Israel's leaders, Acts, arriving in the city)"
+ },
+ "modern_room": {
+  "frames": 300,
+  "desc": "Modern-day room at night: a young man on a sofa scrolling his phone, city lights in the window (today, \"you\", modern questions, social media)"
+ },
+ "world_families": {
+  "frames": 300,
+  "desc": "People of many nations and skin tones standing together on a hill at sunrise (all nations, \"all the families of the earth\", everyone, the gospel for the world)"
+ },
+ "moriah_walk": {
+  "frames": 300,
+  "desc": "Abraham and young Isaac walking up a mountain path at dawn, Isaac carrying firewood, a ram caught in a bush nearby (Genesis 22, Moriah, faith tested, \"God will provide\"; no knife, no violence)"
+ },
+ "cosmos_space": {
+  "frames": 300,
+  "desc": "Deep space: a galaxy, glowing nebula and planets drifting past (creation, \"who made God?\", the universe had a beginning, Psalm 19 \"the heavens declare\")"
+ },
+ "prodigal_return": {
+  "frames": 300,
+  "desc": "A father running with open arms to welcome his returning son on a country road at sunset (Luke 15, forgiveness, grace, coming home to God)"
+ },
+ "noah_ark": {
+  "frames": 300,
+  "desc": "Noah's ark resting on calm water after the flood, a rainbow in the sky and a dove flying (Genesis 6-9, the flood, God's promise, judgment and rescue)"
  }
 }

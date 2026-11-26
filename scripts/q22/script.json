@@ -10,34 +10,178 @@
   "top": 300,
   "kicker": "THE BIBLE NEVER SAYS",
   "lines": [
-   {"text": "JESUS WAS", "size": 124},
-   {"text": "BORN ON", "size": 124},
-   {"text": "25 DECEMBER", "color": "gold", "size": 124}
+   {
+    "text": "JESUS WAS",
+    "size": 124
+   },
+   {
+    "text": "BORN ON",
+    "size": 124
+   },
+   {
+    "text": "25 DECEMBER",
+    "color": "gold",
+    "size": 124
+   }
   ],
   "crossed": "25"
  },
- "keywords": ["december", "25th", "date", "matthew", "luke", "month", "rome", "336", "historians", "savior", "christ", "son", "came", "follow"],
+ "keywords": [
+  "december",
+  "25th",
+  "date",
+  "matthew",
+  "luke",
+  "month",
+  "rome",
+  "336",
+  "historians",
+  "savior",
+  "christ",
+  "son",
+  "came",
+  "follow"
+ ],
  "beats": [
-  {"who": "narr", "say": "The Bible never says Jesus was born on December 25th. So who picked the date?", "clip": "town_star"},
-  {"who": "narr", "say": "Stay to the end.", "clip": "town_star", "myth": "BORN ON 25 DECEMBER"},
-  {"who": "narr", "say": "Matthew and Luke, the two books that tell His birth, give no date. Not even a month.", "clip": "manger",
-   "show": [{"big": "NO DATE.", "size": 140, "on": "date"}, {"big": "NOT EVEN A MONTH.", "color": "gold", "size": 100, "on": "month"}]},
-  {"who": "narr", "say": "The first record of a December 25th Christmas comes from Rome, for the year 336. Three centuries later.", "clip": "temple_night",
-   "show": [{"pill": "ROME · AD 336", "bg": "#7a3a3a", "on": "rome"}, {"big": "300 YEARS LATER.", "color": "gold", "size": 110, "on": "centuries"}]},
-  {"who": "narr", "say": "Why that day? Historians still argue. Some point to a Roman sun festival. Others to early Christian date math.", "clip": "temple_night",
-   "show": [{"big": "HISTORIANS", "size": 110}, {"big": "STILL ARGUE.", "color": "gold", "size": 120, "on": "argue"}]},
-  {"who": "narr", "say": "The date was never the point. The birth was. Luke 2, verse 11:", "clip": "caravan_star", "jesus": true,
-   "show": [{"pill": "AN ANGEL TO SHEPHERDS", "bg": "#3f6aa0", "on": "luke"}]},
-  {"who": "narr", "say": "\"For there is born to you this day in the city of David a Savior, who is Christ the Lord.\"", "clip": "manger",
-   "scroll": {"text": "\"For there is born to you this day in the city of David a Savior, who is Christ the Lord.\"", "ref": "LUKE 2:11 NKJV", "hot": "^(born|Savior|Christ|Lord)$"},
-   "show": [{"pill": "CITY OF DAVID = BETHLEHEM", "bg": "#2e8a56", "on": "david"}]},
-  {"who": "narr", "say": "Paul says He came right on time. Galatians 4, verse 4:", "clip": "house_child",
-   "show": [{"pill": "PAUL · WROTE MUCH OF THE NEW TESTAMENT", "bg": "#7a6a9c", "on": "paul"}]},
-  {"who": "narr", "say": "\"When the fullness of the time had come, God sent forth His Son, born of a woman.\"", "clip": "house_child",
-   "scroll": {"text": "\"…when the fullness of the time had come, God sent forth His Son, born of a woman…\"", "ref": "GALATIANS 4:4 NKJV", "hot": "^(fullness|time|sent|Son)$"}},
-  {"who": "narr", "say": "So enjoy the 25th. Just don't miss who came.", "clip": "jesus_sunset",
-   "show": [{"big": "DON'T MISS", "size": 120}, {"big": "WHO CAME.", "color": "gold", "size": 140, "on": "who"}]},
-  {"who": "narr", "say": "Follow so you don't miss the next one.", "clip": "outro", "end": true}
+  {
+   "who": "narr",
+   "say": "The Bible never says Jesus was born on December 25th. So who picked the date?",
+   "clip": "town_star"
+  },
+  {
+   "who": "narr",
+   "say": "Stay to the end.",
+   "clip": "town_star",
+   "myth": "BORN ON 25 DECEMBER"
+  },
+  {
+   "who": "narr",
+   "say": "Matthew and Luke, the two books that tell His birth, give no date. Not even a month.",
+   "clip": "manger",
+   "show": [
+    {
+     "big": "NO DATE.",
+     "size": 140,
+     "on": "date"
+    },
+    {
+     "big": "NOT EVEN A MONTH.",
+     "color": "gold",
+     "size": 100,
+     "on": "month"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "The first record of a December 25th Christmas comes from Rome, for the year 336. Three centuries later.",
+   "clip": "rome_forum",
+   "show": [
+    {
+     "pill": "ROME · AD 336",
+     "bg": "#7a3a3a",
+     "on": "rome"
+    },
+    {
+     "big": "300 YEARS LATER.",
+     "color": "gold",
+     "size": 110,
+     "on": "centuries"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "Why that day? Historians still argue. Some point to a Roman sun festival. Others to early Christian date math.",
+   "clip": "temple_night",
+   "show": [
+    {
+     "big": "HISTORIANS",
+     "size": 110
+    },
+    {
+     "big": "STILL ARGUE.",
+     "color": "gold",
+     "size": 120,
+     "on": "argue"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "The date was never the point. The birth was. Luke 2, verse 11:",
+   "clip": "shepherds_night",
+   "jesus": true,
+   "show": [
+    {
+     "pill": "AN ANGEL TO SHEPHERDS",
+     "bg": "#3f6aa0",
+     "on": "luke"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "\"For there is born to you this day in the city of David a Savior, who is Christ the Lord.\"",
+   "clip": "shepherds_night",
+   "scroll": {
+    "text": "\"For there is born to you this day in the city of David a Savior, who is Christ the Lord.\"",
+    "ref": "LUKE 2:11 NKJV",
+    "hot": "^(born|Savior|Christ|Lord)$"
+   },
+   "show": [
+    {
+     "pill": "CITY OF DAVID = BETHLEHEM",
+     "bg": "#2e8a56",
+     "on": "david"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "Paul says He came right on time. Galatians 4, verse 4:",
+   "clip": "scribe_room",
+   "show": [
+    {
+     "pill": "PAUL · WROTE MUCH OF THE NEW TESTAMENT",
+     "bg": "#7a6a9c",
+     "on": "paul"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "\"When the fullness of the time had come, God sent forth His Son, born of a woman.\"",
+   "clip": "house_child",
+   "scroll": {
+    "text": "\"…when the fullness of the time had come, God sent forth His Son, born of a woman…\"",
+    "ref": "GALATIANS 4:4 NKJV",
+    "hot": "^(fullness|time|sent|Son)$"
+   }
+  },
+  {
+   "who": "narr",
+   "say": "So enjoy the 25th. Just don't miss who came.",
+   "clip": "jesus_crowd",
+   "show": [
+    {
+     "big": "DON'T MISS",
+     "size": 120
+    },
+    {
+     "big": "WHO CAME.",
+     "color": "gold",
+     "size": 140,
+     "on": "who"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "Follow so you don't miss the next one.",
+   "clip": "outro",
+   "end": true
+  }
  ],
  "post": {
   "yt_title": "Was Jesus Born on 25 December? The Bible Never Says 🎄 #shorts",

@@ -15,7 +15,10 @@ KEYS = {
 }
 AMBIENCE = {"stage": "room", "jesus_crowd": "birds", "jesus_sunset": "crowd", "garden_night": "crickets", "temple_night": "crowd",
             "temple_day": "crowd", "manger": "crickets", "house_child": "room", "caravan_star": "wind", "town_star": "crickets",
-            "tomb_risen": "birds", "meadow": "birds", "angry_crowd": "crowd", "night_room": "crickets", "storm_sea": "storm", "outro": "room"}
+            "tomb_risen": "birds", "meadow": "birds", "angry_crowd": "crowd", "night_room": "crickets", "storm_sea": "storm", "outro": "room",
+            "tent_stars": "crickets", "well_noon": "wind", "lion_prowl": "wind", "rome_forum": "crowd", "scribe_room": "room", "galilee_boat": "wind",
+            "sinai_mountain": "wind", "three_crosses": "wind", "shepherds_night": "crickets", "jerusalem_gate": "crowd", "modern_room": "room", "world_families": "birds",
+            "moriah_walk": "wind", "cosmos_space": "room", "prodigal_return": "birds", "noah_ark": "wind"}
 
 
 def mix(voice_path, total, cuts, scrolls, stamps, ticks, jesus, end, hm, segs, key="D", seed=1, out="mix_raw.wav"):

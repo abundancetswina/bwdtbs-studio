@@ -74,7 +74,7 @@
   {
    "who": "friend",
    "say": "It starts with Abraham, an old man with no children, and a promise. Genesis 12, verse 3:",
-   "clip": "caravan_star",
+   "clip": "tent_stars",
    "show": [
     {
      "pill": "ABRAHAM · ISRAEL'S FIRST FATHER",
@@ -92,7 +92,7 @@
   {
    "who": "friend",
    "say": "\"In you all the families of the earth shall be blessed.\"",
-   "clip": "caravan_star",
+   "clip": "tent_stars",
    "scroll": {
     "text": "\"…in you all the families of the earth shall be blessed.\"",
     "ref": "GENESIS 12:3 NKJV",
@@ -102,7 +102,7 @@
   {
    "who": "friend",
    "say": "Not just Israel. Everyone. Israel was chosen to carry a blessing for the world.",
-   "clip": "meadow",
+   "clip": "world_families",
    "show": [
     {
      "big": "NOT JUST ISRAEL.",
@@ -119,7 +119,7 @@
   {
    "who": "friend",
    "say": "But why them? Moses tells them straight. Deuteronomy 7, verse 7:",
-   "clip": "temple_day",
+   "clip": "sinai_mountain",
    "show": [
     {
      "pill": "MOSES · LEADER OF ISRAEL",
@@ -131,7 +131,7 @@
   {
    "who": "friend",
    "say": "\"The Lord did not set His love on you nor choose you because you were more in number than any other people, for you were the least of all peoples.\"",
-   "clip": "temple_day",
+   "clip": "sinai_mountain",
    "scroll": {
     "text": "\"The LORD did not set His love on you nor choose you because you were more in number than any other people, for you were the least of all peoples…\"",
     "ref": "DEUTERONOMY 7:7 NKJV",
@@ -141,7 +141,7 @@
   {
    "who": "friend",
    "say": "Not chosen for being great. Chosen to bring something great.",
-   "clip": "town_star",
+   "clip": "caravan_star",
    "show": [
     {
      "big": "CHOSEN TO BRING",
@@ -176,7 +176,7 @@
   {
    "who": "friend",
    "say": "He told a Samaritan woman, in John 4, verse 22:",
-   "clip": "jesus_crowd",
+   "clip": "well_noon",
    "show": [
     {
      "pill": "JESUS TO A SAMARITAN WOMAN",
@@ -188,7 +188,7 @@
   {
    "who": "friend",
    "say": "\"We know what we worship, for salvation is of the Jews.\"",
-   "clip": "jesus_crowd",
+   "clip": "well_noon",
    "scroll": {
     "text": "\"…we know what we worship, for salvation is of the Jews.\"",
     "ref": "JOHN 4:22 NKJV",

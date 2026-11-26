@@ -76,7 +76,7 @@
   {
    "who": "friend",
    "say": "The world's religions don't just differ on rules. They give different answers about who God is, and who Jesus is.",
-   "clip": "temple_day",
+   "clip": "world_families",
    "show": [
     {
      "big": "DIFFERENT ANSWERS:",
@@ -94,7 +94,7 @@
   {
    "who": "friend",
    "say": "They can't all be true at once. And Jesus' first followers made a bold claim.",
-   "clip": "jesus_crowd",
+   "clip": "galilee_boat",
    "show": [
     {
      "big": "CAN'T ALL BE TRUE",
@@ -112,7 +112,7 @@
   {
    "who": "friend",
    "say": "Peter, one of Jesus' closest friends, told the leaders in Jerusalem, in Acts 4, verse 12:",
-   "clip": "temple_day",
+   "clip": "jerusalem_gate",
    "show": [
     {
      "pill": "PETER · BEFORE JERUSALEM'S LEADERS",
@@ -124,7 +124,7 @@
   {
    "who": "friend",
    "say": "\"Nor is there salvation in any other, for there is no other name under heaven given among men by which we must be saved.\"",
-   "clip": "angry_crowd",
+   "clip": "temple_day",
    "scroll": {
     "text": "\"Nor is there salvation in any other, for there is no other name under heaven given among men by which we must be saved.\"",
     "ref": "ACTS 4:12 NKJV",
@@ -134,7 +134,7 @@
   {
    "who": "friend",
    "say": "Here's the Bible's answer. We don't climb up to God. God came down.",
-   "clip": "meadow",
+   "clip": "sinai_mountain",
    "show": [
     {
      "big": "WE DON'T CLIMB UP.",
@@ -152,7 +152,7 @@
   {
    "who": "friend",
    "say": "John calls Jesus the Word. John 1, verse 14:",
-   "clip": "manger",
+   "clip": "scribe_room",
    "jesus": true,
    "show": [
     {
@@ -175,7 +175,7 @@
   {
    "who": "friend",
    "say": "Not a path to find God. God, coming to find you.",
-   "clip": "jesus_sunset",
+   "clip": "modern_room",
    "show": [
     {
      "big": "NOT A PATH TO GOD.",
