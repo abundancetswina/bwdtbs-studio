@@ -72,6 +72,7 @@ def mix(voice_path, total, cuts, scrolls, stamps, ticks, jesus, end, hm, segs, k
     while t0 < DUR:
         n = prog[k % 4]; d = 4.0 if t0 + 6 < DUR else DUR - t0
         place(music, pad([midi(m) for m in n[:4]], d + 1.2), t0, 0.26)
+        place(music, pad([midi(m + 12) for m in n[1:5]], d + 1.2, bright=2600), t0, 0.16)  # upper layer so phone speakers hear the chords
         place(music, pluck(midi(n[0] + 12), 2.4, 0.35), t0)
         for j, m in enumerate([n[3] + 12, n[4] + 12, n[2] + 12]): place(music, pluck(midi(m), 1.6, 0.2), t0 + 0.7 + j * 0.9)
         t0 += d; k += 1
@@ -99,8 +100,8 @@ def mix(voice_path, total, cuts, scrolls, stamps, ticks, jesus, end, hm, segs, k
 
     with wave.open(voice_path, "rb") as w: voice = np.frombuffer(w.readframes(w.getnframes()), np.int16).astype(np.float32) / 32768
     vb = np.zeros(N, np.float32); place(vb, voice, 0.0)
-    envv = np.convolve(np.abs(vb), np.ones(4800) / 4800, mode="same"); duck = 1 - 0.45 * np.clip(envv / (envv.max() + 1e-9) * 3, 0, 1)
-    m = vb + music * 0.22 * duck + sfx * 0.8 * (0.75 + 0.25 * duck)
+    envv = np.convolve(np.abs(vb), np.ones(4800) / 4800, mode="same"); duck = 1 - 0.30 * np.clip(envv / (envv.max() + 1e-9) * 3, 0, 1)
+    m = vb + music * 0.42 * duck  # louder bed (Abundance, 26 Nov 2026: music was inaudible) + sfx * 0.8 * (0.75 + 0.25 * duck)
     m *= np.minimum(1, (DUR - np.arange(N) / SR) / 0.8)
     m /= max(1e-6, np.abs(m).max()) / 0.9
     with wave.open(out, "w") as w:
