@@ -1,0 +1,50 @@
+{
+ "id": "q22",
+ "slug": "Jesus_Born_On_25_December",
+ "name": "The Bible Never Says Jesus Was Born on 25 December",
+ "format": "B",
+ "key": "G",
+ "titleFrames": 54,
+ "title": {
+  "theme": "night",
+  "top": 300,
+  "kicker": "THE BIBLE NEVER SAYS",
+  "lines": [
+   {"text": "JESUS WAS", "size": 124},
+   {"text": "BORN ON", "size": 124},
+   {"text": "25 DECEMBER", "color": "gold", "size": 124}
+  ],
+  "crossed": "25"
+ },
+ "keywords": ["december", "25th", "date", "matthew", "luke", "month", "rome", "336", "historians", "savior", "christ", "son", "came", "follow"],
+ "beats": [
+  {"who": "narr", "say": "The Bible never says Jesus was born on December 25th. So who picked the date?", "clip": "town_star"},
+  {"who": "narr", "say": "Stay to the end.", "clip": "town_star", "myth": "BORN ON 25 DECEMBER"},
+  {"who": "narr", "say": "Matthew and Luke, the two books that tell His birth, give no date. Not even a month.", "clip": "manger",
+   "show": [{"big": "NO DATE.", "size": 140, "on": "date"}, {"big": "NOT EVEN A MONTH.", "color": "gold", "size": 100, "on": "month"}]},
+  {"who": "narr", "say": "The first record of a December 25th Christmas comes from Rome, for the year 336. Three centuries later.", "clip": "temple_night",
+   "show": [{"pill": "ROME · AD 336", "bg": "#7a3a3a", "on": "rome"}, {"big": "300 YEARS LATER.", "color": "gold", "size": 110, "on": "centuries"}]},
+  {"who": "narr", "say": "Why that day? Historians still argue. Some point to a Roman sun festival. Others to early Christian date math.", "clip": "temple_night",
+   "show": [{"big": "HISTORIANS", "size": 110}, {"big": "STILL ARGUE.", "color": "gold", "size": 120, "on": "argue"}]},
+  {"who": "narr", "say": "The date was never the point. The birth was. Luke 2, verse 11:", "clip": "caravan_star", "jesus": true,
+   "show": [{"pill": "AN ANGEL TO SHEPHERDS", "bg": "#3f6aa0", "on": "luke"}]},
+  {"who": "narr", "say": "\"For there is born to you this day in the city of David a Savior, who is Christ the Lord.\"", "clip": "manger",
+   "scroll": {"text": "\"For there is born to you this day in the city of David a Savior, who is Christ the Lord.\"", "ref": "LUKE 2:11 NKJV", "hot": "^(born|Savior|Christ|Lord)$"},
+   "show": [{"pill": "CITY OF DAVID = BETHLEHEM", "bg": "#2e8a56", "on": "david"}]},
+  {"who": "narr", "say": "Paul says He came right on time. Galatians 4, verse 4:", "clip": "house_child",
+   "show": [{"pill": "PAUL · WROTE MUCH OF THE NEW TESTAMENT", "bg": "#7a6a9c", "on": "paul"}]},
+  {"who": "narr", "say": "\"When the fullness of the time had come, God sent forth His Son, born of a woman.\"", "clip": "house_child",
+   "scroll": {"text": "\"…when the fullness of the time had come, God sent forth His Son, born of a woman…\"", "ref": "GALATIANS 4:4 NKJV", "hot": "^(fullness|time|sent|Son)$"}},
+  {"who": "narr", "say": "So enjoy the 25th. Just don't miss who came.", "clip": "jesus_sunset",
+   "show": [{"big": "DON'T MISS", "size": 120}, {"big": "WHO CAME.", "color": "gold", "size": 140, "on": "who"}]},
+  {"who": "narr", "say": "Follow so you don't miss the next one.", "clip": "outro", "end": true}
+ ],
+ "post": {
+  "yt_title": "Was Jesus Born on 25 December? The Bible Never Says 🎄 #shorts",
+  "yt_desc": "The Bible never says Jesus was born on December 25th. Matthew and Luke, the two Gospels that tell His birth, give no date, not even a month. The first record of Christians marking 25 December comes from Rome, in a list for the year 336, about three centuries later. Why that day? Historians still debate it: some point to a Roman sun festival, others to early Christian date calculations.\n\nBut the date was never the point. The birth was: \"For there is born to you this day in the city of David a Savior, who is Christ the Lord\" (Luke 2:11 NKJV). \"But when the fullness of the time had come, God sent forth His Son, born of a woman\" (Galatians 4:4 NKJV).\n\n📖 Read it yourself: Matthew 1:18–2:12 · Luke 2:1–20 · Galatians 4:4–5 (NKJV)\n\nWhat myth should we check next? Tell us below 👇\n\n#ButWhatDoesTheBibleSay #Christmas #Jesus #shorts",
+  "tiktok": "December 25th isn't in the Bible. So who picked the date? Stay to the end 🎄\n\n📖 Luke 2:11 · Galatians 4:4 (NKJV)\nWhat myth should we check next? 👇\n\n#ButWhatDoesTheBibleSay #ChristianTikTok #Christmas #BibleTok #Jesus",
+  "instagram": "The Bible gives no date for Jesus' birth, not even a month. But it never misses the point: \"a Savior, who is Christ the Lord.\" 🎄\n\n📖 Luke 2:11 · Galatians 4:4 (NKJV)\nWhat myth should we check next? 👇\n\n#ButWhatDoesTheBibleSay #Christmas #Jesus #BibleVerse #ChristianReels",
+  "pinned": "Next: \"Don't all religions lead to God?\" Follow so you don't miss it 🙏",
+  "notes": "- No date or month for Jesus' birth in Matthew 1-2 or Luke 1-2 (the only two birth narratives).\n- Earliest record: the Chronograph (Calendar) of 354, compiled in Rome, whose Depositio Martyrum list (reflecting the year 336) begins with 'VIII kal. Ian. natus Christus in Betleem Iudeae' (25 December). Commonly summarized as the first record of a 25 December Nativity feast, for AD 336.\n- Origin debated: the 'History of Religions' theory (linked to the Roman sun festival, Sol Invictus / 25 Dec as winter solstice in the Julian calendar) vs the 'Calculation' theory (25 March conception + 9 months). Both stated as theories only.\n- Luke 2:11 NKJV (bible.com v114): \"For there is born to you this day in the city of David a Savior, who is Christ the Lord.\" Full verse. Spoken by an angel to shepherds near Bethlehem (Luke 2:8-10); 'city of David' = Bethlehem (Luke 2:4).\n- Galatians 4:4 NKJV: \"But when the fullness of the time had come, God sent forth His Son, born of a woman, born under the law,\" Quoted from \"when\" to \"woman\"; … at both ends.\n- 'Enjoy the 25th' is not a doctrinal claim; respectful of all Christmas traditions."
+ }
+}

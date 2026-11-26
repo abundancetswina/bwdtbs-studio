@@ -23,6 +23,16 @@ Each role below is a step. The Fact-checker is a SEPARATE agent that has not see
   - ElevenLabs when credits allow (cost + 300 spare): Skeptic = Chad (wiy1Gg8ir59Wz8fJAOFD), Friend/narrator = Jerry B. (zDBYcuJrpuZ6YQ7AgRUw), model eleven_v4, generations_count 1. A 50–60 s video costs about 900 credits.
   - Otherwise the free Kokoro voices (Abundance's pick, 24 Nov 2026): Skeptic = am_puck, Friend/narrator = am_fenrir, made by `python3 pipeline/kokoro_voice.py scripts/qNN` (no credits, no Drive step). Credits never limit the number of videos: the day always gets its full 3.
 
+## 10/10 checklist (Abundance, 26 Nov 2026; every video, checked before publishing)
+- Hook (first 1-2 s): one line of 6-12 words with tension (a question, a contradiction or a story in motion). Its on-screen words appear the moment the cover ends; the static cover lasts 0.8 s (format A, titleFrames default 24) or about 1.8 s (format B, titleFrames 54).
+- Open a loop early ("The answer surprises people." / "So who picked the date?" / "Stay to the end.") and pay it off; put a re-hook or twist line around the middle.
+- Visuals change at least every 3-4 s, and every scene matches its words (no ship for a desert story, no Jesus close-up under a line about the devil). If no library clip fits, use a neutral one (meadow, town_star, caravan_star), never a misleading one.
+- Never more than two text layers at once. A scroll shows the whole verse readable from the start (words light up as spoken), with the big reference badge.
+- Never describe other religions' beliefs beyond what is accurate and respectful; state the Bible's own claim instead of contrasting.
+- Sound: the music bed is clearly audible on a phone under the voice (music gain 0.42, ducking 30%, extra upper chord layer); Kokoro voices run at natural pace (no 1.08x speed-up) so 125-150 words lands at 50-60 s.
+- Ending: one payoff line pointing to Jesus, then the Follow line. Nothing after it.
+- Voices: Chatterbox and other Hugging Face/PyTorch-hosted voices cannot be downloaded in this workspace (blocked hosts); Kokoro stays the free voice.
+
 ## 1. Researcher
 - Take the next `queued` topics from topics.json (3 a day). Check ElevenLabs credits first (~900 per 50–60 s video, keep 300 spare) to decide which videos get ElevenLabs voices and which get Kokoro; say which in the report.
 - For each: read the passage in its chapter, find the 1–2 key verses, fetch the exact NKJV wording from a Bible site (bible.com NKJV = version 114). Note what history supports and where Christians disagree.
@@ -50,7 +60,7 @@ Each role below is a step. The Fact-checker is a SEPARATE agent that has not see
   Link: `https://raw.githubusercontent.com/abundancetswina/bwdtbs-studio/videos/<id>.mp4` (Buffer accepts it). Keep only the last 14 days of videos: when the branch passes ~600 MB, recreate it as an orphan with just the recent files and force-push that branch only.
 - Buffer organization "My Organization" (6687a54c840657ce002b6240). Channels: TikTok christian_animationss = 6af3495f62b70b94b0e4dbb3; Instagram christiananimationss = 6af34f8e62b70b94b0e55989 (metadata.instagram {type: reel, shouldShareToFeed: true}); YouTube Christian Animation = 6af3392e62b70b94b0e3de75 (metadata.youtube {title: yt_title (≤100 chars, ends with #shorts), categoryId: "27", privacy: public, madeForKids: false, notifySubscribers: true}; text = yt_desc). No first comments (paid feature).
 - FIRST THING each run (before any credits are spent): list Buffer posts with status scheduled. The free plan allows 10 scheduled at once; a full day is 8 (TikTok 3, Instagram 3, YouTube 2). If today's slots already have posts, make nothing today and just report that.
-- YouTube: Buffer allows at most 2 YouTube posts per day. Count YouTube posts already scheduled for today and fill only what is left, in series order (videos 1 and 2 first). A video that gets no YouTube slot is listed in the report so Abundance can upload it himself if he wants.
+- YouTube: Buffer allows at most 2 YouTube posts in any rolling 24 hours (seen 25 Nov 2026: posts failed with "daily posting limit for this channel has been reached"). Before scheduling, list the YouTube posts sent or scheduled in the last 24 h and make each new YouTube post at least 24 h 15 min after the post two before it; move a slot later if needed. Count YouTube posts already scheduled for today and fill only what is left, in series order (videos 1 and 2 first). A video that gets no YouTube slot is listed in the report so Abundance can upload it himself if he wants.
 - Times: pipeline/schedule.json, for today's weekday, South Africa time (+02:00). Video 1 → each platform's first slot, video 2 → second, video 3 → third. Mode customScheduled. Each platform gets its own caption, same video link.
 - A video the Fact-checker did not PASS goes to Buffer as a draft (saveToDraft) instead.
 - Never delete anything in Buffer, Drive or GitHub history without asking Abundance.

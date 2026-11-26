@@ -58,6 +58,7 @@ def main(d):
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", wav, "-ar", "44100", "-b:a", "128k", mp3], check=True)
         os.remove(wav)
         print(sp, VOICES[sp], "->", mp3)
+    json.dump({"engine": "kokoro", "voices": {sp: VOICES[sp] for sp in speakers}}, open(os.path.join(d, "voices.json"), "w"))
 
 
 if __name__ == "__main__":

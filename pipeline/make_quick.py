@@ -72,6 +72,8 @@ def fit_size(text, base):
 
 def main():
     d = os.path.abspath(sys.argv[1]); plan_only = "--plan-only" in sys.argv
+    if os.path.exists(os.path.join(d, "voices.json")) and json.load(open(os.path.join(d, "voices.json"))).get("engine") == "kokoro":
+        TEMPO.update({"friend": 1.0, "narr": 1.0})  # Kokoro already reads fast; no extra speed-up (26 Nov 2026)
     S = json.load(open(os.path.join(d, "script.json")))
     vid = S["id"]; slug = S["slug"]; work = os.path.join(d, "work"); outd = os.path.join(d, "out")
     os.makedirs(work, exist_ok=True); os.makedirs(outd, exist_ok=True)
@@ -125,7 +127,7 @@ def main():
         if segs and segs[-1]["clip"] == b["clip"]: segs[-1]["to"] = z
         else: segs.append({"from": a, "to": z, "clip": b["clip"], "clipFrames": lib[b["clip"]]["frames"]})
     cuts = [s["from"] for s in segs[1:]]
-    title_end = S.get("titleFrames", 36)
+    title_end = S.get("titleFrames", 24)  # short static cover: motion in the first second (26 Nov 2026)
 
     # ---- 4. on-screen items
     items = []; scroll_starts = []; stamps = []; ticks = []; jesus_at = []; end_at = None; hm_at = None

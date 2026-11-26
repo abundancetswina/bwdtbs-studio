@@ -1,0 +1,213 @@
+{
+ "id": "q23",
+ "slug": "Dont_All_Religions_Lead_To_God",
+ "name": "Don't All Religions Lead to God?",
+ "format": "A",
+ "key": "A",
+ "title": {
+  "theme": "dawn",
+  "top": 330,
+  "lines": [
+   {
+    "text": "DON'T ALL",
+    "size": 124
+   },
+   {
+    "text": "RELIGIONS LEAD",
+    "size": 110
+   },
+   {
+    "text": "TO GOD?",
+    "color": "gold",
+    "size": 150
+   }
+  ]
+ },
+ "keywords": [
+  "religions",
+  "god",
+  "same",
+  "kind",
+  "answers",
+  "jesus",
+  "true",
+  "peter",
+  "salvation",
+  "name",
+  "climb",
+  "came",
+  "down",
+  "word",
+  "flesh",
+  "find",
+  "you",
+  "follow"
+ ],
+ "beats": [
+  {
+   "who": "skep",
+   "say": "Don't all religions lead to the same God anyway?",
+   "clip": "stage_skeptic2",
+   "show": [
+    {
+     "big": "ALL RELIGIONS",
+     "size": 110,
+     "on": "religions"
+    },
+    {
+     "big": "SAME GOD?",
+     "color": "gold",
+     "size": 140,
+     "on": "same"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Fair question. It sounds kind. But there's a problem.",
+   "clip": "stage_both",
+   "show": [
+    {
+     "big": "FAIR QUESTION.",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "The world's religions don't just differ on rules. They give different answers about who God is, and who Jesus is.",
+   "clip": "temple_day",
+   "show": [
+    {
+     "big": "DIFFERENT ANSWERS:",
+     "size": 88,
+     "on": "different"
+    },
+    {
+     "big": "WHO IS JESUS?",
+     "color": "gold",
+     "size": 120,
+     "on": "jesus"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "They can't all be true at once. And Jesus' first followers made a bold claim.",
+   "clip": "jesus_crowd",
+   "show": [
+    {
+     "big": "CAN'T ALL BE TRUE",
+     "size": 92,
+     "on": "true"
+    },
+    {
+     "big": "AT ONCE.",
+     "color": "gold",
+     "size": 130,
+     "on": "once"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Peter, one of Jesus' closest friends, told the leaders in Jerusalem, in Acts 4, verse 12:",
+   "clip": "temple_day",
+   "show": [
+    {
+     "pill": "PETER · BEFORE JERUSALEM'S LEADERS",
+     "bg": "#c0532e",
+     "on": "peter"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "\"Nor is there salvation in any other, for there is no other name under heaven given among men by which we must be saved.\"",
+   "clip": "angry_crowd",
+   "scroll": {
+    "text": "\"Nor is there salvation in any other, for there is no other name under heaven given among men by which we must be saved.\"",
+    "ref": "ACTS 4:12 NKJV",
+    "hot": "^(salvation|other|name|saved)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "Here's the Bible's answer. We don't climb up to God. God came down.",
+   "clip": "meadow",
+   "show": [
+    {
+     "big": "WE DON'T CLIMB UP.",
+     "size": 90,
+     "on": "climb"
+    },
+    {
+     "big": "GOD CAME DOWN.",
+     "color": "gold",
+     "size": 100,
+     "on": "came"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "John calls Jesus the Word. John 1, verse 14:",
+   "clip": "manger",
+   "jesus": true,
+   "show": [
+    {
+     "pill": "THE WORD = JESUS",
+     "bg": "#3f6aa0",
+     "on": "word"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "\"And the Word became flesh and dwelt among us.\"",
+   "clip": "manger",
+   "scroll": {
+    "text": "\"And the Word became flesh and dwelt among us…\"",
+    "ref": "JOHN 1:14 NKJV",
+    "hot": "^(Word|flesh|dwelt|us)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "Not a path to find God. God, coming to find you.",
+   "clip": "jesus_sunset",
+   "show": [
+    {
+     "big": "NOT A PATH TO GOD.",
+     "size": 96
+    },
+    {
+     "big": "GOD FINDING YOU.",
+     "color": "gold",
+     "size": 116,
+     "on": "find"
+    }
+   ]
+  },
+  {
+   "who": "skep",
+   "say": "Hm.",
+   "clip": "outro",
+   "hm": true
+  },
+  {
+   "who": "friend",
+   "say": "Follow so you don't miss the next one.",
+   "clip": "outro",
+   "end": true
+  }
+ ],
+ "post": {
+  "yt_title": "Don't All Religions Lead to God? 🤔 #shorts",
+  "yt_desc": "\"Don't all religions lead to the same God?\" Fair question. It sounds kind. But the world's religions don't just differ on rules; they give different answers about who God is and who Jesus is, and they can't all be true at once.\n\nJesus' first followers made a bold claim. Peter told the leaders in Jerusalem: \"Nor is there salvation in any other, for there is no other name under heaven given among men by which we must be saved\" (Acts 4:12 NKJV).\n\nAnd here's the Bible's answer: we don't climb up to God. God came down. \"And the Word became flesh and dwelt among us\" (John 1:14 NKJV). Not a path to find God, but God coming to find you.\n\n📖 Read it yourself: Acts 4:5–12 · John 1:1–14 (NKJV)\n\nWhat question should we answer next? Tell us below 👇\n\n#ButWhatDoesTheBibleSay #Jesus #Apologetics #shorts",
+  "tiktok": "\"Don't all religions lead to the same God?\" It sounds kind. But there's a problem 🤔\n\n📖 Acts 4:12 · John 1:14 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #ChristianTikTok #Jesus #Apologetics #BibleTok",
+  "instagram": "In the Bible, we don't climb up to God. God came down. 🙏\n\n📖 Acts 4:12 · John 1:14 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #Jesus #Apologetics #Bible #ChristianReels",
+  "pinned": "Next: \"If I'm forgiven, can I just keep sinning?\" Follow so you don't miss it 🙏",
+  "notes": "- Respect: no religion is named or criticized; the claim is only that religions give different answers about God and Jesus (e.g. Jesus' identity is understood differently in Judaism, Islam and Christianity), so they cannot all be true at once (law of non-contradiction). Not quoted.\n- Acts 4:12 NKJV (bible.com v114): \"Nor is there salvation in any other, for there is no other name under heaven given among men by which we must be saved.\" Full verse. Context: Peter, filled with the Holy Spirit, speaking to the 'rulers of the people and elders of Israel' in Jerusalem (Acts 4:5-8).\n- John 1:14 NKJV: \"And the Word became flesh and dwelt among us, and we beheld His glory, the glory as of the only begotten of the Father, full of grace and truth.\" Quoted the first clause; … at the end. 'John calls Jesus the Word': John 1:1, 14, 17.\n- 'We don't climb up to God; God came down': summary of the Bible's own claim (John 1:14; 3:13; Ephesians 2:8-9), not a claim about other religions."
+ }
+}

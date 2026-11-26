@@ -46,7 +46,7 @@ const TitleCard: React.FC<{title: any}> = ({title}) => {
   return (
     <AbsoluteFill style={{background: THEMES[title.theme] || THEMES.sunset}}>
       <div style={{position: 'absolute', left: 540 - 190, top: 1120, width: 380, height: 380, borderRadius: 190, background: 'radial-gradient(circle, #fff6d8 0%, #ffd27a 45%, #ffd27a00 72%)', opacity: 0.55 + 0.1 * Math.sin(f / 6)}} />
-      <Center top={title.top ?? 300}>
+      <Center top={title.top ?? 300} k={interpolate(f, [0, 20], [1.06, 1], clamp)}>
         {title.kicker && <Outlined size={64} stroke={12} style={{marginBottom: 18}}>{title.kicker}</Outlined>}
         {title.lines.map((l: any, i: number) => <Outlined key={i} size={l.size || 130} color={colorOf(l.color)} stroke={20} style={{marginBottom: 10}}>{l.text}</Outlined>)}
       </Center>
@@ -90,7 +90,7 @@ const Scroll: React.FC<{it: Item}> = ({it}) => {
               const s = times[Math.min(i, times.length - 1)] ?? start;
               const on = interpolate(f, [s, s + 5], [0, 1], clamp); const lit = f >= s && f < s + 14;
               const hot = HOT.test(w.replace(/[^A-Za-z']/g, '')) && f >= s;
-              return <span key={i} style={{display: 'inline-block', marginRight: 12, opacity: 0.12 + 0.88 * on, transform: `translateY(${(1 - on) * 10}px) scale(${lit ? 1.08 : 1})`, color: lit || hot ? '#a8461e' : INK}}>{w}</span>;
+              return <span key={i} style={{display: 'inline-block', marginRight: 12, opacity: 0.5 + 0.5 * on, transform: `translateY(${(1 - on) * 10}px) scale(${lit ? 1.08 : 1})`, color: lit || hot ? '#a8461e' : INK}}>{w}</span>;
             })}
           </div>
           <div style={{marginTop: 12, transform: `scale(${pop(f, refAt)})`, background: '#f4c44c', border: `4px solid ${INK}`, borderRadius: 40, padding: '8px 30px', fontFamily: 'Poppins', fontWeight: 700, fontSize: 42, color: INK}}>{ref}</div>

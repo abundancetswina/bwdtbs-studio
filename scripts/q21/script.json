@@ -1,0 +1,237 @@
+{
+ "id": "q21",
+ "slug": "Why_Does_Israel_Matter_In_The_Bible",
+ "name": "Why Does Israel Matter So Much in the Bible?",
+ "format": "A",
+ "key": "D",
+ "title": {
+  "theme": "earth",
+  "top": 330,
+  "lines": [
+   {
+    "text": "WHY DOES",
+    "size": 124
+   },
+   {
+    "text": "GOD PICK",
+    "size": 124
+   },
+   {
+    "text": "ISRAEL?",
+    "color": "gold",
+    "size": 150
+   }
+  ]
+ },
+ "keywords": [
+  "israel",
+  "nation",
+  "abraham",
+  "families",
+  "blessed",
+  "everyone",
+  "least",
+  "chose",
+  "twist",
+  "jesus",
+  "bethlehem",
+  "salvation",
+  "jews",
+  "promise",
+  "you",
+  "follow"
+ ],
+ "beats": [
+  {
+   "who": "skep",
+   "say": "Out of every nation on earth, why does God pick Israel?",
+   "clip": "stage_skeptic",
+   "show": [
+    {
+     "big": "EVERY NATION...",
+     "size": 104,
+     "on": "nation"
+    },
+    {
+     "big": "WHY ISRAEL?",
+     "color": "gold",
+     "size": 140,
+     "on": "israel"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Fair question. The answer surprises people.",
+   "clip": "stage_both",
+   "show": [
+    {
+     "big": "FAIR QUESTION.",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "It starts with Abraham, an old man with no children, and a promise. Genesis 12, verse 3:",
+   "clip": "caravan_star",
+   "show": [
+    {
+     "pill": "ABRAHAM · ISRAEL'S FIRST FATHER",
+     "bg": "#7a6a9c",
+     "on": "abraham"
+    },
+    {
+     "big": "NO CHILDREN.",
+     "color": "gold",
+     "size": 120,
+     "on": "children"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "\"In you all the families of the earth shall be blessed.\"",
+   "clip": "caravan_star",
+   "scroll": {
+    "text": "\"…in you all the families of the earth shall be blessed.\"",
+    "ref": "GENESIS 12:3 NKJV",
+    "hot": "^(all|families|earth|blessed)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "Not just Israel. Everyone. Israel was chosen to carry a blessing for the world.",
+   "clip": "meadow",
+   "show": [
+    {
+     "big": "NOT JUST ISRAEL.",
+     "size": 104
+    },
+    {
+     "big": "FOR EVERYONE.",
+     "color": "gold",
+     "size": 130,
+     "on": "everyone"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "But why them? Moses tells them straight. Deuteronomy 7, verse 7:",
+   "clip": "temple_day",
+   "show": [
+    {
+     "pill": "MOSES · LEADER OF ISRAEL",
+     "bg": "#c0532e",
+     "on": "moses"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "\"The Lord did not set His love on you nor choose you because you were more in number than any other people, for you were the least of all peoples.\"",
+   "clip": "temple_day",
+   "scroll": {
+    "text": "\"The LORD did not set His love on you nor choose you because you were more in number than any other people, for you were the least of all peoples…\"",
+    "ref": "DEUTERONOMY 7:7 NKJV",
+    "hot": "^(love|choose|least)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "Not chosen for being great. Chosen to bring something great.",
+   "clip": "town_star",
+   "show": [
+    {
+     "big": "CHOSEN TO BRING",
+     "size": 96
+    },
+    {
+     "big": "SOMETHING GREAT.",
+     "color": "gold",
+     "size": 92,
+     "on": "something"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "That blessing has a name. Jesus, born a Jew in Bethlehem.",
+   "clip": "manger",
+   "jesus": true,
+   "show": [
+    {
+     "big": "THE BLESSING",
+     "size": 110
+    },
+    {
+     "big": "HAS A NAME.",
+     "color": "gold",
+     "size": 120,
+     "on": "name"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "He told a Samaritan woman, in John 4, verse 22:",
+   "clip": "jesus_crowd",
+   "show": [
+    {
+     "pill": "JESUS TO A SAMARITAN WOMAN",
+     "bg": "#2e8a56",
+     "on": "samaritan"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "\"We know what we worship, for salvation is of the Jews.\"",
+   "clip": "jesus_crowd",
+   "scroll": {
+    "text": "\"…we know what we worship, for salvation is of the Jews.\"",
+    "ref": "JOHN 4:22 NKJV",
+    "hot": "^(know|worship|salvation|Jews)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "Israel matters because God kept His promise through it. And the promise was for you.",
+   "clip": "jesus_sunset",
+   "show": [
+    {
+     "big": "GOD KEPT HIS PROMISE.",
+     "size": 84,
+     "on": "kept"
+    },
+    {
+     "big": "FOR YOU.",
+     "color": "gold",
+     "size": 150,
+     "on": "was"
+    }
+   ]
+  },
+  {
+   "who": "skep",
+   "say": "Hm.",
+   "clip": "outro",
+   "hm": true
+  },
+  {
+   "who": "friend",
+   "say": "Follow so you don't miss the next one.",
+   "clip": "outro",
+   "end": true
+  }
+ ],
+ "post": {
+  "yt_title": "Why Does God Pick Israel? The Bible's Surprising Answer #shorts",
+  "yt_desc": "\"Out of every nation on earth, why does God pick Israel?\" Fair question. It starts with Abraham, an old man with no children, and God's promise: \"in you all the families of the earth shall be blessed\" (Genesis 12:3 NKJV). Israel was chosen to carry a blessing for everyone.\n\nWhy them? Moses tells them: \"The LORD did not set His love on you nor choose you because you were more in number than any other people, for you were the least of all peoples\" (Deuteronomy 7:7 NKJV).\n\nThat blessing has a name: Jesus, born a Jew in Bethlehem. He told a Samaritan woman: \"salvation is of the Jews\" (John 4:22 NKJV). God kept His promise, and the promise was for everyone.\n\n📖 Read it yourself: Genesis 12:1–3 · Deuteronomy 7:6–8 · John 4:19–26 (NKJV)\n\nWhat question should we answer next? Tell us below 👇\n\n#ButWhatDoesTheBibleSay #Bible #Jesus #shorts",
+  "tiktok": "Why does God pick Israel? Not because they were the biggest. The Bible's answer surprises people 📜\n\n📖 Genesis 12:3 · Deuteronomy 7:7 · John 4:22 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #ChristianTikTok #BibleTok #Abraham #Jesus",
+  "instagram": "Chosen not for being great, but to bring something great: a blessing for every family on earth. 📜\n\n📖 Genesis 12:3 · Deuteronomy 7:7 · John 4:22 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #Bible #Jesus #BibleStudy #ChristianReels",
+  "pinned": "Next: \"Was Jesus really born on 25 December?\" Follow so you don't miss it 🙏",
+  "notes": "- About the Bible's story, not modern politics: no modern state, land or conflict is mentioned.\n- Genesis 12:3 NKJV (bible.com v114): \"I will bless those who bless you, And I will curse him who curses you; And in you all the families of the earth shall be blessed.\" Quoted from \"in you\"; scroll shows … at the start; spoken capital 'In' only starts the spoken sentence.\n- Abraham childless at the call: Genesis 11:30 (Sarai was barren), 12:4 (Abram 75). 'Israel's first father': Abraham is the forefather of Israel (Genesis 12; 17:4-5; Isaiah 51:2). No date given (historicity/dating debated).\n- Deuteronomy 7:7 NKJV: \"The LORD did not set His love on you nor choose you because you were more in number than any other people, for you were the least of all peoples;\" Scroll ends with … because the sentence continues into v.8. Deuteronomy presents itself as Moses' words to Israel (Deut 1:1).\n- Jesus Jewish, born in Bethlehem: Matthew 2:1; Luke 2:4-7; Hebrews 7:14 (from Judah).\n- John 4:22 NKJV: \"You worship what you do not know; we know what we worship, for salvation is of the Jews.\" Quoted from \"we know\"; … at the start (spoken capital We only starts the sentence). Spoken to the woman of Samaria (John 4:7-9); Samaria lay between Judea and Galilee, Israel's neighbour region."
+ }
+}
