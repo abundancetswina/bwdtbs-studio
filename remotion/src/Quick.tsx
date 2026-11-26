@@ -130,6 +130,14 @@ const Overlay: React.FC<{it: Item}> = ({it}) => {
       </div>
     </Center></AbsoluteFill>;
   }
+  if (it.kind === 'hook') {
+    // the cover's words over the moving hook scene, visible from frame 0
+    const t = it.title;
+    return <AbsoluteFill style={{opacity: fade}}><Center top={150}>
+      {t.kicker && <Outlined size={58} stroke={12} style={{marginBottom: 10}}>{t.kicker}</Outlined>}
+      {t.lines.map((l: any, i: number) => <Outlined key={i} size={Math.round((l.size || 130) * 0.95)} color={colorOf(l.color)} stroke={18} style={{marginBottom: 6}}>{l.text}</Outlined>)}
+    </Center></AbsoluteFill>;
+  }
   if (f < it.at) return null;
   const k = pop(f, it.at, it.kind === 'big' ? 8 : 11);
   if (it.kind === 'pill') return <AbsoluteFill style={{opacity: fade}}><Center top={it.top} k={k}><Pill text={it.text} bg={it.bg} size={it.size} /></Center></AbsoluteFill>;
@@ -150,7 +158,7 @@ export const Quick: React.FC<{plan: Plan}> = ({plan}) => {
       {plan.segs.map((s) => <Sequence key={s.from} from={s.from} durationInFrames={s.to - s.from + 1}><Scene clip={s.clip} len={s.to - s.from + 1} clipFrames={s.clipFrames} /></Sequence>)}
       <Audio src={staticFile(plan.audio)} />
       <AbsoluteFill style={{background: 'radial-gradient(ellipse at center, rgba(0,0,0,0) 58%, rgba(0,0,0,0.28) 100%)'}} />
-      <Sequence from={0} durationInFrames={plan.titleEnd}><TitleCard title={plan.title} /></Sequence>
+      {plan.titleEnd > 0 && <Sequence from={0} durationInFrames={plan.titleEnd}><TitleCard title={plan.title} /></Sequence>}
       {plan.items.map((it, i) => <Overlay key={i} it={it} />)}
       <Captions plan={plan} />
       <AbsoluteFill style={{background: '#fff', opacity: flash}} />

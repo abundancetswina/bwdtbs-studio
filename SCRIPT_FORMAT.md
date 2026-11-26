@@ -6,7 +6,7 @@
 - title: the cover (frame 0). {"theme": sunset|night|dawn|royal|earth, "top": 300, "kicker": optional small line,
   "lines": [{"text", "color": white|gold|red, "size"}], "crossed": optional big text with a red X (myth videos)}
   Format B covers: kicker "THE BIBLE NEVER SAYS", lines = the myth, crossed = a short symbol of it.
-- titleFrames: how long the cover shows (default 36 = 1.2 s; use ~90 for format B so the cover can be read)
+- titleFrames: no longer used (26 Nov 2026). The title card is only the cover image (_COVER.png); the video starts on the hook beat.
 - keywords: words shown in gold in the captions
 - beats: in spoken order. Each beat:
   - who: "skep" | "friend" | "narr"; say: EXACT words spoken (the voice files are generated from these, in order)

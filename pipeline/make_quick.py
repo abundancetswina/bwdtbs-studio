@@ -127,7 +127,10 @@ def main():
         if segs and segs[-1]["clip"] == b["clip"]: segs[-1]["to"] = z
         else: segs.append({"from": a, "to": z, "clip": b["clip"], "clipFrames": lib[b["clip"]]["frames"]})
     cuts = [s["from"] for s in segs[1:]]
-    title_end = S.get("titleFrames", 24)  # short static cover: motion in the first second (26 Nov 2026)
+    # No still title card inside the video (26 Nov 2026: hooks were losing the first second). The hook scene,
+    # its voice and its big text start on frame 0; the title card is rendered separately as the cover image.
+    # A script may still ask for a card with "titleFrames" > 0.
+    title_end = S.get("titleFrames", 0) if S.get("titleFrames", 0) > 0 and S.get("forceTitleCard") else 0
 
     # ---- 4. on-screen items
     items = []; scroll_starts = []; stamps = []; ticks = []; jesus_at = []; end_at = None; hm_at = None
@@ -170,6 +173,16 @@ def main():
                 stamps.append(at); top += int(size * 1.15) + 14
         if b.get("myth"):
             items.append({"kind": "myth", "from": a, "to": z, "at": a + 4, "text": b["myth"]}); stamps.append(a + 10)
+
+    # ---- 4b. hook on frame 0: the first big text of the hook beat is already on screen when the video starts;
+    # if the hook beat has none, the cover's words are shown over the moving scene instead.
+    if title_end == 0:
+        z0 = (bstart[1] - 2) if len(beats) > 1 else total - 1
+        first = [it for it in items if it.get("from") == 0 and it["kind"] in ("big", "myth", "pill")]
+        if first:
+            first[0]["at"] = -8
+        else:
+            items.insert(0, {"kind": "hook", "from": 0, "to": z0, "title": S["title"]})
 
     # ---- 5. captions (1-3 words, real word times)
     cues = []
@@ -216,12 +229,20 @@ def main():
     run(["npx", "remotion", "render", "src/index.ts", "Quick", tmp, f"--props={os.path.join(work, 'props.json')}", f"--browser-executable={CHROME}",
          "--concurrency=2", "--crf=17", "--x264-preset=veryfast", "--log=error"], cwd=REMOTION)
     os.replace(tmp, mp4)
+    # cover image = the title card (no longer part of the video itself)
+    cplan = dict(plan, titleEnd=1, total=1, items=[], cues=[])
+    json.dump({"plan": cplan}, open(os.path.join(work, "props_cover.json"), "w"), ensure_ascii=False)
+    run(["npx", "remotion", "still", "src/index.ts", "Quick", os.path.join(outd, f"{slug}_COVER.png"), f"--props={os.path.join(work, 'props_cover.json')}",
+         f"--browser-executable={CHROME}", "--frame=0", "--log=error"], cwd=REMOTION)
     finish(d, S, mp4, work, outd)
 
 
 def finish(d, S, mp4, work, outd):
     slug = S["slug"]
-    run(["ffmpeg", "-v", "error", "-y", "-i", mp4, "-vf", "select=eq(n\\,0)", "-frames:v", "1", os.path.join(outd, f"{slug}_COVER.png")])
+    cover = os.path.join(outd, f"{slug}_COVER.png")
+    if not os.path.exists(cover) or os.path.getmtime(cover) < os.path.getmtime(mp4):
+        run(["ffmpeg", "-v", "error", "-y", "-i", mp4, "-vf", "select=eq(n\\,0)", "-frames:v", "1", cover])
+    run(["ffmpeg", "-v", "error", "-y", "-i", mp4, "-vf", "select=eq(n\\,0)", "-frames:v", "1", os.path.join(outd, "first_frame.jpg")])
     # subtitles: sentence-level
     cues = json.load(open(os.path.join(work, "caption_cues.json")))
     ts = lambda t: "%02d:%02d:%02d,%03d" % (int(t // 3600), int(t % 3600 // 60), int(t % 60), int(round(t * 1000)) % 1000)
