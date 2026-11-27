@@ -1,0 +1,199 @@
+{
+ "id": "q25",
+ "slug": "Spare_The_Rod_Spoil_The_Child_Not_In_The_Bible",
+ "name": "The Bible Never Says \"Spare the Rod, Spoil the Child\"",
+ "format": "B",
+ "key": "G",
+ "title": {
+  "theme": "earth",
+  "top": 300,
+  "kicker": "THE BIBLE NEVER SAYS",
+  "lines": [
+   {
+    "text": "\"SPARE THE ROD,",
+    "size": 116
+   },
+   {
+    "text": "SPOIL THE",
+    "size": 116
+   },
+   {
+    "text": "CHILD\"",
+    "color": "gold",
+    "size": 140
+   }
+  ],
+  "crossed": "ROD"
+ },
+ "keywords": [
+  "never",
+  "rod",
+  "child",
+  "wrote",
+  "butler",
+  "poem",
+  "1660s",
+  "proverbs",
+  "love",
+  "correct",
+  "anger",
+  "paul",
+  "fathers",
+  "jesus",
+  "children",
+  "arms",
+  "blessed",
+  "follow"
+ ],
+ "beats": [
+  {
+   "who": "narr",
+   "say": "The Bible never says \"spare the rod, spoil the child.\"",
+   "clip": "house_child",
+   "myth": "SPARE THE ROD…"
+  },
+  {
+   "who": "narr",
+   "say": "So who wrote it?",
+   "clip": "house_child",
+   "show": [
+    {
+     "big": "SO WHO WROTE IT?",
+     "color": "gold",
+     "size": 112,
+     "on": "wrote"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "The famous wording comes from English poet Samuel Butler, in a satirical poem from the sixteen sixties.",
+   "clip": "scribe_room",
+   "show": [
+    {
+     "pill": "SAMUEL BUTLER · \"HUDIBRAS\" · 1660s",
+     "bg": "#7a6a9c",
+     "on": "butler"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "The closest verse is Proverbs 13, verse 24, from the Bible's book of wise sayings:",
+   "clip": "jerusalem_gate",
+   "show": [
+    {
+     "pill": "PROVERBS · BOOK OF WISE SAYINGS",
+     "bg": "#3f6aa0",
+     "on": "proverbs"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "\"He who spares his rod hates his son, But he who loves him disciplines him promptly.\"",
+   "clip": "temple_night",
+   "scroll": {
+    "text": "\"He who spares his rod hates his son, But he who loves him disciplines him promptly.\"",
+    "ref": "PROVERBS 13:24 NKJV",
+    "hot": "^(rod|loves|disciplines)$"
+   }
+  },
+  {
+   "who": "narr",
+   "say": "It's about love that cares enough to correct. Not anger.",
+   "clip": "prodigal_return",
+   "show": [
+    {
+     "big": "IT'S LOVE.",
+     "size": 130,
+     "on": "love"
+    },
+    {
+     "big": "NOT ANGER.",
+     "color": "gold",
+     "size": 130,
+     "on": "anger"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "Paul, an apostle, gives parents a balance in Ephesians 6, verse 4:",
+   "clip": "world_families",
+   "show": [
+    {
+     "pill": "PAUL · LETTER TO EPHESUS",
+     "bg": "#2e8a56",
+     "on": "paul"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "\"And you, fathers, do not provoke your children to wrath…\"",
+   "clip": "tent_stars",
+   "scroll": {
+    "text": "\"And you, fathers, do not provoke your children to wrath…\"",
+    "ref": "EPHESIANS 6:4 NKJV",
+    "hot": "^(fathers,?|provoke|wrath…?)$"
+   }
+  },
+  {
+   "who": "narr",
+   "say": "And Jesus? When His disciples tried to turn children away, He was greatly displeased. Mark 10, verse 14:",
+   "clip": "jesus_crowd",
+   "show": [
+    {
+     "big": "CHILDREN AWAY?",
+     "size": 110,
+     "on": "children"
+    },
+    {
+     "big": "DISPLEASED.",
+     "color": "gold",
+     "size": 120,
+     "on": "displeased"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "\"Let the little children come to Me, and do not forbid them; for of such is the kingdom of God.\"",
+   "clip": "jesus_sunset",
+   "jesus": true,
+   "scroll": {
+    "text": "\"Let the little children come to Me, and do not forbid them; for of such is the kingdom of God.\"",
+    "ref": "MARK 10:14 NKJV",
+    "hot": "^(children|Me,?|kingdom)$"
+   }
+  },
+  {
+   "who": "narr",
+   "say": "Then He took them in His arms and blessed them.",
+   "clip": "jesus_sunset",
+   "show": [
+    {
+     "big": "IN HIS ARMS.",
+     "color": "gold",
+     "size": 130,
+     "on": "arms"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "Follow so you don't miss the next one.",
+   "clip": "outro",
+   "end": true
+  }
+ ],
+ "post": {
+  "yt_title": "\"Spare the Rod, Spoil the Child\" Isn't in the Bible #shorts",
+  "yt_desc": "The Bible never says \"spare the rod, spoil the child.\" That famous wording comes from the English poet Samuel Butler, in his satirical poem Hudibras (1660s).\n\nThe closest verse is in Proverbs, the Bible's book of wise sayings: \"He who spares his rod hates his son, But he who loves him disciplines him promptly\" (Proverbs 13:24 NKJV). Its point is love that cares enough to correct, not anger. Paul adds a balance for parents: \"And you, fathers, do not provoke your children to wrath…\" (Ephesians 6:4 NKJV).\n\nAnd Jesus? When His disciples tried to turn children away, He was greatly displeased: \"Let the little children come to Me, and do not forbid them; for of such is the kingdom of God\" (Mark 10:14 NKJV). Then He took them in His arms and blessed them.\n\n📖 Read it yourself: Proverbs 13:24 · Ephesians 6:4 · Mark 10:13-16 (NKJV)\n\nWhat myth should we check next? Tell us below 👇\n\n#ButWhatDoesTheBibleSay #Bible #Jesus #shorts",
+  "tiktok": "\"Spare the rod, spoil the child\" isn't in the Bible. So who wrote it? 👀\n\n📖 Proverbs 13:24 · Ephesians 6:4 · Mark 10:14 (NKJV)\nWhat myth should we check next? 👇\n\n#ButWhatDoesTheBibleSay #ChristianTok #BibleTok #ChristianParenting #Jesus",
+  "instagram": "Not in the Bible: \"spare the rod, spoil the child.\" What Jesus did with children says a lot 🤍\n\n📖 Proverbs 13:24 · Ephesians 6:4 · Mark 10:14 (NKJV)\nWhat myth should we check next? 👇\n\n#ButWhatDoesTheBibleSay #ChristianParenting #BibleVerse #Jesus #ChristianReels",
+  "pinned": "Next: \"Why does God allow suffering?\" Follow so you don't miss it 🙏",
+  "notes": "- 'Spare the rod and spoil the child' wording: Samuel Butler, Hudibras (Part II, 1664; Part I 1663): 'Love is a boy by poets styl'd, Then spare the rod, and spoil the child.' Similar older proverbs exist (e.g. Langland's Piers Plowman, 14th c.), so the script says 'the famous wording comes from', not 'invented'.\n- Proverbs 13:24 NKJV verified (bible.com v114 search match 'disciplines him promptly'): \"He who spares his rod hates his son, But he who loves him disciplines him promptly.\" Proverbs = Bible's wisdom book of sayings.\n- Ephesians 6:4 NKJV: \"And you, fathers, do not provoke your children to wrath, but bring them up in the training and admonition of the Lord.\" First clause quoted with …\n- Mark 10:13-16: disciples rebuked those bringing children; v14 NKJV \"But when Jesus saw it, He was greatly displeased and said to them, 'Let the little children come to Me, and do not forbid them; for of such is the kingdom of God.'\" v16 \"And He took them up in His arms, laid His hands on them, and blessed them.\" (summarised, not quoted).\n- No position on spanking taken; Christians differ on how to apply Proverbs' 'rod'."
+ }
+}

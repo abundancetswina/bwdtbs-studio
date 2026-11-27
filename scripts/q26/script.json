@@ -1,0 +1,228 @@
+{
+ "id": "q26",
+ "slug": "Why_Does_God_Allow_Suffering",
+ "name": "Why Does God Allow Suffering?",
+ "format": "A",
+ "key": "E",
+ "title": {
+  "theme": "night",
+  "top": 320,
+  "lines": [
+   {
+    "text": "WHY DOES GOD",
+    "size": 120
+   },
+   {
+    "text": "ALLOW",
+    "size": 120
+   },
+   {
+    "text": "SUFFERING?",
+    "color": "gold",
+    "size": 140
+   }
+  ]
+ },
+ "keywords": [
+  "shortest",
+  "verse",
+  "jesus",
+  "crying",
+  "suffering",
+  "lazarus",
+  "bethany",
+  "wept",
+  "pain",
+  "broken",
+  "last",
+  "word",
+  "tear",
+  "alive",
+  "ignored",
+  "end",
+  "follow"
+ ],
+ "beats": [
+  {
+   "who": "friend",
+   "say": "The shortest verse in most English Bibles is about Jesus crying.",
+   "clip": "garden_night",
+   "show": [
+    {
+     "big": "SHORTEST VERSE:",
+     "size": 100
+    },
+    {
+     "big": "JESUS CRYING.",
+     "color": "gold",
+     "size": 120,
+     "on": "jesus"
+    }
+   ]
+  },
+  {
+   "who": "skep",
+   "say": "If God cares, why doesn't He just stop the suffering?",
+   "clip": "stage_skeptic",
+   "show": [
+    {
+     "big": "IF GOD CARES...",
+     "size": 110,
+     "on": "cares"
+    },
+    {
+     "big": "WHY NOT STOP IT?",
+     "color": "gold",
+     "size": 112,
+     "on": "stop"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Lazarus, Jesus' close friend, has died in Bethany, a village near Jerusalem.",
+   "clip": "town_star",
+   "show": [
+    {
+     "pill": "LAZARUS · BETHANY, NEAR JERUSALEM",
+     "bg": "#c0532e",
+     "on": "lazarus"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Jesus comes, knowing He's about to raise him. Still, John 11, verse 35 says:",
+   "clip": "well_noon",
+   "show": [
+    {
+     "big": "HE KNOWS HE'LL RAISE HIM.",
+     "size": 72,
+     "on": "knowing"
+    },
+    {
+     "big": "STILL...",
+     "color": "gold",
+     "size": 130,
+     "on": "still"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "\"Jesus wept.\" Just two words.",
+   "clip": "night_room",
+   "scroll": {
+    "text": "\"Jesus wept.\"",
+    "ref": "JOHN 11:35 NKJV",
+    "hot": "^(Jesus|wept\\.?)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "He doesn't explain the pain away. He steps into it.",
+   "clip": "night_room",
+   "show": [
+    {
+     "big": "HE STEPS INTO IT.",
+     "color": "gold",
+     "size": 105,
+     "on": "steps"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "The Bible says this world is broken by sin, not the way God made it.",
+   "clip": "storm_sea",
+   "show": [
+    {
+     "big": "A BROKEN WORLD.",
+     "size": 110,
+     "on": "broken"
+    },
+    {
+     "big": "NOT HOW GOD MADE IT.",
+     "color": "gold",
+     "size": 90,
+     "on": "made"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "But suffering won't get the last word. The Bible's last book, Revelation 21, verse 4:",
+   "clip": "cosmos_space",
+   "show": [
+    {
+     "big": "NOT THE LAST WORD.",
+     "color": "gold",
+     "size": 88,
+     "on": "last"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "\"And God will wipe away every tear from their eyes; there shall be no more death, nor sorrow, nor crying. There shall be no more pain, for the former things have passed away.\"",
+   "clip": "noah_ark",
+   "scroll": {
+    "text": "\"And God will wipe away every tear from their eyes; there shall be no more death, nor sorrow, nor crying. There shall be no more pain, for the former things have passed away.\"",
+    "ref": "REVELATION 21:4 NKJV",
+    "hot": "^(tear|death,?|sorrow,?|pain,?)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "Then Jesus calls Lazarus out of the tomb, alive.",
+   "clip": "tomb_risen",
+   "show": [
+    {
+     "big": "LAZARUS, ALIVE.",
+     "color": "gold",
+     "size": 120,
+     "on": "alive"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "God hasn't ignored your pain. In Jesus, He wept with it. And one day, He'll end it.",
+   "clip": "jesus_sunset",
+   "jesus": true,
+   "show": [
+    {
+     "big": "HE WEPT WITH IT.",
+     "size": 104,
+     "on": "wept"
+    },
+    {
+     "big": "HE'LL END IT.",
+     "color": "gold",
+     "size": 130,
+     "on": "end"
+    }
+   ]
+  },
+  {
+   "who": "skep",
+   "say": "Hm.",
+   "clip": "outro",
+   "hm": true
+  },
+  {
+   "who": "friend",
+   "say": "Follow so you don't miss the next one.",
+   "clip": "outro",
+   "end": true
+  }
+ ],
+ "post": {
+  "yt_title": "Why Does God Allow Suffering? The Bible's Shortest Verse (in English) #shorts",
+  "yt_desc": "\"If God cares, why doesn't He just stop the suffering?\" Look at the shortest verse in most English Bibles. Lazarus, Jesus' close friend, has died in Bethany, a village near Jerusalem. Jesus comes, knowing He's about to raise him. Still: \"Jesus wept\" (John 11:35 NKJV). He doesn't explain the pain away. He steps into it.\n\nThe Bible says this world is broken by sin, not the way God made it. But suffering won't get the last word: \"And God will wipe away every tear from their eyes; there shall be no more death, nor sorrow, nor crying. There shall be no more pain, for the former things have passed away\" (Revelation 21:4 NKJV).\n\nGod hasn't ignored your pain. In Jesus, He wept with it. And one day, He'll end it.\n\n📖 Read it yourself: John 11:1-44 · Revelation 21:1-5 (NKJV)\n\nWhat question should we answer next? Tell us below 👇\n\n#ButWhatDoesTheBibleSay #Hope #Jesus #shorts",
+  "tiktok": "The shortest verse in most English Bibles is about Jesus crying. And it answers a big question 💔\n\n📖 John 11:35 · Revelation 21:4 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #ChristianTok #BibleTok #Hope #Jesus",
+  "instagram": "God hasn't ignored your pain. In Jesus, He wept with it. 🤍\n\n📖 John 11:35 · Revelation 21:4 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #Hope #Jesus #BibleVerse #ChristianReels",
+  "pinned": "Next: \"Why did God ask Abraham to sacrifice Isaac?\" Follow so you don't miss it 🙏",
+  "notes": "- John 11:35 NKJV \"Jesus wept.\" verified on bible.com v114. It is the shortest verse in most English translations (in Greek, 1 Thessalonians 5:16 is shorter) — hence 'your English Bible'.\n- Lazarus of Bethany, brother of Mary and Martha (John 11:1); Bethany about 15 stadia (~3 km) from Jerusalem (John 11:18). Jesus said beforehand He would wake him (11:11) and raised him (11:43-44). Jesus loved Lazarus (11:3, 5, 36).\n- Revelation 21:4 NKJV verified: \"And God will wipe away every tear from their eyes; there shall be no more death, nor sorrow, nor crying. There shall be no more pain, for the former things have passed away.\" Revelation = last book of the Bible.\n- 'World broken by sin, not the way God made it': Genesis 1:31, Genesis 3, Romans 8:20-22. Not quoted.\n- No visual of God the Father (cosmos/ark scenes only)."
+ }
+}

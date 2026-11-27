@@ -1,0 +1,202 @@
+{
+ "id": "q24",
+ "slug": "If_Im_Forgiven_Can_I_Keep_Sinning",
+ "name": "If I'm Forgiven, Can I Keep Sinning?",
+ "format": "A",
+ "key": "D",
+ "title": {
+  "theme": "sunset",
+  "top": 320,
+  "lines": [
+   {
+    "text": "FORGIVEN...",
+    "size": 124
+   },
+   {
+    "text": "SO I CAN KEEP",
+    "size": 110
+   },
+   {
+    "text": "SINNING?",
+    "color": "gold",
+    "size": 150
+   }
+  ]
+ },
+ "keywords": [
+  "paul",
+  "two",
+  "words",
+  "forgiven",
+  "sinning",
+  "certainly",
+  "grace",
+  "rescue",
+  "fire",
+  "new",
+  "life",
+  "jesus",
+  "rose",
+  "follow"
+ ],
+ "beats": [
+  {
+   "who": "friend",
+   "say": "Paul got this exact question. His answer was two words.",
+   "clip": "scribe_room",
+   "show": [
+    {
+     "big": "KEEP ON SINNING?",
+     "size": 110
+    },
+    {
+     "big": "TWO WORDS.",
+     "color": "gold",
+     "size": 130,
+     "on": "two"
+    }
+   ]
+  },
+  {
+   "who": "skep",
+   "say": "If I'm already forgiven, can't I just keep sinning?",
+   "clip": "stage_skeptic2",
+   "show": [
+    {
+     "big": "ALREADY FORGIVEN?",
+     "size": 104,
+     "on": "forgiven"
+    },
+    {
+     "big": "KEEP SINNING?",
+     "color": "gold",
+     "size": 130,
+     "on": "sinning"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Paul, who wrote much of the New Testament, answers in his letter to Rome. Romans 6, verses 1 and 2:",
+   "clip": "rome_forum",
+   "show": [
+    {
+     "pill": "PAUL · LETTER TO THE ROMANS",
+     "bg": "#c0532e",
+     "on": "paul"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "\"What shall we say then? Shall we continue in sin that grace may abound? Certainly not! How shall we who died to sin live any longer in it?\"",
+   "clip": "night_room",
+   "scroll": {
+    "text": "\"What shall we say then? Shall we continue in sin that grace may abound? Certainly not! How shall we who died to sin live any longer in it?\"",
+    "ref": "ROMANS 6:1-2 NKJV",
+    "hot": "^(Certainly|not!|grace|died)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "Grace isn't a permission slip to sin. It's a rescue.",
+   "clip": "prodigal_return",
+   "show": [
+    {
+     "big": "NOT A PERMISSION SLIP.",
+     "size": 81
+    },
+    {
+     "big": "A RESCUE.",
+     "color": "gold",
+     "size": 140,
+     "on": "rescue"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "If someone pulls you from a burning house, you don't run back inside.",
+   "clip": "modern_room",
+   "show": [
+    {
+     "big": "PULLED FROM A FIRE?",
+     "size": 94,
+     "on": "burning"
+    },
+    {
+     "big": "DON'T RUN BACK IN.",
+     "color": "gold",
+     "size": 100,
+     "on": "run"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Forgiveness isn't just a clean record. It's a new life. Romans 6, verse 4:",
+   "clip": "galilee_boat",
+   "show": [
+    {
+     "big": "CLEAN RECORD?",
+     "size": 110
+    },
+    {
+     "big": "A NEW LIFE.",
+     "color": "gold",
+     "size": 130,
+     "on": "new"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "\"just as Christ was raised from the dead by the glory of the Father, even so we also should walk in newness of life.\"",
+   "clip": "meadow",
+   "scroll": {
+    "text": "\"…just as Christ was raised from the dead by the glory of the Father, even so we also should walk in newness of life.\"",
+    "ref": "ROMANS 6:4 NKJV",
+    "hot": "^(Christ|raised|newness|life\\.?)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "Jesus didn't die so you could stay the same. He rose so you could live new.",
+   "clip": "three_crosses",
+   "jesus": true,
+   "show": [
+    {
+     "big": "NOT TO STAY THE SAME.",
+     "size": 85,
+     "on": "stay"
+    },
+    {
+     "big": "TO LIVE NEW.",
+     "color": "gold",
+     "size": 130,
+     "on": "rose"
+    }
+   ]
+  },
+  {
+   "who": "skep",
+   "say": "Hm.",
+   "clip": "outro",
+   "hm": true
+  },
+  {
+   "who": "friend",
+   "say": "Follow so you don't miss the next one.",
+   "clip": "outro",
+   "end": true
+  }
+ ],
+ "post": {
+  "yt_title": "Forgiven... So I Can Keep Sinning? Paul's 2-Word Answer #shorts",
+  "yt_desc": "\"If I'm already forgiven, can't I just keep sinning?\" Paul, who wrote much of the New Testament, answered this exact question in his letter to the Christians in Rome:\n\n\"What shall we say then? Shall we continue in sin that grace may abound? Certainly not! How shall we who died to sin live any longer in it?\" (Romans 6:1-2 NKJV)\n\nGrace isn't a permission slip. It's a rescue. Forgiveness isn't just a clean record; it's a new life: \"…just as Christ was raised from the dead by the glory of the Father, even so we also should walk in newness of life\" (Romans 6:4 NKJV). Jesus didn't die so you could stay the same. He rose so you could live new.\n\n📖 Read it yourself: Romans 6:1-14 (NKJV)\n\nWhat question should we answer next? Tell us below 👇\n\n#ButWhatDoesTheBibleSay #Grace #Jesus #shorts",
+  "tiktok": "Forgiven... so I can keep sinning? Paul answered in two words 😳\n\n📖 Romans 6:1-2 · Romans 6:4 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #ChristianTok #BibleTok #Grace #Jesus",
+  "instagram": "Grace isn't a permission slip. It's a rescue. 🔥➡️🌅\n\n📖 Romans 6:1-2 · Romans 6:4 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #Grace #Forgiveness #BibleVerse #ChristianReels",
+  "pinned": "Next: \"Spare the rod, spoil the child\" — is it really in the Bible? Follow so you don't miss it 🙏",
+  "notes": "- Romans 6:1-2 NKJV verified (bible.com v114): \"What shall we say then? Shall we continue in sin that grace may abound? Certainly not! How shall we who died to sin live any longer in it?\" 'Certainly not' = two words.\n- Romans 6:4 NKJV: \"Therefore we were buried with Him through baptism into death, that just as Christ was raised from the dead by the glory of the Father, even so we also should walk in newness of life.\" Quoted from 'just as'; … on scroll.\n- Paul raises the question rhetorically, answering objectors (cf. Romans 3:8); 'Paul got this exact question' is a fair summary.\n- Paul wrote 13 of the 27 New Testament books (traditional attribution) = 'much of the New Testament'.\n- Fire analogy is an illustration, not a quote."
+ }
+}

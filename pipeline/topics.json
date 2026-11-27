@@ -161,19 +161,22 @@
    "n": 24,
    "title": "If I'm forgiven, can I just keep sinning?",
    "format": "A",
-   "status": "queued"
+   "status": "done",
+   "id": "q24"
   },
   {
    "n": 25,
    "title": "The Bible never says \"spare the rod, spoil the child\"",
    "format": "B",
-   "status": "queued"
+   "status": "done",
+   "id": "q25"
   },
   {
    "n": 26,
    "title": "Why does God allow suffering?",
    "format": "A",
-   "status": "queued"
+   "status": "done",
+   "id": "q26"
   },
   {
    "n": 27,
