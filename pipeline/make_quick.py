@@ -210,7 +210,7 @@ def main():
     json.dump(srt, open(os.path.join(work, "caption_cues.json"), "w"), ensure_ascii=False)
 
     plan = {"id": vid, "total": total, "titleEnd": title_end, "title": S["title"], "segs": segs, "cuts": cuts, "items": items,
-            "cues": cues, "keywords": [k.lower() for k in S.get("keywords", [])], "audio": f"q/{vid}/mix.wav", "format": S.get("format", "A"), "style": S.get("style", "v1")}
+            "cues": cues, "keywords": [k.lower() for k in S.get("keywords", [])], "audio": f"q/{vid}/mix.wav", "format": S.get("format", "A"), "style": S.get("style", "v2")}
     pub = f"{REMOTION}/public/q/{vid}"; os.makedirs(pub, exist_ok=True)
     json.dump({"plan": plan}, open(os.path.join(work, "props.json"), "w"), ensure_ascii=False)
     print(f"total {total} frames = {total / FPS:.1f}s; scenes: " + ", ".join(f"{s['clip']}[{s['from']}-{s['to']}]" for s in segs))

@@ -16,3 +16,4 @@
   - myth: TEXT (format B: "THE BIBLE NEVER SAYS" card with a red X)
   - jesus: true (choir swell); hm: true (Skeptic's "Hm."); end: true (the Follow card)
 - post: yt_title, yt_desc, tiktok, instagram, pinned, notes (accuracy notes, not posted)
+- style: "v2" (default since 27 Nov 2026: camera moves, whip pans, one-word subtitles, big text only in the hook beat) or "v1" (old look)
