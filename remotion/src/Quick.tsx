@@ -59,16 +59,85 @@ const TitleCard: React.FC<{title: any}> = ({title}) => {
   );
 };
 
-const Scene: React.FC<{clip: string; len: number; clipFrames: number}> = ({clip, len, clipFrames}) => {
+const Scene: React.FC<{clip: string; len: number; clipFrames: number; still?: boolean}> = ({clip, len, clipFrames, still}) => {
   const f = useCurrentFrame();
   const rate = len <= clipFrames ? 1 : Math.max(0.5, clipFrames / len);
-  const zoom = interpolate(f, [0, len], [1, 1.06], clamp);
+  const zoom = still ? 1 : interpolate(f, [0, len], [1, 1.06], clamp);
   const src = staticFile(`lib/${clip}.mp4`);
   const loops = Math.ceil(len * rate / clipFrames);
   if (loops <= 1) return <AbsoluteFill style={{transform: `scale(${zoom})`}}><OffthreadVideo src={src} playbackRate={rate} muted /></AbsoluteFill>;
   const per = Math.floor(clipFrames / rate);
   return <AbsoluteFill style={{transform: `scale(${zoom})`}}>{Array.from({length: loops}).map((_, i) =>
     <Sequence key={i} from={i * per} durationInFrames={per}><OffthreadVideo src={src} playbackRate={rate} muted /></Sequence>)}</AbsoluteFill>;
+};
+
+// ---- v2 look (pilot, 27 Nov 2026): camera moves on every shot, whip-pan transitions with motion blur,
+// warm grade + floating dust, one small caption word at a time, fewer big text layers.
+const WHIP = 7; // frames on each side of a cut
+const ease = (t: number) => (t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2);
+const MOVES = [
+  {s0: 1.04, s1: 1.2, x0: 0, x1: 0, y0: 0, y1: -40, r0: 0, r1: 0.6},      // slow push-in
+  {s0: 1.22, s1: 1.06, x0: 0, x1: 0, y0: -30, y1: 20, r0: -0.5, r1: 0},   // pull-back reveal
+  {s0: 1.16, s1: 1.16, x0: 70, x1: -70, y0: 0, y1: 0, r0: 0, r1: 0},      // pan right-to-left
+  {s0: 1.1, s1: 1.22, x0: -50, x1: 30, y0: 40, y1: -30, r0: 0.4, r1: -0.4}, // crane up + push
+  {s0: 1.18, s1: 1.18, x0: -70, x1: 70, y0: 10, y1: -10, r0: 0, r1: 0},   // pan left-to-right
+];
+const SceneV2: React.FC<{clip: string; len: number; clipFrames: number; idx: number; first: boolean; last: boolean}> = ({clip, len, clipFrames, idx, first, last}) => {
+  const f = useCurrentFrame() - (first ? 0 : WHIP);
+  const m = clip === 'outro' || clip.startsWith('stage_') ? {s0: 1.03, s1: 1.1, x0: 0, x1: 0, y0: 0, y1: 0, r0: 0, r1: 0} : MOVES[idx % MOVES.length];
+  const t = ease(Math.min(1, Math.max(0, f / Math.max(1, len))));
+  const lerp = (a: number, b: number) => a + (b - a) * t;
+  const hand = Math.sin(f / 23) * 6, hand2 = Math.cos(f / 31) * 5;
+  // whip-pan: this shot and the next one overlap for WHIP frames and slide across together, blurred sideways
+  let wx = 0, blur = 0;
+  if (!last && f >= len - WHIP) { const p = ease((f - (len - WHIP) + 1) / WHIP); wx = -p * 1180; blur = Math.sin(p * Math.PI) * 60 + 8; }
+  if (!first && f < 0) { const p = ease((f + WHIP + 1) / WHIP); wx = (1 - p) * 1180; blur = Math.sin(p * Math.PI) * 60 + 8; }
+  const ws = 0;
+  const id = `mb${idx}`;
+  return (
+    <AbsoluteFill style={{overflow: 'hidden'}}>
+      <svg width={0} height={0} style={{position: 'absolute'}}><filter id={id} x="-20%" y="0" width="140%" height="100%"><feGaussianBlur stdDeviation={`${blur.toFixed(1)} ${(blur * 0.08).toFixed(1)}`} /></filter></svg>
+      <AbsoluteFill style={{transform: `translate(${lerp(m.x0, m.x1) + hand + wx}px, ${lerp(m.y0, m.y1) + hand2}px) scale(${lerp(m.s0, m.s1) + ws}) rotate(${lerp(m.r0, m.r1)}deg)`, filter: blur > 0.5 ? `url(#${id})` : undefined}}>
+        <Scene clip={clip} len={len + (first ? 0 : WHIP)} clipFrames={clipFrames} still />
+      </AbsoluteFill>
+    </AbsoluteFill>
+  );
+};
+const Dust: React.FC = () => {
+  const f = useCurrentFrame();
+  return <AbsoluteFill style={{pointerEvents: 'none'}}>
+    {Array.from({length: 22}).map((_, i) => {
+      const sx = (i * 397) % 1080, sp = 0.25 + ((i * 13) % 7) / 12;
+      const y = 1920 - ((f * sp * 2 + i * 233) % 2100), x = sx + Math.sin((f + i * 40) / 40) * 30;
+      const r = 3 + (i % 4) * 2;
+      return <div key={i} style={{position: 'absolute', left: x, top: y, width: r * 2, height: r * 2, borderRadius: r, background: '#fff3c8', opacity: 0.18 + 0.12 * Math.sin((f + i * 17) / 15), filter: 'blur(1.5px)'}} />;
+    })}
+  </AbsoluteFill>;
+};
+const Grade2: React.FC = () => {
+  const f = useCurrentFrame();
+  const lx = 30 + 25 * Math.sin(f / 90);
+  return <>
+    <AbsoluteFill style={{background: `radial-gradient(ellipse at ${lx}% 8%, rgba(255,214,150,0.28) 0%, rgba(255,214,150,0) 45%)`, mixBlendMode: 'screen'}} />
+    <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(255,190,120,0.06), rgba(40,20,60,0.10))', mixBlendMode: 'soft-light'}} />
+    <AbsoluteFill style={{background: 'radial-gradient(ellipse at 50% 45%, rgba(0,0,0,0) 52%, rgba(10,5,15,0.5) 100%)'}} />
+  </>;
+};
+const Captions2: React.FC<{plan: Plan}> = ({plan}) => {
+  const f = useCurrentFrame();
+  const C = plan.cues; const KEY = new Set(plan.keywords);
+  const i = C.findIndex(([a, b], j) => f >= a && f < b + 3 && (j === C.length - 1 || f < C[j + 1][0]));
+  if (i < 0) return null;
+  const [a, b, txt] = C[i];
+  const ws = txt.split(' '); const n = ws.length; const span = Math.max(1, b - a);
+  const k = Math.min(n - 1, Math.floor(((f - a) / span) * n));
+  const w = ws[Math.max(0, k)]; const s0 = a + Math.floor((Math.max(0, k) * span) / n);
+  const pk = spring({frame: f - s0, fps: 30, config: {damping: 12, stiffness: 300, mass: 0.4}});
+  return (
+    <div style={{position: 'absolute', top: 1300, width: '100%', display: 'flex', justifyContent: 'center', transform: `scale(${0.85 + 0.15 * pk})`}}>
+      <Outlined size={74} stroke={16} color={KEY.has(w.toLowerCase().replace(/[^a-z']/g, '')) ? GOLD : '#fff'}>{w}</Outlined>
+    </div>
+  );
 };
 
 const Scroll: React.FC<{it: Item}> = ({it}) => {
@@ -153,6 +222,21 @@ const fitBig = (t: string) => (t.length < 10 ? 120 : t.length < 16 ? 96 : 76);
 export const Quick: React.FC<{plan: Plan}> = ({plan}) => {
   const f = useCurrentFrame();
   const flash = Math.max(0, ...plan.cuts.map((c) => (f >= c && f < c + 6 ? interpolate(f, [c, c + 5], [0.45, 0], clamp) : 0)));
+  if ((plan as any).style === 'v2') {
+    // keep the hook's big words (frame 0), myth card, pills, scrolls, follow card; drop the other big text layers
+    const items = plan.items.filter((it) => it.kind !== 'big' || it.from === 0);
+    const n = plan.segs.length;
+    return (
+      <AbsoluteFill style={{background: '#000'}}>
+        {plan.segs.map((s, i) => <Sequence key={s.from} from={s.from - (i ? WHIP : 0)} durationInFrames={s.to - s.from + 1 + (i ? WHIP : 0)}><SceneV2 clip={s.clip} len={s.to - s.from + 1} clipFrames={s.clipFrames} idx={i} first={i === 0} last={i === n - 1} /></Sequence>)}
+        <Audio src={staticFile(plan.audio)} />
+        <Dust />
+        <Grade2 />
+        {items.map((it, i) => <Overlay key={i} it={it} />)}
+        <Captions2 plan={plan} />
+      </AbsoluteFill>
+    );
+  }
   return (
     <AbsoluteFill style={{background: '#000'}}>
       {plan.segs.map((s) => <Sequence key={s.from} from={s.from} durationInFrames={s.to - s.from + 1}><Scene clip={s.clip} len={s.to - s.from + 1} clipFrames={s.clipFrames} /></Sequence>)}
