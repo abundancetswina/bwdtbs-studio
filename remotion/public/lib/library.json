@@ -1,142 +1,177 @@
 {
  "stage_skeptic": {
   "frames": 190,
-  "desc": "Skeptic alone on stage, arms crossed, pointing/challenging (hook)"
+  "desc": "Skeptic alone on stage, arms crossed, pointing/challenging (hook)",
+  "look": "3d"
  },
  "stage_skeptic2": {
   "frames": 140,
-  "desc": "Skeptic alone on stage, asking the question (hook)"
+  "desc": "Skeptic alone on stage, asking the question (hook)",
+  "look": "3d"
  },
  "stage_both": {
   "frames": 303,
-  "desc": "Skeptic and Friend on stage, Friend answering (\"Fair question\")"
+  "desc": "Skeptic and Friend on stage, Friend answering (\"Fair question\")",
+  "look": "3d"
  },
  "stage_both2": {
   "frames": 140,
-  "desc": "Skeptic and Friend on stage, Friend answering"
+  "desc": "Skeptic and Friend on stage, Friend answering",
+  "look": "3d"
  },
  "outro": {
   "frames": 181,
-  "desc": "Skeptic says hm, then both on stage (ending + follow card)"
+  "desc": "Skeptic says hm, then both on stage (ending + follow card)",
+  "look": "3d"
  },
  "jesus_crowd": {
   "frames": 381,
-  "desc": "Jesus teaching people in a sunny meadow"
+  "desc": "Jesus teaching people in a sunny meadow",
+  "look": "3d"
  },
  "jesus_sunset": {
   "frames": 496,
-  "desc": "Jesus with a crowd at sunset, joyful, arms raised"
+  "desc": "Jesus with a crowd at sunset, joyful, arms raised",
+  "look": "3d"
  },
  "garden_night": {
   "frames": 462,
-  "desc": "Jesus praying alone at night in a garden (Gethsemane)"
+  "desc": "Jesus praying alone at night in a garden (Gethsemane)",
+  "look": "3d"
  },
  "temple_night": {
   "frames": 318,
-  "desc": "Temple courtyard with lamps, elders and Jesus"
+  "desc": "Temple courtyard with lamps, elders and Jesus",
+  "look": "3d"
  },
  "temple_day": {
   "frames": 274,
-  "desc": "Jerusalem temple courtyard by day, leaders facing Jesus"
+  "desc": "Jerusalem temple courtyard by day, leaders facing Jesus",
+  "look": "3d"
  },
  "manger": {
   "frames": 334,
-  "desc": "Newborn Jesus in a manger with Mary and Joseph, warm light"
+  "desc": "Newborn Jesus in a manger with Mary and Joseph, warm light",
+  "look": "3d"
  },
  "house_child": {
   "frames": 388,
-  "desc": "Young child Jesus with Mary in a house, visitors bowing"
+  "desc": "Young child Jesus with Mary in a house, visitors bowing",
+  "look": "3d"
  },
  "caravan_star": {
   "frames": 398,
-  "desc": "Travellers with a camel crossing a desert at night under a star"
+  "desc": "Travellers with a camel crossing a desert at night under a star",
+  "look": "3d"
  },
  "town_star": {
   "frames": 236,
-  "desc": "Small town at night with a bright star above a house"
+  "desc": "Small town at night with a bright star above a house",
+  "look": "3d"
  },
  "tomb_risen": {
   "frames": 158,
-  "desc": "Empty tomb at sunrise, risen Jesus standing outside"
+  "desc": "Empty tomb at sunrise, risen Jesus standing outside",
+  "look": "3d"
  },
  "meadow": {
   "frames": 217,
-  "desc": "Empty green land with trees at dawn (creation, the world)"
+  "desc": "Empty green land with trees at dawn (creation, the world)",
+  "look": "3d"
  },
  "angry_crowd": {
   "frames": 197,
-  "desc": "Angry leaders picking up stones in a courtyard"
+  "desc": "Angry leaders picking up stones in a courtyard",
+  "look": "3d"
  },
  "night_room": {
   "frames": 313,
-  "desc": "Disciples in a lamp-lit courtyard at night with Jesus"
+  "desc": "Disciples in a lamp-lit courtyard at night with Jesus",
+  "look": "3d"
  },
  "storm_sea": {
   "frames": 142,
-  "desc": "A ship in a stormy dark sea"
+  "desc": "A ship in a stormy dark sea",
+  "look": "3d"
  },
  "tent_stars": {
   "frames": 300,
-  "desc": "Abraham outside his tent at night under a sky full of stars (Abraham, God's promise, patriarchs, nomad life)"
+  "desc": "Abraham outside his tent at night under a sky full of stars (Abraham, God's promise, patriarchs, nomad life)",
+  "look": "flat"
  },
  "well_noon": {
   "frames": 300,
-  "desc": "Jesus talking with a woman at a stone well in Samaria at midday (John 4, Samaritans, living water, outsiders welcomed)"
+  "desc": "Jesus talking with a woman at a stone well in Samaria at midday (John 4, Samaritans, living water, outsiders welcomed)",
+  "look": "flat"
  },
  "lion_prowl": {
   "frames": 300,
-  "desc": "A lion prowling across red rocks at dusk (1 Peter 5:8 \"roaring lion\", danger, temptation, Daniel, Samson)"
+  "desc": "A lion prowling across red rocks at dusk (1 Peter 5:8 \"roaring lion\", danger, temptation, Daniel, Samson)",
+  "look": "flat"
  },
  "rome_forum": {
   "frames": 300,
-  "desc": "Roman city forum with columns, red banners and officials in togas, golden afternoon (Rome, emperors, Pilate, Roman historians, the year 336)"
+  "desc": "Roman city forum with columns, red banners and officials in togas, golden afternoon (Rome, emperors, Pilate, Roman historians, the year 336)",
+  "look": "flat"
  },
  "scribe_room": {
   "frames": 300,
-  "desc": "A writer (Paul or a Gospel writer) writing a scroll by oil-lamp light, shelves of scrolls behind (who wrote the Bible, letters, Gospels, old manuscripts)"
+  "desc": "A writer (Paul or a Gospel writer) writing a scroll by oil-lamp light, shelves of scrolls behind (who wrote the Bible, letters, Gospels, old manuscripts)",
+  "look": "flat"
  },
  "galilee_boat": {
   "frames": 300,
-  "desc": "Fishermen in a wooden boat on a calm lake at dawn, hills behind (Sea of Galilee, Peter, disciples, calling, fishing)"
+  "desc": "Fishermen in a wooden boat on a calm lake at dawn, hills behind (Sea of Galilee, Peter, disciples, calling, fishing)",
+  "look": "flat"
  },
  "sinai_mountain": {
   "frames": 300,
-  "desc": "Moses with his staff before a great mountain wrapped in cloud and light (Sinai, the law, Ten Commandments, Deuteronomy; God shown only as light)"
+  "desc": "Moses with his staff before a great mountain wrapped in cloud and light (Sinai, the law, Ten Commandments, Deuteronomy; God shown only as light)",
+  "look": "flat"
  },
  "three_crosses": {
   "frames": 300,
-  "desc": "Three empty wooden crosses on a hill outside Jerusalem at sunset (the cross, Jesus died for sins, Good Friday; no people, no violence)"
+  "desc": "Three empty wooden crosses on a hill outside Jerusalem at sunset (the cross, Jesus died for sins, Good Friday; no people, no violence)",
+  "look": "flat"
  },
  "shepherds_night": {
   "frames": 300,
-  "desc": "Shepherds with their sheep in a field at night as an angel appears in bright light (Luke 2, Christmas, the good news, Bethlehem fields)"
+  "desc": "Shepherds with their sheep in a field at night as an angel appears in bright light (Luke 2, Christmas, the good news, Bethlehem fields)",
+  "look": "flat"
  },
  "jerusalem_gate": {
   "frames": 300,
-  "desc": "Jerusalem city wall and gate in the morning with travellers and elders (Jerusalem, Israel's leaders, Acts, arriving in the city)"
+  "desc": "Jerusalem city wall and gate in the morning with travellers and elders (Jerusalem, Israel's leaders, Acts, arriving in the city)",
+  "look": "flat"
  },
  "modern_room": {
   "frames": 300,
-  "desc": "Modern-day room at night: a young man on a sofa scrolling his phone, city lights in the window (today, \"you\", modern questions, social media)"
+  "desc": "Modern-day room at night: a young man on a sofa scrolling his phone, city lights in the window (today, \"you\", modern questions, social media)",
+  "look": "flat"
  },
  "world_families": {
   "frames": 300,
-  "desc": "People of many nations and skin tones standing together on a hill at sunrise (all nations, \"all the families of the earth\", everyone, the gospel for the world)"
+  "desc": "People of many nations and skin tones standing together on a hill at sunrise (all nations, \"all the families of the earth\", everyone, the gospel for the world)",
+  "look": "flat"
  },
  "moriah_walk": {
   "frames": 300,
-  "desc": "Abraham and young Isaac walking up a mountain path at dawn, Isaac carrying firewood, a ram caught in a bush nearby (Genesis 22, Moriah, faith tested, \"God will provide\"; no knife, no violence)"
+  "desc": "Abraham and young Isaac walking up a mountain path at dawn, Isaac carrying firewood, a ram caught in a bush nearby (Genesis 22, Moriah, faith tested, \"God will provide\"; no knife, no violence)",
+  "look": "flat"
  },
  "cosmos_space": {
   "frames": 300,
-  "desc": "Deep space: a galaxy, glowing nebula and planets drifting past (creation, \"who made God?\", the universe had a beginning, Psalm 19 \"the heavens declare\")"
+  "desc": "Deep space: a galaxy, glowing nebula and planets drifting past (creation, \"who made God?\", the universe had a beginning, Psalm 19 \"the heavens declare\")",
+  "look": "flat"
  },
  "prodigal_return": {
   "frames": 300,
-  "desc": "A father running with open arms to welcome his returning son on a country road at sunset (Luke 15, forgiveness, grace, coming home to God)"
+  "desc": "A father running with open arms to welcome his returning son on a country road at sunset (Luke 15, forgiveness, grace, coming home to God)",
+  "look": "flat"
  },
  "noah_ark": {
   "frames": 300,
-  "desc": "Noah's ark resting on calm water after the flood, a rainbow in the sky and a dove flying (Genesis 6-9, the flood, God's promise, judgment and rescue)"
+  "desc": "Noah's ark resting on calm water after the flood, a rainbow in the sky and a dove flying (Genesis 6-9, the flood, God's promise, judgment and rescue)",
+  "look": "flat"
  }
 }
