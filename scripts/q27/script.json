@@ -44,7 +44,7 @@
   {
    "who": "friend",
    "say": "An old man climbs a mountain with his son. The son carries the wood.",
-   "clip": "caravan_star",
+   "clip": "moriah_climb",
    "show": [
     {
      "big": "AN OLD MAN.",
@@ -71,7 +71,7 @@
   {
    "who": "friend",
    "say": "In Genesis, the Bible's first book, Abraham waited decades for this son.",
-   "clip": "stage_both2",
+   "clip": "abraham_stars",
    "show": [
     {
      "pill": "GENESIS · ABRAHAM, FATHER OF ISRAEL",
@@ -83,12 +83,12 @@
   {
    "who": "friend",
    "say": "Isaac asks: where's the lamb? Genesis 22, verse 8:",
-   "clip": "meadow"
+   "clip": "isaac_asks"
   },
   {
    "who": "friend",
    "say": "\"And Abraham said, 'My son, God will provide for Himself the lamb for a burnt offering.'\"",
-   "clip": "meadow",
+   "clip": "isaac_asks",
    "scroll": {
     "text": "\"And Abraham said, 'My son, God will provide for Himself the lamb for a burnt offering.'…\"",
     "ref": "GENESIS 22:8 NKJV",
@@ -98,12 +98,12 @@
   {
    "who": "friend",
    "say": "God stops him. Verse 12:",
-   "clip": "town_star"
+   "clip": "moriah_altar"
   },
   {
    "who": "friend",
    "say": "\"Do not lay your hand on the lad, or do anything to him.\"",
-   "clip": "town_star",
+   "clip": "moriah_altar",
    "scroll": {
     "text": "\"Do not lay your hand on the lad, or do anything to him…\"",
     "ref": "GENESIS 22:12 NKJV",
@@ -113,12 +113,12 @@
   {
    "who": "friend",
    "say": "A ram dies instead. God never wanted child sacrifice.",
-   "clip": "stage_both"
+   "clip": "ram_thicket"
   },
   {
    "who": "friend",
    "say": "The twist? God sent him to Moriah. Jerusalem's temple was later built on Mount Moriah.",
-   "clip": "temple_day",
+   "clip": "temple_moriah",
    "show": [
     {
      "pill": "MOUNT MORIAH · 2 CHRONICLES 3:1",
@@ -130,12 +130,12 @@
   {
    "who": "friend",
    "say": "John the Baptist sees Jesus. John 1, verse 29:",
-   "clip": "jesus_crowd"
+   "clip": "jordan_john"
   },
   {
    "who": "friend",
    "say": "\"Behold! The Lamb of God who takes away the sin of the world!\"",
-   "clip": "jesus_crowd",
+   "clip": "jordan_john",
    "scroll": {
     "text": "\"Behold! The Lamb of God who takes away the sin of the world!\"",
     "ref": "JOHN 1:29 NKJV",
@@ -145,12 +145,12 @@
   {
    "who": "friend",
    "say": "Abraham's son was spared. God's own Son was not.",
-   "clip": "garden_night"
+   "clip": "cross_dusk"
   },
   {
    "who": "friend",
    "say": "God did provide the Lamb. His name is Jesus.",
-   "clip": "tomb_risen",
+   "clip": "jesus_dawn",
    "jesus": true
   },
   {

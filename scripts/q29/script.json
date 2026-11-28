@@ -46,7 +46,7 @@
   {
    "who": "friend",
    "say": "The Bible's own definition of faith uses the word evidence.",
-   "clip": "temple_night",
+   "clip": "letter_lamp",
    "show": [
     {
      "big": "FAITH, DEFINED:",
@@ -80,7 +80,7 @@
   {
    "who": "friend",
    "say": "\"Now faith is the substance of things hoped for, the evidence of things not seen.\"",
-   "clip": "meadow",
+   "clip": "wind_field",
    "scroll": {
     "text": "\"Now faith is the substance of things hoped for, the evidence of things not seen.\"",
     "ref": "HEBREWS 11:1 NKJV",
@@ -90,12 +90,12 @@
   {
    "who": "friend",
    "say": "Unseen doesn't mean unreasonable. It's trust built on what God has shown.",
-   "clip": "town_star"
+   "clip": "abraham_stars"
   },
   {
    "who": "friend",
    "say": "Thomas, one of Jesus' twelve disciples, refused to believe Jesus rose unless he touched the wounds.",
-   "clip": "tomb_risen",
+   "clip": "thomas_doubt",
    "show": [
     {
      "pill": "THOMAS · ONE OF THE TWELVE",
@@ -107,12 +107,12 @@
   {
    "who": "friend",
    "say": "A week later, Jesus didn't turn him away. He showed him. John 20, verse 27:",
-   "clip": "night_room"
+   "clip": "room_jesus"
   },
   {
    "who": "friend",
    "say": "\"Reach your finger here, and look at My hands.\"",
-   "clip": "night_room",
+   "clip": "room_jesus",
    "scroll": {
     "text": "\"Reach your finger here, and look at My hands…\"",
     "ref": "JOHN 20:27 NKJV",
@@ -122,7 +122,7 @@
   {
    "who": "friend",
    "say": "Verse 28. Thomas answered, \"My Lord and my God!\"",
-   "clip": "night_room",
+   "clip": "thomas_worship",
    "scroll": {
     "text": "\"My Lord and my God!\"",
     "ref": "JOHN 20:28 NKJV",
@@ -132,7 +132,7 @@
   {
    "who": "friend",
    "say": "In 1 Corinthians 15, Paul, who wrote much of the New Testament, says Jesus was seen by over five hundred people at once, most still alive when he wrote. In other words: go ask them.",
-   "clip": "jesus_crowd",
+   "clip": "hill_500",
    "show": [
     {
      "pill": "1 CORINTHIANS 15:6 · OVER 500 WITNESSES",
@@ -144,7 +144,7 @@
   {
    "who": "friend",
    "say": "Faith isn't a leap in the dark. It's trusting Jesus, the One who showed up.",
-   "clip": "jesus_sunset",
+   "clip": "path_dawn",
    "jesus": true
   },
   {

@@ -6,9 +6,9 @@ import {Toon, CAST, INK, Look} from './Toon';
 // a slow gliding camera, ambient motion, and the series cast. Rendered to public/lib/<name>.mp4.
 // Keep the action between y=650 and y=1450 (top third = scrolls/titles, bottom = captions).
 
-const W = 1080, H = 1920, WORLD = 1500;
-const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
-const rnd = (i: number) => { const x = Math.sin(i * 127.1 + 311.7) * 43758.5453; return x - Math.floor(x); };
+export const W = 1080, H = 1920, WORLD = 1500;
+export const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
+export const rnd = (i: number) => { const x = Math.sin(i * 127.1 + 311.7) * 43758.5453; return x - Math.floor(x); };
 
 export const LOOKS: Record<string, Look> = {
   ...CAST,
@@ -33,7 +33,7 @@ export const LOOKS: Record<string, Look> = {
 
 // ---------- camera + layers ----------
 type Cam = {from: number; to: number; push?: [number, number]};
-const Layer: React.FC<{f: number; cam: Cam; k: number; children: React.ReactNode}> = ({f, cam, k, children}) => {
+export const Layer: React.FC<{f: number; cam: Cam; k: number; children: React.ReactNode}> = ({f, cam, k, children}) => {
   const p = interpolate(f, [0, 300], [0, 1], {...clamp, easing: Easing.inOut(Easing.sin)});
   const x = -(cam.from + (cam.to - cam.from) * p) * k;
   const [s0, s1] = cam.push ?? [1, 1.06];
@@ -42,27 +42,27 @@ const Layer: React.FC<{f: number; cam: Cam; k: number; children: React.ReactNode
     <div style={{position: 'absolute', left: 0, top: 0, width: WORLD, height: H}}>{children}</div>
   </AbsoluteFill>;
 };
-const Svg: React.FC<{children: React.ReactNode}> = ({children}) => (
+export const Svg: React.FC<{children: React.ReactNode}> = ({children}) => (
   <svg width={WORLD} height={H} viewBox={`0 0 ${WORLD} ${H}`} style={{position: 'absolute', left: 0, top: 0, overflow: 'visible'}}>{children}</svg>
 );
 
 // ---------- painting helpers ----------
-const Sky: React.FC<{top: string; mid?: string; bottom: string; id: string}> = ({top, mid, bottom, id}) => (
+export const Sky: React.FC<{top: string; mid?: string; bottom: string; id: string}> = ({top, mid, bottom, id}) => (
   <><defs><linearGradient id={id} x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor={top} />{mid && <stop offset="0.55" stopColor={mid} />}<stop offset="1" stopColor={bottom} /></linearGradient></defs>
     <rect x={-200} y={0} width={WORLD + 400} height={H} fill={`url(#${id})`} /></>
 );
-const Glow: React.FC<{x: number; y: number; r: number; color: string; id: string; o?: number}> = ({x, y, r, color, id, o = 1}) => (
+export const Glow: React.FC<{x: number; y: number; r: number; color: string; id: string; o?: number}> = ({x, y, r, color, id, o = 1}) => (
   <><defs><radialGradient id={id}><stop offset="0" stopColor={color} stopOpacity={o} /><stop offset="0.35" stopColor={color} stopOpacity={o * 0.45} /><stop offset="1" stopColor={color} stopOpacity={0} /></radialGradient></defs>
     <circle cx={x} cy={y} r={r} fill={`url(#${id})`} /></>
 );
-const Stars: React.FC<{f: number; n: number; maxY: number; seed?: number}> = ({f, n, maxY, seed = 1}) => (
+export const Stars: React.FC<{f: number; n: number; maxY: number; seed?: number}> = ({f, n, maxY, seed = 1}) => (
   <g>{Array.from({length: n}).map((_, i) => {
     const x = rnd(i * 3 + seed) * WORLD, y = rnd(i * 7 + seed * 2) * maxY, r = 1.5 + rnd(i * 11 + seed) * 3.2;
     const tw = 0.55 + 0.45 * Math.sin(f / (8 + rnd(i) * 10) + i);
     return <circle key={i} cx={x} cy={y} r={r} fill="#fff8e0" opacity={tw} />;
   })}</g>
 );
-const hillPath = (y: number, amp: number, seed: number, bumps = 4) => {
+export const hillPath = (y: number, amp: number, seed: number, bumps = 4) => {
   let d = `M -300 ${H} L -300 ${y}`;
   const n = bumps * 2, step = (WORLD + 600) / n;
   for (let i = 0; i < n; i++) {
@@ -72,33 +72,33 @@ const hillPath = (y: number, amp: number, seed: number, bumps = 4) => {
   }
   return d + ` L ${WORLD + 300} ${H} Z`;
 };
-const Hill: React.FC<{y: number; amp: number; color: string; seed: number; bumps?: number; stroke?: boolean}> = ({y, amp, color, seed, bumps, stroke}) => (
+export const Hill: React.FC<{y: number; amp: number; color: string; seed: number; bumps?: number; stroke?: boolean}> = ({y, amp, color, seed, bumps, stroke}) => (
   <path d={hillPath(y, amp, seed, bumps)} fill={color} stroke={stroke ? INK : 'none'} strokeWidth={5} opacity={1} />
 );
-const Ground: React.FC<{y: number; top: string; bottom: string; id: string; dots?: string}> = ({y, top, bottom, id, dots}) => (
+export const Ground: React.FC<{y: number; top: string; bottom: string; id: string; dots?: string}> = ({y, top, bottom, id, dots}) => (
   <><defs><linearGradient id={id} x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor={top} /><stop offset="1" stopColor={bottom} /></linearGradient></defs>
     <rect x={-300} y={y} width={WORLD + 600} height={H - y} fill={`url(#${id})`} />
     {dots && Array.from({length: 70}).map((_, i) => <ellipse key={i} cx={rnd(i * 5 + 2) * WORLD} cy={y + 20 + rnd(i * 9 + 4) * (H - y - 20)} rx={5 + rnd(i) * 10} ry={2 + rnd(i * 2) * 4} fill={dots} opacity={0.35} />)}
   </>
 );
-const Haze: React.FC<{color: string; y: number; h?: number; id: string; o?: number}> = ({color, y, h = 420, id, o = 0.55}) => (
+export const Haze: React.FC<{color: string; y: number; h?: number; id: string; o?: number}> = ({color, y, h = 420, id, o = 0.55}) => (
   <><defs><linearGradient id={id} x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor={color} stopOpacity={0} /><stop offset="0.5" stopColor={color} stopOpacity={o} /><stop offset="1" stopColor={color} stopOpacity={0} /></linearGradient></defs>
     <rect x={-300} y={y - h / 2} width={WORLD + 600} height={h} fill={`url(#${id})`} /></>
 );
-const Shadow: React.FC<{x: number; y: number; w: number}> = ({x, y, w}) => <ellipse cx={x} cy={y} rx={w} ry={w * 0.16} fill="#000" opacity={0.22} />;
-const Motes: React.FC<{f: number; color: string; n?: number; y0?: number; y1?: number}> = ({f, color, n = 26, y0 = 500, y1 = 1500}) => (
+export const Shadow: React.FC<{x: number; y: number; w: number}> = ({x, y, w}) => <ellipse cx={x} cy={y} rx={w} ry={w * 0.16} fill="#000" opacity={0.22} />;
+export const Motes: React.FC<{f: number; color: string; n?: number; y0?: number; y1?: number}> = ({f, color, n = 26, y0 = 500, y1 = 1500}) => (
   <g>{Array.from({length: n}).map((_, i) => {
     const sp = 0.3 + rnd(i * 13) * 0.7;
     const x = (rnd(i * 3) * WORLD + f * sp * 1.2) % WORLD, y = y0 + rnd(i * 17) * (y1 - y0) + Math.sin(f / 20 + i) * 18;
     return <circle key={i} cx={x} cy={y} r={2 + rnd(i * 7) * 3} fill={color} opacity={0.35 + 0.35 * Math.sin(f / 15 + i)} />;
   })}</g>
 );
-const Grade: React.FC<{vignette?: number; tint?: string}> = ({vignette = 0.42, tint}) => (
+export const Grade: React.FC<{vignette?: number; tint?: string}> = ({vignette = 0.42, tint}) => (
   <AbsoluteFill style={{pointerEvents: 'none', background: `radial-gradient(ellipse at 50% 55%, rgba(0,0,0,0) 45%, rgba(0,0,0,${vignette}) 100%)${tint ? `, ${tint}` : ''}`}} />
 );
 
 // ---------- props ----------
-const Tent: React.FC<{x: number; y: number; s?: number; c?: string; c2?: string; glow?: boolean}> = ({x, y, s = 1, c = '#d9b98a', c2 = '#a8744e', glow}) => (
+export const Tent: React.FC<{x: number; y: number; s?: number; c?: string; c2?: string; glow?: boolean}> = ({x, y, s = 1, c = '#d9b98a', c2 = '#a8744e', glow}) => (
   <g transform={`translate(${x} ${y}) scale(${s})`}>
     <path d="M-240 0 L-150 -230 L0 -300 L150 -230 L240 0 Z" fill={c} stroke={INK} strokeWidth={7} strokeLinejoin="round" />
     <path d="M-150 -230 L-110 0 M150 -230 L110 0 M0 -300 L0 -40" stroke={c2} strokeWidth={6} />
@@ -106,7 +106,7 @@ const Tent: React.FC<{x: number; y: number; s?: number; c?: string; c2?: string;
     {[-205, 205].map((px) => <path key={px} d={`M${px} -20 L${px * 1.35} 10`} stroke={INK} strokeWidth={5} />)}
   </g>
 );
-const Well: React.FC<{x: number; y: number; s?: number}> = ({x, y, s = 1}) => (
+export const Well: React.FC<{x: number; y: number; s?: number}> = ({x, y, s = 1}) => (
   <g transform={`translate(${x} ${y}) scale(${s})`}>
     <ellipse cx={0} cy={-150} rx={150} ry={36} fill="#5a4a3a" stroke={INK} strokeWidth={6} />
     <path d="M-150 -150 L-150 0 Q0 40 150 0 L150 -150 Q0 -114 -150 -150 Z" fill="#b8a487" stroke={INK} strokeWidth={7} strokeLinejoin="round" />
@@ -119,7 +119,7 @@ const Well: React.FC<{x: number; y: number; s?: number}> = ({x, y, s = 1}) => (
     <path d="M-26 -230 L26 -230 L20 -190 L-20 -190 Z" fill="#8a6446" stroke={INK} strokeWidth={5} />
   </g>
 );
-const Palm: React.FC<{x: number; y: number; s?: number; f: number}> = ({x, y, s = 1, f}) => (
+export const Palm: React.FC<{x: number; y: number; s?: number; f: number}> = ({x, y, s = 1, f}) => (
   <g transform={`translate(${x} ${y}) scale(${s})`}>
     <path d="M0 0 Q-30 -220 10 -440" stroke="#7a5230" strokeWidth={34} fill="none" strokeLinecap="round" />
     <path d="M0 0 Q-30 -220 10 -440" stroke={INK} strokeWidth={40} fill="none" opacity={0.25} />
@@ -129,7 +129,7 @@ const Palm: React.FC<{x: number; y: number; s?: number; f: number}> = ({x, y, s 
     })}
   </g>
 );
-const Olive: React.FC<{x: number; y: number; s?: number; c?: string}> = ({x, y, s = 1, c = '#6a8a4a'}) => (
+export const Olive: React.FC<{x: number; y: number; s?: number; c?: string}> = ({x, y, s = 1, c = '#6a8a4a'}) => (
   <g transform={`translate(${x} ${y}) scale(${s})`}>
     <path d="M-14 0 Q-30 -90 0 -160 Q20 -90 14 0 Z" fill="#6e4a2a" stroke={INK} strokeWidth={6} />
     {[[-70, -190, 90], [40, -210, 100], [-10, -280, 90], [90, -150, 60], [-110, -140, 60]].map(([cx, cy, r], i) =>
@@ -137,10 +137,10 @@ const Olive: React.FC<{x: number; y: number; s?: number; c?: string}> = ({x, y, 
     {[[-70, -190, 90], [40, -210, 100], [-10, -280, 90]].map(([cx, cy, r], i) => <circle key={i} cx={cx - r * 0.3} cy={cy - r * 0.3} r={r * 0.4} fill="#fff" opacity={0.12} />)}
   </g>
 );
-const Rock: React.FC<{x: number; y: number; w: number; h: number; c?: string}> = ({x, y, w, h, c = '#9a7a5a'}) => (
+export const Rock: React.FC<{x: number; y: number; w: number; h: number; c?: string}> = ({x, y, w, h, c = '#9a7a5a'}) => (
   <path d={`M${x - w / 2} ${y} Q${x - w * 0.45} ${y - h} ${x - w * 0.1} ${y - h} Q${x + w * 0.35} ${y - h * 1.05} ${x + w / 2} ${y} Z`} fill={c} stroke={INK} strokeWidth={6} strokeLinejoin="round" />
 );
-const Column: React.FC<{x: number; y: number; h: number; c?: string}> = ({x, y, h, c = '#efe6d2'}) => (
+export const Column: React.FC<{x: number; y: number; h: number; c?: string}> = ({x, y, h, c = '#efe6d2'}) => (
   <g>
     <rect x={x - 40} y={y - h} width={80} height={h} fill={c} stroke={INK} strokeWidth={6} />
     {[-20, 0, 20].map((d) => <path key={d} d={`M${x + d} ${y - h + 20} L${x + d} ${y - 20}`} stroke="#cfc3a8" strokeWidth={6} />)}
@@ -148,12 +148,12 @@ const Column: React.FC<{x: number; y: number; h: number; c?: string}> = ({x, y, 
     <rect x={x - 58} y={y - 24} width={116} height={28} fill={c} stroke={INK} strokeWidth={6} />
   </g>
 );
-const Banner: React.FC<{x: number; y: number; f: number; c?: string}> = ({x, y, f, c = '#b8322f'}) => {
+export const Banner: React.FC<{x: number; y: number; f: number; c?: string}> = ({x, y, f, c = '#b8322f'}) => {
   const w = Math.sin(f / 10 + x) * 8;
   return <g><path d={`M${x} ${y} L${x + 90} ${y} L${x + 90 + w} ${y + 230} L${x + 45 + w} ${y + 200} L${x + w} ${y + 230} Z`} fill={c} stroke={INK} strokeWidth={5} strokeLinejoin="round" />
     <circle cx={x + 45 + w * 0.5} cy={y + 90} r={24} fill="#f2c03c" stroke={INK} strokeWidth={4} /></g>;
 };
-const Wall: React.FC<{y: number; x0: number; x1: number; h: number; c?: string; gateX?: number}> = ({y, x0, x1, h, c = '#d8b98a', gateX}) => {
+export const Wall: React.FC<{y: number; x0: number; x1: number; h: number; c?: string; gateX?: number}> = ({y, x0, x1, h, c = '#d8b98a', gateX}) => {
   const cren = [];
   for (let x = x0; x < x1; x += 60) cren.push(<rect key={x} x={x} y={y - h - 34} width={36} height={36} fill={c} stroke={INK} strokeWidth={5} />);
   return <g>
@@ -167,7 +167,7 @@ const Wall: React.FC<{y: number; x0: number; x1: number; h: number; c?: string; 
     </g>}
   </g>;
 };
-const Boat: React.FC<{x: number; y: number; s?: number; f: number}> = ({x, y, s = 1, f}) => {
+export const Boat: React.FC<{x: number; y: number; s?: number; f: number}> = ({x, y, s = 1, f}) => {
   const rock = Math.sin(f / 16) * 2.5, bob = Math.sin(f / 13) * 8;
   return <g transform={`translate(${x} ${y + bob}) rotate(${rock}) scale(${s})`}>
     <path d="M0 -380 L0 -40" stroke="#6e4424" strokeWidth={14} />
@@ -176,7 +176,7 @@ const Boat: React.FC<{x: number; y: number; s?: number; f: number}> = ({x, y, s 
     <path d="M-280 -30 L280 -30" stroke="#6e4424" strokeWidth={6} />
   </g>;
 };
-const Water: React.FC<{y: number; f: number; c?: string; c2?: string; id: string}> = ({y, f, c = '#3f7aa8', c2 = '#1f4a70', id}) => (
+export const Water: React.FC<{y: number; f: number; c?: string; c2?: string; id: string}> = ({y, f, c = '#3f7aa8', c2 = '#1f4a70', id}) => (
   <g>
     <defs><linearGradient id={id} x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor={c} /><stop offset="1" stopColor={c2} /></linearGradient></defs>
     <rect x={-300} y={y} width={WORLD + 600} height={H - y} fill={`url(#${id})`} />
@@ -186,13 +186,13 @@ const Water: React.FC<{y: number; f: number; c?: string; c2?: string; id: string
     })}
   </g>
 );
-const Cross: React.FC<{x: number; y: number; s?: number}> = ({x, y, s = 1}) => (
+export const Cross: React.FC<{x: number; y: number; s?: number}> = ({x, y, s = 1}) => (
   <g transform={`translate(${x} ${y}) scale(${s})`}>
     <rect x={-18} y={-420} width={36} height={420} fill="#5a3a22" stroke={INK} strokeWidth={6} />
     <rect x={-120} y={-330} width={240} height={34} fill="#5a3a22" stroke={INK} strokeWidth={6} />
   </g>
 );
-const Sheep: React.FC<{x: number; y: number; s?: number; f: number; seed?: number}> = ({x, y, s = 1, f, seed = 0}) => {
+export const Sheep: React.FC<{x: number; y: number; s?: number; f: number; seed?: number}> = ({x, y, s = 1, f, seed = 0}) => {
   const b = Math.abs(Math.sin((f + seed * 17) / 12)) * 4;
   return <g transform={`translate(${x} ${y - b}) scale(${s})`}>
     <path d="M-40 -10 L-40 30 M30 -10 L30 30" stroke={INK} strokeWidth={10} strokeLinecap="round" />
@@ -201,7 +201,7 @@ const Sheep: React.FC<{x: number; y: number; s?: number; f: number; seed?: numbe
     <circle cx={86} cy={-64} r={4} fill="#fff" />
   </g>;
 };
-const Lion: React.FC<{x: number; y: number; s?: number; f: number}> = ({x, y, s = 1, f}) => {
+export const Lion: React.FC<{x: number; y: number; s?: number; f: number}> = ({x, y, s = 1, f}) => {
   const st = Math.sin(f / 5);
   const leg = (lx: number, ph: number) => <path d={`M${lx} -40 L${lx + st * 18 * ph} 40`} stroke="#b8782c" strokeWidth={30} strokeLinecap="round" />;
   return <g transform={`translate(${x} ${y + Math.abs(st) * -4}) scale(${s})`}>
@@ -218,14 +218,14 @@ const Lion: React.FC<{x: number; y: number; s?: number; f: number}> = ({x, y, s 
     <path d="M196 -82 Q212 -74 226 -82" stroke={INK} strokeWidth={4} fill="none" />
   </g>;
 };
-const Lamp: React.FC<{x: number; y: number; f: number}> = ({x, y, f}) => {
+export const Lamp: React.FC<{x: number; y: number; f: number}> = ({x, y, f}) => {
   const fl = 1 + Math.sin(f / 2.3) * 0.08 + Math.sin(f / 5.1) * 0.06;
   return <g transform={`translate(${x} ${y})`}>
     <path d="M-50 0 Q0 30 50 0 L70 -10 L30 -24 Q0 -30 -30 -24 Z" fill="#a8744e" stroke={INK} strokeWidth={5} />
     <path transform={`scale(1 ${fl})`} d="M60 -16 Q48 -60 66 -90 Q86 -56 72 -16 Z" fill="#ffd27a" stroke="#e8902a" strokeWidth={4} />
   </g>;
 };
-const Shelves: React.FC<{x: number; y: number; w: number; h: number}> = ({x, y, w, h}) => (
+export const Shelves: React.FC<{x: number; y: number; w: number; h: number}> = ({x, y, w, h}) => (
   <g>
     <rect x={x} y={y} width={w} height={h} fill="#6e4424" stroke={INK} strokeWidth={6} />
     {Array.from({length: 4}).map((_, r) => <g key={r}>
@@ -237,14 +237,14 @@ const Shelves: React.FC<{x: number; y: number; w: number; h: number}> = ({x, y, 
     </g>)}
   </g>
 );
-const LightRays: React.FC<{x: number; y: number; f: number; color?: string; n?: number; len?: number; o?: number}> = ({x, y, f, color = '#fff4c8', n = 9, len = 1600, o = 0.16}) => (
+export const LightRays: React.FC<{x: number; y: number; f: number; color?: string; n?: number; len?: number; o?: number}> = ({x, y, f, color = '#fff4c8', n = 9, len = 1600, o = 0.16}) => (
   <g>{Array.from({length: n}).map((_, i) => {
     const a = (-70 + i * (140 / (n - 1)) + Math.sin(f / 40 + i) * 2) * Math.PI / 180;
     const w = 0.05;
     return <path key={i} d={`M${x} ${y} L${x + Math.sin(a - w) * len} ${y + Math.cos(a - w) * len} L${x + Math.sin(a + w) * len} ${y + Math.cos(a + w) * len} Z`} fill={color} opacity={o * (0.6 + 0.4 * Math.sin(f / 25 + i * 2))} />;
   })}</g>
 );
-const Window: React.FC<{x: number; y: number; w: number; h: number; f: number}> = ({x, y, w, h, f}) => (
+export const Window: React.FC<{x: number; y: number; w: number; h: number; f: number}> = ({x, y, w, h, f}) => (
   <g>
     <rect x={x} y={y} width={w} height={h} fill="#16213f" stroke={INK} strokeWidth={8} />
     {Array.from({length: 14}).map((_, i) => {
@@ -257,11 +257,11 @@ const Window: React.FC<{x: number; y: number; w: number; h: number; f: number}> 
 );
 
 // ---------- characters in world coordinates ----------
-const P: React.FC<{who: string; x: number; ground: number; s?: number; expr?: any; arms?: any; flip?: boolean; seed?: number; talk?: boolean; baby?: boolean; tilt?: number}> =
+export const P: React.FC<{who: string; x: number; ground: number; s?: number; expr?: any; arms?: any; flip?: boolean; seed?: number; talk?: boolean; baby?: boolean; tilt?: number}> =
   ({who, x, ground, s: s0 = 0.72, expr, arms, flip, seed = 0, talk, baby, tilt}) => { const s = s0 * 1.2; return (
   <Toon look={LOOKS[who]} x={x - 150 * s} y={ground - 474 * s} scale={s} expr={talk ? 'talk' : expr} arms={arms} flip={flip} seed={seed} baby={baby} tilt={tilt} />
 ); };
-const Walk: React.FC<{f: number; from: number; to: number; children: (x: number) => React.ReactNode}> = ({f, from, to, children}) =>
+export const Walk: React.FC<{f: number; from: number; to: number; children: (x: number) => React.ReactNode}> = ({f, from, to, children}) =>
   <>{children(interpolate(f, [0, 300], [from, to]))}</>;
 
 // ---------- scenes ----------

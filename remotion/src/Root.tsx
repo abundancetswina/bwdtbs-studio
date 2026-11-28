@@ -1,7 +1,7 @@
 import React from 'react';
 import {Composition, continueRender, delayRender, staticFile} from 'remotion';
 import {Quick} from './Quick';
-import {SceneComp} from './Scenes';
+import {SceneAll} from './SceneAll';
 
 const fontHandle = delayRender('fonts');
 Promise.all([
@@ -10,7 +10,7 @@ Promise.all([
 ]).then((fs) => { fs.forEach((f) => document.fonts.add(f)); continueRender(fontHandle); });
 
 export const Root: React.FC = () => (<>
-  <Composition id="Scene" component={SceneComp as any} durationInFrames={300} fps={30} width={1080} height={1920} defaultProps={{name: 'tent_stars'}} />
+  <Composition id="Scene" component={SceneAll as any} durationInFrames={300} fps={30} width={1080} height={1920} defaultProps={{name: 'tent_stars'}} />
   <Composition id="Quick" component={Quick as any} durationInFrames={900} fps={30} width={1080} height={1920}
     defaultProps={{plan: {id: 'x', total: 900, titleEnd: 36, title: {lines: []}, segs: [], cuts: [], items: [], cues: [], keywords: [], audio: '', format: 'A'}}}
     calculateMetadata={({props}: any) => ({durationInFrames: props.plan.total})} />

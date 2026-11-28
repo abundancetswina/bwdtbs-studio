@@ -173,5 +173,173 @@
   "frames": 300,
   "desc": "Noah's ark resting on calm water after the flood, a rainbow in the sky and a dove flying (Genesis 6-9, the flood, God's promise, judgment and rescue)",
   "look": "flat"
+ },
+ "moriah_climb": {
+  "frames": 240,
+  "desc": "Close shot: old Abraham and young Isaac climbing a rocky mountain path at dawn, Isaac carrying a bundle of firewood (Genesis 22, Moriah, the journey up)",
+  "look": "3d",
+  "amb": "wind",
+  "made": "2026-11-28"
+ },
+ "abraham_stars": {
+  "frames": 240,
+  "desc": "Old Abraham outside his glowing tent at night, looking up at a sky full of stars, waiting for the promised son (Genesis 15, God's promise, Abraham waited decades)",
+  "look": "3d",
+  "amb": "crickets",
+  "made": "2026-11-28"
+ },
+ "isaac_asks": {
+  "frames": 240,
+  "desc": "Close two-shot on the mountain path: young Isaac with the firewood looks up and asks his father a question; Abraham looks down at him (Genesis 22:7-8, \"where is the lamb?\", \"God will provide\")",
+  "look": "3d",
+  "amb": "wind",
+  "made": "2026-11-28"
+ },
+ "moriah_altar": {
+  "frames": 240,
+  "desc": "Mountain top: a stone altar with firewood, Abraham with arms raised and Isaac safe beside him as bright light pours down from heaven (Genesis 22:11-12, God stops Abraham; God shown only as light; no knife, no violence)",
+  "look": "3d",
+  "amb": "wind",
+  "made": "2026-11-28"
+ },
+ "ram_thicket": {
+  "frames": 240,
+  "desc": "A ram caught by its horns in a thicket on the mountain top; Abraham and Isaac turn and see it, relieved (Genesis 22:13, \"God will provide\", the substitute; no violence)",
+  "look": "3d",
+  "amb": "wind",
+  "made": "2026-11-28"
+ },
+ "temple_moriah": {
+  "frames": 240,
+  "desc": "Wide view: Jerusalem's gleaming temple on top of Mount Moriah above the city at sunrise (2 Chronicles 3:1, Solomon's temple, Moriah, Jerusalem)",
+  "look": "3d",
+  "amb": "birds",
+  "made": "2026-11-28"
+ },
+ "jordan_john": {
+  "frames": 240,
+  "desc": "At the Jordan River: John the Baptist, standing by the water, points at Jesus walking toward him (John 1:29, \"Behold! The Lamb of God\")",
+  "look": "3d",
+  "amb": "birds",
+  "made": "2026-11-28"
+ },
+ "cross_dusk": {
+  "frames": 240,
+  "desc": "A single empty wooden cross on a hill outside Jerusalem against a dramatic dusk sky, no people (God gave His own Son, Romans 8:32; the cross; no violence)",
+  "look": "3d",
+  "amb": "wind",
+  "made": "2026-11-28"
+ },
+ "jesus_dawn": {
+  "frames": 240,
+  "desc": "The risen Jesus standing on a green hill at sunrise holding a lamb, warm light behind Him (Jesus the Lamb of God, risen, \"God will provide\", hope)",
+  "look": "3d",
+  "amb": "birds",
+  "made": "2026-11-28"
+ },
+ "studio_putti": {
+  "frames": 240,
+  "desc": "A Renaissance painter's studio: an artist paints a canvas of chubby winged babies by a sunny window, more such paintings on the walls (where the cute baby angel image came from: Italian Renaissance art)",
+  "look": "3d",
+  "amb": "room",
+  "made": "2026-11-28"
+ },
+ "eden_gate": {
+  "frames": 240,
+  "desc": "The east of Eden: two tall shining cherubim, wings raised, stand on either side of the way to a glowing tree of life, a flaming sword turning in the air between them (Genesis 3:24; cherubim are mighty, not babies)",
+  "look": "3d",
+  "amb": "wind",
+  "made": "2026-11-28"
+ },
+ "shepherds_fright": {
+  "frames": 240,
+  "desc": "Night fields near Bethlehem: shepherds and sheep cower, shielding their eyes, as an angel appears in blinding light above them (Luke 2:9, \"they were greatly afraid\")",
+  "look": "3d",
+  "amb": "crickets",
+  "made": "2026-11-28"
+ },
+ "tomb_angel": {
+  "frames": 240,
+  "desc": "Dawn at the empty tomb: an angel shining like lightning, clothes white as snow, sits on the rolled-away stone (Matthew 28:2-3)",
+  "look": "3d",
+  "amb": "wind",
+  "made": "2026-11-28"
+ },
+ "guards_fall": {
+  "frames": 240,
+  "desc": "Two Roman soldiers at the tomb tremble and fall back on the ground in fear before a blinding light (Matthew 28:4, \"the guards shook for fear\"; no violence)",
+  "look": "3d",
+  "amb": "wind",
+  "made": "2026-11-28"
+ },
+ "women_tomb": {
+  "frames": 240,
+  "desc": "Two women at the open tomb at sunrise listen with joy as a shining angel tells them \"He is not here; for He is risen\" (Matthew 28:5-6)",
+  "look": "3d",
+  "amb": "birds",
+  "made": "2026-11-28"
+ },
+ "risen_road": {
+  "frames": 240,
+  "desc": "On a country road at sunrise the risen Jesus meets the overjoyed women, who run to Him (Matthew 28:8-9, Jesus alive, the greatest news)",
+  "look": "3d",
+  "amb": "birds",
+  "made": "2026-11-28"
+ },
+ "letter_lamp": {
+  "frames": 240,
+  "desc": "Close shot: an early Christian writer at a desk writes a letter on a scroll by warm oil-lamp light, the word FAITH glowing faintly on the page (the letter to the Hebrews, the Bible defining faith)",
+  "look": "3d",
+  "amb": "room",
+  "made": "2026-11-28"
+ },
+ "wind_field": {
+  "frames": 240,
+  "desc": "A young man on a hilltop at golden hour, cloak and the tall grass blowing in a strong unseen wind, trees bending (you can't see the wind but you see what it does; things not seen, trust built on evidence)",
+  "look": "3d",
+  "amb": "wind",
+  "made": "2026-11-28"
+ },
+ "thomas_doubt": {
+  "frames": 240,
+  "desc": "A lamp-lit room: excited disciples tell Thomas they have seen Jesus alive; Thomas stands with arms crossed, shaking his head, unconvinced (John 20:24-25)",
+  "look": "3d",
+  "amb": "room",
+  "made": "2026-11-28"
+ },
+ "room_jesus": {
+  "frames": 240,
+  "desc": "In the locked lamp-lit room the risen Jesus stands in soft light, holding out His open hands toward Thomas, who leans in amazed (John 20:26-27, \"Reach your finger here, and look at My hands\"; no wounds shown graphically)",
+  "look": "3d",
+  "amb": "room",
+  "made": "2026-11-28"
+ },
+ "thomas_worship": {
+  "frames": 240,
+  "desc": "Thomas, overwhelmed, lifts his hands to Jesus in worship as the other disciples watch (John 20:28, \"My Lord and my God!\")",
+  "look": "3d",
+  "amb": "room",
+  "made": "2026-11-28"
+ },
+ "hill_500": {
+  "frames": 240,
+  "desc": "Jesus on a sunny hillside seen by a huge crowd of hundreds of people at once, heads of the crowd in the blurred foreground (1 Corinthians 15:6, seen by over five hundred people)",
+  "look": "3d",
+  "amb": "crowd",
+  "made": "2026-11-28"
+ },
+ "path_dawn": {
+  "frames": 240,
+  "desc": "A young man of today walks along a lit path at sunrise toward Jesus, who waits with open arms (faith is not a leap in the dark; trusting Jesus, the One who showed up)",
+  "look": "3d",
+  "amb": "birds",
+  "made": "2026-11-28"
+ },
+ "putti_canvas": {
+  "frames": 240,
+  "desc": "Close-up on the painter's canvas: chubby winged babies on clouds, brush strokes, warm window light (the cute baby angel image is from painters, not the Bible)",
+  "look": "3d",
+  "amb": "room",
+  "made": "2026-11-28"
  }
 }

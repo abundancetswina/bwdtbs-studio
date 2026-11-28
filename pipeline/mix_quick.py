@@ -1,5 +1,5 @@
 """One calm music bed + mood effects for a fast BWDTBS short, ducked under the voice. Called by make_quick.py."""
-import os, sys, wave
+import json, os, sys, wave
 import numpy as np
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "vendor_audio"))
 import sfx_gen as G  # noqa: E402
@@ -19,6 +19,12 @@ AMBIENCE = {"stage": "room", "jesus_crowd": "birds", "jesus_sunset": "crowd", "g
             "tent_stars": "crickets", "well_noon": "wind", "lion_prowl": "wind", "rome_forum": "crowd", "scribe_room": "room", "galilee_boat": "wind",
             "sinai_mountain": "wind", "three_crosses": "wind", "shepherds_night": "crickets", "jerusalem_gate": "crowd", "modern_room": "room", "world_families": "birds",
             "moriah_walk": "wind", "cosmos_space": "room", "prodigal_return": "birds", "noah_ark": "wind"}
+try:  # scenes made per script carry their own ambience in library.json ("amb")
+    _lib = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "remotion", "public", "lib", "library.json")))
+    AMBIENCE.update({k: v["amb"] for k, v in _lib.items() if isinstance(v, dict) and v.get("amb")})
+except Exception:
+    pass
+
 
 
 def mix(voice_path, total, cuts, scrolls, stamps, ticks, jesus, end, hm, segs, key="D", seed=1, out="mix_raw.wav"):

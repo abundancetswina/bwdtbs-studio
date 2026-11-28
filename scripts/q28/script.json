@@ -47,18 +47,18 @@
   {
    "who": "narr",
    "say": "The Bible never says angels are cute babies with wings.",
-   "clip": "manger",
+   "clip": "studio_putti",
    "myth": "CUTE BABY ANGELS"
   },
   {
    "who": "narr",
    "say": "So where did the chubby babies come from?",
-   "clip": "manger"
+   "clip": "studio_putti"
   },
   {
    "who": "narr",
    "say": "Painters. Winged babies filled Italian Renaissance art, borrowed from ancient Roman pictures of Cupid.",
-   "clip": "temple_night",
+   "clip": "putti_canvas",
    "show": [
     {
      "pill": "RENAISSANCE ART · ITALY · 1400s–1500s",
@@ -70,7 +70,7 @@
   {
    "who": "narr",
    "say": "In the Bible, a cherub is no baby. In Genesis, the first book, cherubim and a flaming sword guard the way to the tree of life.",
-   "clip": "meadow",
+   "clip": "eden_gate",
    "show": [
     {
      "pill": "GENESIS 3:24 · GUARDS IN EDEN",
@@ -82,12 +82,12 @@
   {
    "who": "narr",
    "say": "When angels show up, people are terrified. Shepherds near Bethlehem, Luke 2, verse 9:",
-   "clip": "town_star"
+   "clip": "shepherds_fright"
   },
   {
    "who": "narr",
    "say": "\"And the glory of the Lord shone around them, and they were greatly afraid.\"",
-   "clip": "town_star",
+   "clip": "shepherds_fright",
    "scroll": {
     "text": "\"…and the glory of the Lord shone around them, and they were greatly afraid.\"",
     "ref": "LUKE 2:9 NKJV",
@@ -97,12 +97,12 @@
   {
    "who": "narr",
    "say": "At Jesus' empty tomb, Matthew 28, verse 3 describes the angel:",
-   "clip": "caravan_star"
+   "clip": "tomb_angel"
   },
   {
    "who": "narr",
    "say": "\"His countenance was like lightning, and his clothing as white as snow.\"",
-   "clip": "caravan_star",
+   "clip": "tomb_angel",
    "scroll": {
     "text": "\"His countenance was like lightning, and his clothing as white as snow.\"",
     "ref": "MATTHEW 28:3 NKJV",
@@ -112,12 +112,12 @@
   {
    "who": "narr",
    "say": "The guards shook with fear. Then the angel speaks, in verse 6:",
-   "clip": "tomb_risen"
+   "clip": "guards_fall"
   },
   {
    "who": "narr",
    "say": "\"He is not here; for He is risen, as He said.\"",
-   "clip": "tomb_risen",
+   "clip": "women_tomb",
    "jesus": true,
    "scroll": {
     "text": "\"He is not here; for He is risen, as He said…\"",
@@ -128,7 +128,7 @@
   {
    "who": "narr",
    "say": "Angels aren't decorations. They're God's mighty messengers. And their biggest news is Jesus, alive.",
-   "clip": "jesus_sunset"
+   "clip": "risen_road"
   },
   {
    "who": "narr",
