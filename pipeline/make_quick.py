@@ -227,7 +227,7 @@ def main():
     # ---- 7. render
     mp4 = os.path.join(outd, f"{slug}.mp4"); tmp = mp4.replace(".mp4", ".part.mp4")
     run(["npx", "remotion", "render", "src/index.ts", "Quick", tmp, f"--props={os.path.join(work, 'props.json')}", f"--browser-executable={CHROME}",
-         "--concurrency=2", "--crf=17", "--x264-preset=veryfast", "--log=error"], cwd=REMOTION)
+         "--concurrency=2", "--offthreadvideo-cache-size-in-bytes=800000000", "--crf=17", "--x264-preset=veryfast", "--log=error"], cwd=REMOTION)
     os.replace(tmp, mp4)
     # cover image = the title card (no longer part of the video itself)
     cplan = dict(plan, titleEnd=1, total=1, items=[], cues=[])

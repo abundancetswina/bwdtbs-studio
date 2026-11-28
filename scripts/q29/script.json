@@ -1,0 +1,172 @@
+{
+ "id": "q29",
+ "slug": "Isnt_Faith_Believing_Without_Evidence",
+ "name": "Isn't Faith Believing Without Evidence?",
+ "format": "A",
+ "key": "G",
+ "title": {
+  "theme": "sunset",
+  "top": 300,
+  "lines": [
+   {
+    "text": "ISN'T FAITH",
+    "size": 120
+   },
+   {
+    "text": "BELIEVING WITHOUT",
+    "size": 100
+   },
+   {
+    "text": "EVIDENCE?",
+    "color": "gold",
+    "size": 140
+   }
+  ]
+ },
+ "keywords": [
+  "definition",
+  "evidence",
+  "proof",
+  "hebrews",
+  "faith",
+  "trust",
+  "thomas",
+  "touch",
+  "showed",
+  "hands",
+  "lord",
+  "five",
+  "hundred",
+  "alive",
+  "dark",
+  "jesus",
+  "follow"
+ ],
+ "beats": [
+  {
+   "who": "friend",
+   "say": "The Bible's own definition of faith uses the word evidence.",
+   "clip": "temple_night",
+   "show": [
+    {
+     "big": "FAITH, DEFINED:",
+     "size": 100
+    },
+    {
+     "big": "\"EVIDENCE.\"",
+     "color": "gold",
+     "size": 130,
+     "on": "evidence"
+    }
+   ]
+  },
+  {
+   "who": "skep",
+   "say": "Come on. Isn't faith just believing something without any proof?",
+   "clip": "stage_skeptic2"
+  },
+  {
+   "who": "friend",
+   "say": "Hebrews, a letter to early Christians, chapter 11, verse 1:",
+   "clip": "stage_both",
+   "show": [
+    {
+     "pill": "HEBREWS · LETTER TO EARLY CHRISTIANS",
+     "bg": "#3f6aa0",
+     "on": "hebrews"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "\"Now faith is the substance of things hoped for, the evidence of things not seen.\"",
+   "clip": "meadow",
+   "scroll": {
+    "text": "\"Now faith is the substance of things hoped for, the evidence of things not seen.\"",
+    "ref": "HEBREWS 11:1 NKJV",
+    "hot": "^(faith|substance|evidence)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "Unseen doesn't mean unreasonable. It's trust built on what God has shown.",
+   "clip": "town_star"
+  },
+  {
+   "who": "friend",
+   "say": "Thomas, one of Jesus' twelve disciples, refused to believe Jesus rose unless he touched the wounds.",
+   "clip": "tomb_risen",
+   "show": [
+    {
+     "pill": "THOMAS · ONE OF THE TWELVE",
+     "bg": "#c0532e",
+     "on": "thomas"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "A week later, Jesus didn't turn him away. He showed him. John 20, verse 27:",
+   "clip": "night_room"
+  },
+  {
+   "who": "friend",
+   "say": "\"Reach your finger here, and look at My hands.\"",
+   "clip": "night_room",
+   "scroll": {
+    "text": "\"Reach your finger here, and look at My hands…\"",
+    "ref": "JOHN 20:27 NKJV",
+    "hot": "^(finger|hands…?)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "Verse 28. Thomas answered, \"My Lord and my God!\"",
+   "clip": "night_room",
+   "scroll": {
+    "text": "\"My Lord and my God!\"",
+    "ref": "JOHN 20:28 NKJV",
+    "hot": "^(Lord|God!?)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "In 1 Corinthians 15, Paul, who wrote much of the New Testament, says Jesus was seen by over five hundred people at once, most still alive when he wrote. In other words: go ask them.",
+   "clip": "jesus_crowd",
+   "show": [
+    {
+     "pill": "1 CORINTHIANS 15:6 · OVER 500 WITNESSES",
+     "bg": "#2e8a56",
+     "on": "five"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Faith isn't a leap in the dark. It's trusting Jesus, the One who showed up.",
+   "clip": "jesus_sunset",
+   "jesus": true
+  },
+  {
+   "who": "skep",
+   "say": "Hm.",
+   "clip": "outro",
+   "hm": true
+  },
+  {
+   "who": "friend",
+   "say": "Follow so you don't miss the next one.",
+   "clip": "outro",
+   "end": true
+  }
+ ],
+ "post": {
+  "yt_title": "Isn't Faith Believing Without Evidence? The Bible's Own Definition #shorts",
+  "yt_desc": "\"Isn't faith just believing something without any proof?\" The Bible's own definition of faith uses the word evidence: \"Now faith is the substance of things hoped for, the evidence of things not seen\" (Hebrews 11:1 NKJV). Not seen doesn't mean no reason. It's trust, built on what God has already shown.\n\nThomas, one of Jesus' twelve disciples, refused to believe Jesus rose unless he could touch the wounds. A week later Jesus didn't turn him away. He showed him: \"Reach your finger here, and look at My hands\" (John 20:27 NKJV). Thomas answered, \"My Lord and my God!\" (John 20:28 NKJV). And Paul wrote that Jesus was seen by over five hundred people at once, most of them still alive when he wrote (1 Corinthians 15:6).\n\nFaith isn't a leap in the dark. It's trusting Jesus, the One who showed up.\n\n📖 Read it yourself: Hebrews 11:1 · John 20:24-29 · 1 Corinthians 15:3-8 (NKJV)\n\nWhat question should we answer next? Tell us below 👇\n\n#ButWhatDoesTheBibleSay #Faith #Jesus #shorts",
+  "tiktok": "The Bible's own definition of faith uses the word \"evidence.\" Bet you didn't expect that 👀\n\n📖 Hebrews 11:1 · John 20:27-28 · 1 Corinthians 15:6 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #BibleTok #ChristianTok #Faith #Jesus",
+  "instagram": "Faith isn't a leap in the dark. Even doubting Thomas got to see the evidence 🤍\n\n📖 Hebrews 11:1 · John 20:27-28 · 1 Corinthians 15:6 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #Faith #BibleVerse #Jesus #ChristianReels",
+  "pinned": "Next: \"If God made everything, who made God?\" Follow so you don't miss it 🙏",
+  "notes": "- Hebrews 11:1 NKJV verified full on bible.com v114. Hebrews' audience: widely held to be Jewish Christians (title 'to the Hebrews'); author unknown.\n- Thomas: one of the Twelve (John 20:24), demanded to touch the wounds (20:25), eight days later Jesus appeared (20:26 'after eight days', i.e. a week later by inclusive reckoning). John 20:27 verified, partial (continues 'and reach your hand here...'). John 20:28 verified full: \"And Thomas answered and said to Him, 'My Lord and my God!'\" — scroll shows only the quoted words.\n- 1 Corinthians 15:6 verified: \"After that He was seen by over five hundred brethren at once, of whom the greater part remain to the present...\" Paraphrased (not quoted): 'over five hundred people at once, most still alive'. 'Go ask them' = the implication commonly drawn from 15:6, phrased as the Friend's line.\n- Paul wrote 13 of the 27 New Testament letters/books ('much of')."
+ },
+ "style": "v2"
+}

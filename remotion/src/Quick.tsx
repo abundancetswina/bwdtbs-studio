@@ -232,6 +232,7 @@ export const Quick: React.FC<{plan: Plan}> = ({plan}) => {
         <Audio src={staticFile(plan.audio)} />
         <Dust />
         <Grade2 />
+        {plan.titleEnd > 0 && <Sequence from={0} durationInFrames={plan.titleEnd}><TitleCard title={plan.title} /></Sequence>}
         {items.map((it, i) => <Overlay key={i} it={it} />)}
         <Captions2 plan={plan} />
       </AbsoluteFill>

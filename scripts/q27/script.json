@@ -1,0 +1,178 @@
+{
+ "id": "q27",
+ "slug": "Why_Did_God_Ask_Abraham_To_Sacrifice_Isaac",
+ "name": "Why Did God Ask Abraham to Sacrifice Isaac?",
+ "format": "A",
+ "key": "D",
+ "title": {
+  "theme": "dawn",
+  "top": 300,
+  "lines": [
+   {
+    "text": "WHY DID GOD",
+    "size": 120
+   },
+   {
+    "text": "ASK ABRAHAM",
+    "size": 120
+   },
+   {
+    "text": "FOR HIS SON?",
+    "color": "gold",
+    "size": 130
+   }
+  ]
+ },
+ "keywords": [
+  "mountain",
+  "wood",
+  "abraham",
+  "isaac",
+  "lamb",
+  "provide",
+  "ram",
+  "never",
+  "moriah",
+  "temple",
+  "jesus",
+  "spared",
+  "son",
+  "follow",
+  "twist"
+ ],
+ "beats": [
+  {
+   "who": "friend",
+   "say": "An old man climbs a mountain with his son. The son carries the wood.",
+   "clip": "caravan_star",
+   "show": [
+    {
+     "big": "AN OLD MAN.",
+     "size": 120
+    },
+    {
+     "big": "THE SON. THE WOOD.",
+     "color": "gold",
+     "size": 86,
+     "on": "wood"
+    }
+   ]
+  },
+  {
+   "who": "skep",
+   "say": "Wait. God told Abraham to sacrifice his own son? How is that good?",
+   "clip": "stage_skeptic"
+  },
+  {
+   "who": "friend",
+   "say": "The answer hides in one line.",
+   "clip": "stage_both"
+  },
+  {
+   "who": "friend",
+   "say": "In Genesis, the Bible's first book, Abraham waited decades for this son.",
+   "clip": "stage_both2",
+   "show": [
+    {
+     "pill": "GENESIS · ABRAHAM, FATHER OF ISRAEL",
+     "bg": "#c0532e",
+     "on": "abraham"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "Isaac asks: where's the lamb? Genesis 22, verse 8:",
+   "clip": "meadow"
+  },
+  {
+   "who": "friend",
+   "say": "\"And Abraham said, 'My son, God will provide for Himself the lamb for a burnt offering.'\"",
+   "clip": "meadow",
+   "scroll": {
+    "text": "\"And Abraham said, 'My son, God will provide for Himself the lamb for a burnt offering.'…\"",
+    "ref": "GENESIS 22:8 NKJV",
+    "hot": "^(provide|lamb)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "God stops him. Verse 12:",
+   "clip": "town_star"
+  },
+  {
+   "who": "friend",
+   "say": "\"Do not lay your hand on the lad, or do anything to him.\"",
+   "clip": "town_star",
+   "scroll": {
+    "text": "\"Do not lay your hand on the lad, or do anything to him…\"",
+    "ref": "GENESIS 22:12 NKJV",
+    "hot": "^(not|lad,?)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "A ram dies instead. God never wanted child sacrifice.",
+   "clip": "stage_both"
+  },
+  {
+   "who": "friend",
+   "say": "The twist? God sent him to Moriah. Jerusalem's temple was later built on Mount Moriah.",
+   "clip": "temple_day",
+   "show": [
+    {
+     "pill": "MOUNT MORIAH · 2 CHRONICLES 3:1",
+     "bg": "#7a6a9c",
+     "on": "moriah"
+    }
+   ]
+  },
+  {
+   "who": "friend",
+   "say": "John the Baptist sees Jesus. John 1, verse 29:",
+   "clip": "jesus_crowd"
+  },
+  {
+   "who": "friend",
+   "say": "\"Behold! The Lamb of God who takes away the sin of the world!\"",
+   "clip": "jesus_crowd",
+   "scroll": {
+    "text": "\"Behold! The Lamb of God who takes away the sin of the world!\"",
+    "ref": "JOHN 1:29 NKJV",
+    "hot": "^(Lamb|God|world!?)$"
+   }
+  },
+  {
+   "who": "friend",
+   "say": "Abraham's son was spared. God's own Son was not.",
+   "clip": "garden_night"
+  },
+  {
+   "who": "friend",
+   "say": "God did provide the Lamb. His name is Jesus.",
+   "clip": "tomb_risen",
+   "jesus": true
+  },
+  {
+   "who": "skep",
+   "say": "Hm.",
+   "clip": "outro",
+   "hm": true
+  },
+  {
+   "who": "friend",
+   "say": "Follow so you don't miss the next one.",
+   "clip": "outro",
+   "end": true
+  }
+ ],
+ "post": {
+  "yt_title": "Why Did God Ask Abraham to Sacrifice Isaac? #shorts",
+  "yt_desc": "\"God told Abraham to sacrifice his own son? How is that good?\" Read Genesis 22, in the Bible's first book. Abraham, father of the Jewish people, climbs a mountain with Isaac, the son God promised him. Isaac carries the wood and asks where the lamb is: \"And Abraham said, 'My son, God will provide for Himself the lamb for a burnt offering'\" (Genesis 22:8 NKJV).\n\nAt the top, God stops him: \"Do not lay your hand on the lad, or do anything to him\" (Genesis 22:12 NKJV). A ram dies instead. God never wanted child sacrifice and later condemns it outright (Jeremiah 7:31). And the Bible says Jerusalem's temple was later built on Mount Moriah (2 Chronicles 3:1).\n\nCenturies later, John the Baptist sees Jesus: \"Behold! The Lamb of God who takes away the sin of the world!\" (John 1:29 NKJV). Abraham's son was spared. God's own Son was not (Romans 8:32). God really did provide the Lamb.\n\n📖 Read it yourself: Genesis 22:1-14 · John 1:29 · Romans 8:32 (NKJV)\n\nWhat question should we answer next? Tell us below 👇\n\n#ButWhatDoesTheBibleSay #Abraham #Jesus #shorts",
+  "tiktok": "An old man climbs a mountain with his son. The son carries the wood. And one line on the way up changes everything 🐑\n\n📖 Genesis 22:8 · Genesis 22:12 · John 1:29 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #BibleTok #ChristianTok #Abraham #Jesus",
+  "instagram": "\"…God will provide for Himself the lamb…\" Abraham said it on the way up the mountain. Centuries later, the Lamb had a name 🤍\n\n📖 Genesis 22:8 · Genesis 22:12 · John 1:29 (NKJV)\nWhat should we answer next? 👇\n\n#ButWhatDoesTheBibleSay #BibleStories #Jesus #BibleVerse #ChristianReels",
+  "pinned": "Next: \"The Bible never says angels are cute babies with wings.\" Follow so you don't miss it 🙏",
+  "notes": "- Genesis 22:8 and 22:12 NKJV verified on bible.com v114 (22:12 partial, marked …; 22:8 stops before \"So the two of them went together.\", marked …). John 1:29 spoken from \"Behold!\" (verse begins \"The next day John saw Jesus coming toward him, and said,\").\n- Isaac carried the wood (22:6); asked where the lamb was (22:7). Ram caught in a thicket by its horns, offered instead of his son (22:13).\n- Abraham waited for Isaac: promise in Gen 12 at age 75 (12:4), Isaac born when Abraham was 100 (21:5) = 25 years ('decades').\n- God condemns child sacrifice: Leviticus 18:21, Deuteronomy 12:31, Jeremiah 7:31 (not quoted).\n- 2 Chronicles 3:1: Solomon built the house of the LORD at Jerusalem on Mount Moriah (verified). Genesis 22:2 'the land of Moriah'. Script says 'that same name', not that it is proven to be the same peak.\n- Romans 8:32 'He who did not spare His own Son, but delivered Him up for us all' (verified, paraphrased outside quotes).\n- John the Baptist: a prophet (Luke 7:26), at Bethany beyond the Jordan (John 1:28); script does not place him at Moriah.\n- No knife, no violence shown. No depiction of God the Father (scenes: neutral land/temple, Jesus)."
+ },
+ "style": "v2"
+}

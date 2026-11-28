@@ -1,0 +1,149 @@
+{
+ "id": "q28",
+ "slug": "Angels_Are_Not_Cute_Babies_With_Wings",
+ "name": "The Bible Never Says Angels Are Cute Babies With Wings",
+ "format": "B",
+ "key": "A",
+ "title": {
+  "theme": "royal",
+  "top": 300,
+  "kicker": "THE BIBLE NEVER SAYS",
+  "lines": [
+   {
+    "text": "ANGELS ARE",
+    "size": 120
+   },
+   {
+    "text": "CUTE BABIES",
+    "size": 120
+   },
+   {
+    "text": "WITH WINGS",
+    "color": "gold",
+    "size": 130
+   }
+  ],
+  "crossed": "BABY"
+ },
+ "keywords": [
+  "never",
+  "babies",
+  "painters",
+  "renaissance",
+  "cupid",
+  "cherub",
+  "guard",
+  "eden",
+  "afraid",
+  "lightning",
+  "snow",
+  "guards",
+  "risen",
+  "news",
+  "jesus",
+  "follow"
+ ],
+ "beats": [
+  {
+   "who": "narr",
+   "say": "The Bible never says angels are cute babies with wings.",
+   "clip": "manger",
+   "myth": "CUTE BABY ANGELS"
+  },
+  {
+   "who": "narr",
+   "say": "So where did the chubby babies come from?",
+   "clip": "manger"
+  },
+  {
+   "who": "narr",
+   "say": "Painters. Winged babies filled Italian Renaissance art, borrowed from ancient Roman pictures of Cupid.",
+   "clip": "temple_night",
+   "show": [
+    {
+     "pill": "RENAISSANCE ART · ITALY · 1400s–1500s",
+     "bg": "#7a6a9c",
+     "on": "renaissance"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "In the Bible, a cherub is no baby. In Genesis, the first book, cherubim and a flaming sword guard the way to the tree of life.",
+   "clip": "meadow",
+   "show": [
+    {
+     "pill": "GENESIS 3:24 · GUARDS IN EDEN",
+     "bg": "#c0532e",
+     "on": "guard"
+    }
+   ]
+  },
+  {
+   "who": "narr",
+   "say": "When angels show up, people are terrified. Shepherds near Bethlehem, Luke 2, verse 9:",
+   "clip": "town_star"
+  },
+  {
+   "who": "narr",
+   "say": "\"And the glory of the Lord shone around them, and they were greatly afraid.\"",
+   "clip": "town_star",
+   "scroll": {
+    "text": "\"…and the glory of the Lord shone around them, and they were greatly afraid.\"",
+    "ref": "LUKE 2:9 NKJV",
+    "hot": "^(glory|greatly|afraid\\.?)$"
+   }
+  },
+  {
+   "who": "narr",
+   "say": "At Jesus' empty tomb, Matthew 28, verse 3 describes the angel:",
+   "clip": "caravan_star"
+  },
+  {
+   "who": "narr",
+   "say": "\"His countenance was like lightning, and his clothing as white as snow.\"",
+   "clip": "caravan_star",
+   "scroll": {
+    "text": "\"His countenance was like lightning, and his clothing as white as snow.\"",
+    "ref": "MATTHEW 28:3 NKJV",
+    "hot": "^(lightning,?|snow\\.?)$"
+   }
+  },
+  {
+   "who": "narr",
+   "say": "The guards shook with fear. Then the angel speaks, in verse 6:",
+   "clip": "tomb_risen"
+  },
+  {
+   "who": "narr",
+   "say": "\"He is not here; for He is risen, as He said.\"",
+   "clip": "tomb_risen",
+   "jesus": true,
+   "scroll": {
+    "text": "\"He is not here; for He is risen, as He said…\"",
+    "ref": "MATTHEW 28:6 NKJV",
+    "hot": "^(risen,?)$"
+   }
+  },
+  {
+   "who": "narr",
+   "say": "Angels aren't decorations. They're God's mighty messengers. And their biggest news is Jesus, alive.",
+   "clip": "jesus_sunset"
+  },
+  {
+   "who": "narr",
+   "say": "Follow so you don't miss the next one.",
+   "clip": "outro",
+   "end": true
+  }
+ ],
+ "post": {
+  "yt_title": "The Bible Never Says Angels Are Cute Babies With Wings #shorts",
+  "yt_desc": "The Bible never says angels are cute babies with wings. Those chubby winged babies (called putti) filled Italian Renaissance art in the 1400s-1500s, borrowed from ancient Roman images of Cupid.\n\nIn the Bible, cherubim and a flaming sword guard the way to the tree of life (Genesis 3:24). When an angel appears to the shepherds near Bethlehem, \"the glory of the Lord shone around them, and they were greatly afraid\" (Luke 2:9 NKJV). At Jesus' empty tomb: \"His countenance was like lightning, and his clothing as white as snow\" (Matthew 28:3 NKJV). The guards shook for fear. Then the angel's news: \"He is not here; for He is risen, as He said\" (Matthew 28:6 NKJV).\n\nAngels aren't decorations. They're God's mighty messengers, and their biggest news is Jesus, alive.\n\n📖 Read it yourself: Genesis 3:24 · Luke 2:8-14 · Matthew 28:1-7 (NKJV)\n\nWhat myth should we check next? Tell us below 👇\n\n#ButWhatDoesTheBibleSay #Angels #Jesus #shorts",
+  "tiktok": "Cute baby angels? Not in the Bible. People who saw real ones were terrified 😳\n\n📖 Luke 2:9 · Matthew 28:3 · Matthew 28:6 (NKJV)\nWhat myth should we check next? 👇\n\n#ButWhatDoesTheBibleSay #BibleTok #ChristianTok #Angels #Jesus",
+  "instagram": "The Bible never says angels are cute babies with wings. \"His countenance was like lightning\" 👀\n\n📖 Luke 2:9 · Matthew 28:3 · Matthew 28:6 (NKJV)\nWhat myth should we check next? 👇\n\n#ButWhatDoesTheBibleSay #Angels #BibleVerse #Jesus #ChristianReels",
+  "pinned": "Next: \"Isn't faith believing without evidence?\" Follow so you don't miss it 🙏",
+  "notes": "- Putti (winged infant figures) are a hallmark of Italian Renaissance art from the 15th century (e.g. Donatello) into the 16th (e.g. Raphael's Sistine Madonna, 1512), drawn from classical Roman art (Cupid/Eros, erotes). Mainstream art history. Later merged in popular imagery with 'cherubs'.\n- Genesis 3:24: cherubim placed east of Eden with a flaming sword to guard the way to the tree of life (paraphrased, not quoted; bible.com fetch of Gen 3 failed this run — Fact-checker to confirm wording of the paraphrase).\n- Luke 2:9 NKJV verified, partial (verse begins \"And behold, an angel of the Lord stood before them,\"). Spoken part = only the end; scroll shows the second half with leading ….\n- Matthew 28:3 verified full. 28:4 'the guards shook for fear of him' paraphrased. Matthew 28:6 verified, partial (continues \"Come, see the place where the Lord lay.\"). Bethlehem: Luke 2:4, 2:8, 2:15.\n- Angels as messengers: Greek angelos = messenger; Hebrews 1:14.\n- No depiction of God the Father; no angel figure in 3D library, scenes are setting only."
+ },
+ "style": "v2"
+}
